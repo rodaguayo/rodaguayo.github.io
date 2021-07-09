@@ -42,7 +42,7 @@
   
   
   
-  <meta name="theme-color" content="#fc6f5c">
+  <meta name="theme-color" content="#4caf50">
   
 
   
@@ -70,8 +70,6 @@
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-    
 
     
 
@@ -85,7 +83,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academia.min.2a8c04ab82b06c7d50e71966f2490341.css">
+  <link rel="stylesheet" href="/css/academia.min.c6c5844e3d62f7e962f471f88a6d697e.css">
 
   
 
@@ -109,6 +107,9 @@
     
   
   <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@rodaguayo1">
+  <meta property="twitter:creator" content="@rodaguayo1">
   
   <meta property="og:site_name" content="Academia">
   <meta property="og:url" content="https://examplesite.org/project/robotics/">
@@ -348,26 +349,6 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>dropdown</span><span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="/#"><span>dropdown 1</span></a>
-            </li>
-            
-            <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="/#!"><span>dropdown 2</span></a>
-            </li>
-            
-          </ul>
         </li>
 
         
@@ -731,8 +712,6 @@
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
-    
 
     
     
@@ -743,6 +722,22 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
     
 
     
@@ -806,20 +801,7 @@
           
           
           <li class="list-inline-item">
-            <a href="https://twitter.com/Twitter" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li class="list-inline-item">
-            <a href="skype:echo123?call"  title="Skype Me"><i class="fab fa-skype" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/rodaguayo" target="_blank" rel="noopener" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
           </li>
           
           
@@ -834,7 +816,7 @@
           
           
           <li class="list-inline-item">
-            <a href="https://keybase.io/" target="_blank" rel="noopener" title="Chat on Keybase"><i class="fab fa-keybase" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/roodaguayo/" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
           </li>
           
           
@@ -849,7 +831,74 @@
           
           
           <li class="list-inline-item">
-            <a href="https://discourse.gohugo.io" target="_blank" rel="noopener" title="Discuss on Forum"><i class="fas fa-comments" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/rodaguayo1/" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/rodaguayo" target="_blank" rel="noopener" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.researchgate.net/profile/Rodrigo-Aguayo" target="_blank" rel="noopener" title="Researchgate"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://scholar.google.es/citations?user=P_LBnTbIAy8C&amp;hl=es" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://orcid.org/0000-0003-2335-8470" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="mailto:roodaguayo@gmail.com"  title="Mail me"><i class="fas fa-envelope" aria-hidden="true"></i></a>
           </li>
           
         </ul>
