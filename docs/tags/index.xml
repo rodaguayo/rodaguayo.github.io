@@ -7,10 +7,136 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rodaguayo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aldo Montecinos</title>
+      <link>https://rodaguayo.github.io/tags/aldo-montecinos/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/aldo-montecinos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorge León-Muñoz</title>
+      <link>https://rodaguayo.github.io/tags/jorge-leon-munoz/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/jorge-leon-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>René Garreaud</title>
+      <link>https://rodaguayo.github.io/tags/rene-garreaud/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/rene-garreaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rodrigo Aguayo</title>
+      <link>https://rodaguayo.github.io/tags/rodrigo-aguayo/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/rodrigo-aguayo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alejandro Miranda</title>
+      <link>https://rodaguayo.github.io/tags/alejandro-miranda/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/alejandro-miranda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camila Contreras</title>
+      <link>https://rodaguayo.github.io/tags/camila-contreras/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/camila-contreras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doris Soto</title>
+      <link>https://rodaguayo.github.io/tags/doris-soto/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/doris-soto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ivan Arismendi</title>
+      <link>https://rodaguayo.github.io/tags/ivan-arismendi/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/ivan-arismendi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorge Nimptsch</title>
+      <link>https://rodaguayo.github.io/tags/jorge-nimptsch/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/jorge-nimptsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuria Catalan</title>
+      <link>https://rodaguayo.github.io/tags/nuria-catalan/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/nuria-catalan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rafael Marce</title>
+      <link>https://rodaguayo.github.io/tags/rafael-marce/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/rafael-marce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stefan Woelfl</title>
+      <link>https://rodaguayo.github.io/tags/stefan-woelfl/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/stefan-woelfl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precipitation</title>
+      <link>https://rodaguayo.github.io/tags/precipitation/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/precipitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temperature</title>
+      <link>https://rodaguayo.github.io/tags/temperature/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/temperature/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>plot</title>
@@ -40,38 +166,74 @@
     </item>
     
     <item>
-      <title>Source Themes</title>
-      <link>https://rodaguayo.github.io/tags/source-themes/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <title>Climate change</title>
+      <link>https://rodaguayo.github.io/tags/climate-change/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/tags/source-themes/</guid>
+      <guid>https://rodaguayo.github.io/tags/climate-change/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://rodaguayo.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Glaciers</title>
+      <link>https://rodaguayo.github.io/tags/glaciers/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/tags/deep-learning/</guid>
+      <guid>https://rodaguayo.github.io/tags/glaciers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>https://rodaguayo.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Hydrology</title>
+      <link>https://rodaguayo.github.io/tags/hydrology/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/tags/demo/</guid>
+      <guid>https://rodaguayo.github.io/tags/hydrology/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>robotics</title>
-      <link>https://rodaguayo.github.io/tags/robotics/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Peak water</title>
+      <link>https://rodaguayo.github.io/tags/peak-water/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/tags/robotics/</guid>
+      <guid>https://rodaguayo.github.io/tags/peak-water/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentary</title>
+      <link>https://rodaguayo.github.io/tags/documentary/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/documentary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>José Luis Iriarte</title>
+      <link>https://rodaguayo.github.io/tags/jose-luis-iriarte/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/jose-luis-iriarte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>José Vargas-Baecheler</title>
+      <link>https://rodaguayo.github.io/tags/jose-vargas-baecheler/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/jose-vargas-baecheler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mauricio Urbina</title>
+      <link>https://rodaguayo.github.io/tags/mauricio-urbina/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/mauricio-urbina/</guid>
       <description></description>
     </item>
     

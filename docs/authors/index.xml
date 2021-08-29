@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rodaguayo.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,21 +15,12 @@
     <item>
       <title></title>
       <link>https://rodaguayo.github.io/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rodaguayo.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.&lt;/p&gt;
+      <description>&lt;p&gt;Hi! My name is Rodrigo Aguayo, a PhD student in Environmental Sciences at the University of Concepción, Chile. My research interests include hydrological modeling, land-ocean interface, glaciers, climate change, and remote sensing. My main objective is to assess the impacts of climate change on freshwater inputs (magnitude and source) to the coastal system of western Patagonia. Almost all my research (and my vacations!) has been in this area.&lt;/p&gt;
+&lt;p&gt;I am part of the RIO research group (Rivers Influencing the Ocean). Based on remote sensing, hydro-meteorological observations and fieldwork, we develop models to quantify the response of rivers, water resources, glaciers, and hazards to climate change. My research interests aim to contribute with adaptation and mitigation plans at local and regional scales.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>https://rodaguayo.github.io/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -7,40 +7,48 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rodaguayo.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Artificial Intelligence</title>
-      <link>https://rodaguayo.github.io/project/artificial-intelligence/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>PatagoniaMet v1.0</title>
+      <link>https://rodaguayo.github.io/project/patagoniamet/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/project/artificial-intelligence/</guid>
-      <description></description>
+      <guid>https://rodaguayo.github.io/project/patagoniamet/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Do we really need a dataset for Western Patagonia?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image1.jpg&#34; alt=&#34;screen reader text&#34; title=&#34;caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The short answer: &lt;strong&gt;Yes!&lt;/strong&gt; High-quality hydrometeorological observations contributes to high-quality policies and management of natural resources. Conversely, unrepresentative, poorly collected, or erroneously archived data introduce uncertainty regarding the magnitude, rate, and direction of environmental change, undermining confidence in decision-making processes. The use of climate variables in any kind of environmental research requires quality-controlled and serially complete datasets. These datasets are used to assess most of the key aspects of climate change, such as temporal trends in mean values and variability, or extreme events. Therefore, data acquired from measurements do not always represent the real behaviour of the observed processes, and need to be corrected under homogenization schemes. Furthermore, hydrometeorological data needs to be Findable, Accessible, Interoperable and Reusable (FAIR data), requirements that are often not fulfilled.&lt;/p&gt;
+&lt;p&gt;PatagoniaMet v1.0 (Pmet from here on) is a compilation of hydrometeorological observed data (Pmet-obs), and a monthly gridded product of precipitation and temperature (Pmet-sim). Pmet-obs was developed considering a 4-step quality control process applied in 344 hydro-climatic time series obtained from from nine institutions in Chile and Argentina (precipitation, air temperature, streamflow and lake level stations). Based on this database and currently available uncorrected gridded products, Pmet-sim (0.05º, 1990-2019) was developed using statistical bias correction processes, machine learning (random forest) and hydrological methods (Budyko framework).&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://rodaguayo.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Climate change impact assessment on the freshwater input to the coastal system of western Patagonia</title>
+      <link>https://rodaguayo.github.io/project/phd-project/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/project/external-project/</guid>
-      <description></description>
+      <guid>https://rodaguayo.github.io/project/phd-project/</guid>
+      <description>&lt;p&gt;&lt;em&gt;How will freshwater inputs to the coastal system of Western Patagonia change?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image1.jpg&#34; alt=&#34;screen reader text&#34; title=&#34;caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A very important question! &lt;del&gt;I would like to believe that&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;We hypothesized that anthropogenic climate change will change the source and temporal patterns of freshwater inputs to the coastal system of western Patagonia, forcing lower, higher and equal inputs in north (41-46°S), central (46-51°S) and south Patagonia (51-56°S), respectively. Stay tuned for coming results 😄&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>https://rodaguayo.github.io/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>RIO = Rivers Influencing the Ocean</title>
+      <link>https://rodaguayo.github.io/project/rio/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rodaguayo.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://rodaguayo.github.io/project/rio/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Disseminate the influence of rivers on the ocean, connecting scientific evidence and local stakeholders, from the Andes to coastal systems of Chile&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image1.jpg&#34; alt=&#34;screen reader text&#34; title=&#34;caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The RIO project seeks to improve understanding of the environment and encourage reasoned decision-making with critical and reflective thinking. Chilean society, although it values rivers and coastal systems, still has a strong lack of knowledge about the virtuous connections that are generated between them. This reality is not alien to decision makers, who usually indicate that most of the fresh water is lost in the sea. Follow us in &lt;a href=&#34;https://www.instagram.com/documental.rio/&#34;&gt;Instagram&lt;/a&gt; (spanish content).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First teaser&lt;/strong&gt;: &lt;a href=&#34;https://www.instagram.com/tv/CLotlBnhCHZ/&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Second teaser&lt;/strong&gt;: &lt;a href=&#34;https://www.instagram.com/tv/CNk9OulhMUt/&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
