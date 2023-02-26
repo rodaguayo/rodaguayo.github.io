@@ -1,7 +1,11 @@
-# Personal webpage
+# Personal webpage 
 
 Currently, the webpage contains: 
 - Publications
-- Important projects 
+- Current projects 
 
-Still missing: People, student, courses, etc
+Still missing: 
+- Team
+- Skills (complete courses)
+- Talks
+- Link to complete cv
