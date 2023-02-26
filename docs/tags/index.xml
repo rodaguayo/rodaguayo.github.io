@@ -7,10 +7,73 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rodaguayo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Precipitation</title>
+      <link>https://rodaguayo.github.io/tags/precipitation/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/precipitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temperature</title>
+      <link>https://rodaguayo.github.io/tags/temperature/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/temperature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forest hydrology</title>
+      <link>https://rodaguayo.github.io/tags/forest-hydrology/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/forest-hydrology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freshwater</title>
+      <link>https://rodaguayo.github.io/tags/freshwater/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/freshwater/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Land cover scenarios</title>
+      <link>https://rodaguayo.github.io/tags/land-cover-scenarios/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/land-cover-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VIC model</title>
+      <link>https://rodaguayo.github.io/tags/vic-model/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/vic-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentary</title>
+      <link>https://rodaguayo.github.io/tags/documentary/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/documentary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aldo Montecinos</title>
@@ -121,24 +184,6 @@
     </item>
     
     <item>
-      <title>Precipitation</title>
-      <link>https://rodaguayo.github.io/tags/precipitation/</link>
-      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/precipitation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Temperature</title>
-      <link>https://rodaguayo.github.io/tags/temperature/</link>
-      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/temperature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>plot</title>
       <link>https://rodaguayo.github.io/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
@@ -162,51 +207,6 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>https://rodaguayo.github.io/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Climate change</title>
-      <link>https://rodaguayo.github.io/tags/climate-change/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/climate-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Glaciers</title>
-      <link>https://rodaguayo.github.io/tags/glaciers/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/glaciers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hydrology</title>
-      <link>https://rodaguayo.github.io/tags/hydrology/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/hydrology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peak water</title>
-      <link>https://rodaguayo.github.io/tags/peak-water/</link>
-      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/peak-water/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Documentary</title>
-      <link>https://rodaguayo.github.io/tags/documentary/</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rodaguayo.github.io/tags/documentary/</guid>
       <description></description>
     </item>
     
