@@ -1,7 +1,7 @@
 
 library("blogdown")
 
-#to build the site, create "public" folder
+# thiscreate a "public" folder
 build_site()
 
 #To render the site

@@ -7,10 +7,55 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rodaguayo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LSTM</title>
+      <link>https://rodaguayo.github.io/tags/lstm/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeuralHydrology</title>
+      <link>https://rodaguayo.github.io/tags/neuralhydrology/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/neuralhydrology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glacier modeling</title>
+      <link>https://rodaguayo.github.io/tags/glacier-modeling/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/glacier-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OGGM model</title>
+      <link>https://rodaguayo.github.io/tags/oggm-model/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/oggm-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Southern Andes</title>
+      <link>https://rodaguayo.github.io/tags/southern-andes/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rodaguayo.github.io/tags/southern-andes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Precipitation</title>
