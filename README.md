@@ -2,7 +2,7 @@
 
 Currently, the webpage contains: 
 - Publications
-- Current projects 
+- Current projects (update too!)
 
 Still missing: 
 - Team
