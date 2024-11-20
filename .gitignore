@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .Rprofile
+.Rproj
 public/
 content/
 layouts/
