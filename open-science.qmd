@@ -16,7 +16,7 @@ I am committed to open, reproducible research. All code, data, and software deve
 
 ## Open Datasets
 
-Five open datasets published on Zenodo (see [Datasets page](datasets.qmd) for full list), including the PatagoniaMet hydrometeorological dataset.
+{{< include _includes/datasets-content.md >}}
 
 ## Reproducible Workflows
 

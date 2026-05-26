@@ -24,8 +24,6 @@ website:
         text: Teaching
       - href: talks.qmd
         text: Talks
-      - href: datasets.qmd
-        text: Datasets
       - href: open-science.qmd
         text: Open Science
       - href: blog/index.qmd
