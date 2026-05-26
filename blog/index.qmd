@@ -1,11 +1,14 @@
 ---
 title: "Blog / Notes"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: default
+  feed: true
 ---
 
 <div class="page">
 
 # Blog / Notes
-
-*No posts yet. Coming soon.*
 
 </div>

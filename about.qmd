@@ -20,7 +20,6 @@ I hold a **Master's in Civil Engineering** (Water Resources) and a **Bachelor's 
 
 My current work includes:
 
-- **ICE³ Project**: Modelling the global multi-century evolution of glacier ice in 3D (VUB)
 - **ICE-BUFFER**: Global glacier buffering of streamflow droughts in a changing climate using deep learning (FWO-funded postdoctoral fellowship)
 - Hybrid glacio-hydrological modelling in Patagonia and other mountain regions
 

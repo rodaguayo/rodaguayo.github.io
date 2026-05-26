@@ -30,6 +30,9 @@ jobs:
         with:
           tinytex: true
 
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
       - name: Render Quarto Site
         run: quarto render
 

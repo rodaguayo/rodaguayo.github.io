@@ -1,0 +1,24 @@
+---
+title: "Welcome to my new website"
+date: 2026-05-26
+description: "Launching my personal academic website — a central hub for research, publications, datasets, and open science."
+---
+
+<div class="page">
+
+# Welcome to my new website
+
+I'm excited to launch this personal academic website, built with [Quarto](https://quarto.org/) and hosted on GitHub Pages.
+
+This site serves as a central hub for my research on climate change, glaciology, hydrology, and deep learning for Earth systems. Here you'll find:
+
+- **Publications** — peer-reviewed articles with DOIs and links
+- **Datasets** — open hydrometeorological data published on Zenodo
+- **CV** — full academic curriculum vitae
+- **Blog** — updates on research, fieldwork, and other activities
+
+I'm committed to open and reproducible science. All code, data, and software developed as part of my research is publicly available unless otherwise noted.
+
+Stay tuned for more posts on glacier modelling, hydrological predictions, and deep learning applications in Earth sciences.
+
+</div>
