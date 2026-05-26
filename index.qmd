@@ -8,9 +8,7 @@ title: "Rodrigo Aguayo"
 
 <div class="page">
 
-# Rodrigo Aguayo
-
-**Climate Scientist & Hydrologist**
+{{< include _includes/site-heading.md >}}
 
 Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo), part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group. My research lies at the intersection of large-scale hydrology, glaciology, climate change, and deep learning for Earth systems.
 
@@ -69,28 +67,9 @@ Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/
 
 ## Featured Publications
 
-- **Aguayo R.**, Zekollari H., Hanus, S., Baez-Villanueva, O., Mendoza, P,. and Maussion F (2025). [Hybrid glacio-hydrological modelling reveals contrasting runoff changes in Western Patagonia over the 21st century](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF006442). *Earth's Future*
-
-- **Aguayo, R.**, Maussion F., Ultee, L., Mackay, J., Caro, A., Schuster, L., Fernandez, A., Schaefer, M., León-Muñoz, J. and Aguayo, M., (2024) [Unravelling the sources of uncertainty in glacier runoff projections in the Patagonian Andes (40–56° S)](https://tc.copernicus.org/articles/18/5383/2024/). *The Cryosphere*
-
-- **Aguayo, R.**, León-Muñoz, J., Aguayo, M., Baez-Villanueva, O., Fernandez, A. Zambrano-Bigiarini, M., and Jacques-Coper, M. (2024) [PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia (40-56ºS)](https://www.nature.com/articles/s41597-023-02828-2). *Scientific Data*
-
-- **Aguayo, R.,** León-Muñoz, J., Garreaud, R. and Montecinos, A (2021). [Hydrological droughts in the southern Andes (40-45ºS) from an ensemble experiment using CMIP5 and CMIP6 models](https://www.nature.com/articles/s41598-021-84807-4). *Scientific Reports*
+{{< include _includes/featured.md >}}
 
 [View all publications →](publications.qmd)
 
----
-
-## News
-
-**May 2026** — Glacier runoff projections paper featured in *Earth's Future*.
-
-**Apr 2026** — Participated as a speaker at the EGU General Assembly 2026.
-
-**Mar 2026** — New dataset on lake-terminating glaciers published in *Earth System Science Data*.
-
-**Feb 2026** — Glacier extinction peak paper published in *Nature Climate Change* (covered by 250+ media outlets).
-
-**Jan 2026** — Joined as reviewer for *The Cryosphere*.
 
 </div>

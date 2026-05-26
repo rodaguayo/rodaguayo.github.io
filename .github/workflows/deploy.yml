@@ -35,6 +35,7 @@ jobs:
 
       - name: Generate content from data
         run: |
+          python3 scripts/generate_shared.py
           python3 scripts/generate_publications.py
           python3 scripts/generate_cv.py
 

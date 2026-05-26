@@ -10,17 +10,12 @@ title: "Contact"
 
 <div class="card">
   <h3>Email</h3>
-  <p><a href="mailto:rodrigo.aguayo@vub.be">rodrigo.aguayo@vub.be</a></p>
+  <p>{{< include _includes/site-email.md >}}</p>
 </div>
 
 <div class="card">
   <h3>Institutional Address</h3>
-  <p>
-    Vrije Universiteit Brussel<br>
-    Department of Water and Climate (HYDR)<br>
-    Pleinlaan 2, 1050 Brussels<br>
-    Belgium
-  </p>
+  {{< include _includes/site-address.md >}}
 </div>
 
 <div class="card">

@@ -108,3 +108,24 @@ if in_review:
 with open(os.path.join(OUTPUT_DIR, "cv-publications.md"), "w") as f:
     f.write("\n".join(cv_output) + "\n")
 print(f"Generated {OUTPUT_DIR}/cv-publications.md ({len(all_pubs)} total)")
+
+
+# === Featured publications (for homepage, bold first author) ===
+featured = [p for p in published if p.get("featured")]
+featured.sort(key=lambda p: (-p["year"], p["id"]))
+
+feat_out = []
+for pub in featured:
+    author_str = format_authors(pub["authors"])
+    doi = pub.get("doi", "")
+    title = pub["title"]
+    if doi:
+        title = f"[{title}](https://doi.org/{doi})"
+    year = pub["year"]
+    journal = pub["journal"]
+    feat_out.append(f"- {author_str} ({year}). {title}. *{journal}*.")
+    feat_out.append("")
+
+with open(os.path.join(OUTPUT_DIR, "featured.md"), "w") as f:
+    f.write("\n".join(feat_out) + "\n")
+print(f"Generated {OUTPUT_DIR}/featured.md ({len(featured)} total)")
