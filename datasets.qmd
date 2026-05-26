@@ -1,9 +1,0 @@
----
-title: "Open Datasets"
----
-
-<div class="page">
-
-{{< include _includes/datasets-content.md >}}
-
-</div>
