@@ -140,6 +140,100 @@ for fw in cv.get("fieldwork", []):
 out.append("")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-with open(os.path.join(OUTPUT_DIR, "cv-content.md"), "w") as f:
+with open(os.path.join(OUTPUT_DIR, "cv-content.md"), "w", encoding="utf-8") as f:
     f.write("\n".join(out))
-print(f"Generated {OUTPUT_DIR}/cv-content.md")
+print("Generated _includes/cv-content.md")
+
+
+# === talks-content.md ===
+talks_out = []
+talks_out.append("*🧑‍💼 indicates conference convener role.*")
+talks_out.append("")
+talks_out.append("---")
+talks_out.append("")
+
+invited = [t for t in cv.get("talks", []) if t.get("type") == "invited"]
+conference = [t for t in cv.get("talks", []) if t.get("type") == "conference"]
+
+if invited:
+    talks_out.append("## Invited Talks")
+    talks_out.append("")
+    for t in invited:
+        convener = " 🧑‍💼" if t.get("convener") else ""
+        loc = f" — {t['location']}" if t.get("location") else ""
+        talks_out.append(f"- **{t['event']}**{loc} ({t['year']}){convener}: {t['title']}")
+    talks_out.append("")
+
+if conference:
+    talks_out.append("## Conference Presentations")
+    talks_out.append("")
+    for t in conference:
+        convener = " 🧑‍💼" if t.get("convener") else ""
+        loc = f" — {t['location']}" if t.get("location") else ""
+        talks_out.append(f"- **{t['event']}**{loc} ({t['year']}){convener}: {t['title']}")
+    talks_out.append("")
+
+with open(os.path.join(OUTPUT_DIR, "talks-content.md"), "w", encoding="utf-8") as f:
+    f.write("\n".join(talks_out) + "\n")
+print("Generated _includes/talks-content.md")
+
+
+# === teaching-content.md ===
+teaching_out = []
+teaching_out.append("## Courses Taught")
+teaching_out.append("")
+
+by_inst: dict = {}
+for t in cv.get("teaching", []):
+    by_inst.setdefault(t["institution"], []).append(t)
+for inst, courses in by_inst.items():
+    teaching_out.append(f"### {inst}")
+    teaching_out.append("")
+    for c in courses:
+        period = c.get("period") or str(c.get("year", ""))
+        dur = f" — {c['duration']}" if c.get("duration") else ""
+        teaching_out.append(f"- **{c['course']}** ({period}){dur}")
+    teaching_out.append("")
+
+teaching_out.append("---")
+teaching_out.append("")
+teaching_out.append("## Student Supervision")
+teaching_out.append("")
+teaching_out.append("| Student | Role | Project | Institution | Period |")
+teaching_out.append("|---------|------|---------|-------------|--------|")
+for s in cv.get("supervision", []):
+    cosup = f" (co-sup.: {s['cosupervisor']})" if s.get("cosupervisor") else ""
+    teaching_out.append(
+        f"| {s['student']} | {s['role']}{cosup} | {s['project']} | {s['institution']} | {s['period']} |"
+    )
+teaching_out.append("")
+
+teaching_out.append("---")
+teaching_out.append("")
+teaching_out.append("## Short Courses & Workshops")
+teaching_out.append("")
+for sc in cv.get("short_courses", []):
+    hours_str = f" — {sc['hours']} hr" if sc.get("hours") else ""
+    teaching_out.append(f"- {sc['name']} ({sc['provider']}, {sc['year']}){hours_str}")
+teaching_out.append("")
+
+with open(os.path.join(OUTPUT_DIR, "teaching-content.md"), "w", encoding="utf-8") as f:
+    f.write("\n".join(teaching_out) + "\n")
+print("Generated _includes/teaching-content.md")
+
+
+# === datasets-content.md ===
+datasets_out = []
+for d in cv.get("datasets", []):
+    extra_str = f" | <strong>Downloads:</strong> {d['extra']}" if d.get("extra") else ""
+    datasets_out.append('<div class="card">')
+    datasets_out.append(f'  <h3>{d["name"]}</h3>')
+    datasets_out.append(f'  <p>{d["description"]}</p>')
+    datasets_out.append(f'  <p><strong>Year:</strong> {d["year"]}{extra_str}</p>')
+    datasets_out.append(f'  <a href="https://doi.org/{d["doi"]}" class="btn">DOI: {d["doi"]}</a>')
+    datasets_out.append("</div>")
+    datasets_out.append("")
+
+with open(os.path.join(OUTPUT_DIR, "datasets-content.md"), "w", encoding="utf-8") as f:
+    f.write("\n".join(datasets_out) + "\n")
+print("Generated _includes/datasets-content.md")

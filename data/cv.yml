@@ -240,11 +240,14 @@ talks:
   - title: Glacio-hydrological modelling in Patagonia
     event: EGU General Assembly
     year: 2026
+    location: Vienna, Austria
     type: invited
+    convener: true
 
   - title: Assessing glacier projection uncertainties in the Patagonian Andes
     event: V Congress of the Chilean Cryosphere Society
     year: 2023
+    location: Chile
     type: conference
 
   - title: Modelling freshwater inputs to the coastal system of Western Patagonia
@@ -262,21 +265,26 @@ talks:
   - title: "PatagoniaMet: A quality check observational dataset for Western Patagonia"
     event: III Congress of the Chilean Cryosphere Society
     year: 2021
+    location: Online
     type: conference
 
   - title: "PatagoniaMet: Generation and evaluation of precipitation and air temperature gridded datasets"
     event: Scientific Meeting of the Argentine Association of Geophysicists and Geodesists
     year: 2021
+    location: Online
     type: conference
 
   - title: "A multi-institutional effort for an open hydrometeorological dataset in Western Patagonia"
-    event: Glaciology Seminars (Center for Scientific Studies)
+    event: Glaciology Seminars
+    institution: Center for Scientific Studies
     year: 2021
+    location: online
     type: invited
 
   - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
     event: XXIV Chilean Congress of Hydraulic Engineering
     year: 2019
+    location: Chile
     type: conference
 
   - title: Hydrological modeling of the trans-Andean basin of the Puelo River
@@ -288,33 +296,61 @@ talks:
   - title: "PatagoniaMet v1.0: Una base de datos hidro-meteorológica para la Patagonia Occidental"
     event: Seminar for Strategic Planning of Water Resources in Aysén
     year: 2022
+    location: Aysén, Chile
     type: invited
 
 datasets:
   - name: PatagoniaMet
     doi: 10.5281/zenodo.7992760
     year: 2023
-    description: Multi-source hydrometeorological dataset for Western Patagonia
+    description: A multi-source hydrometeorological dataset for Western Patagonia (40–56°S). Includes precipitation, temperature, streamflow, and other variables from multiple observational sources.
+    extra: ">3k on Zenodo"
 
   - name: RGI v7.1 Lake Termini Classification
     doi: 10.5281/zenodo.15524733
     year: 2025
-    description: Global mapping of lake-terminating glaciers
+    description: Global mapping of lake-terminating glaciers — classification of Randolph Glacier Inventory v7.1 glacier termini as lake-terminating or not.
 
   - name: Historical and Future Runoff in Western Patagonia
     doi: 10.5281/zenodo.15076803
     year: 2025
-    description: Simulated runoff projections using hybrid glacio-hydrological modelling
+    description: Simulated historical and future runoff projections for Western Patagonia using hybrid glacio-hydrological modelling.
 
   - name: Glacier Runoff Projections in Patagonia
     doi: 10.5281/zenodo.8384882
     year: 2024
-    description: Ensemble of glacier runoff projections for the Patagonian Andes
+    description: Ensemble of glacier runoff projections for the Patagonian Andes (40–56°S) under multiple climate scenarios.
 
   - name: Model-Based Runoff in Northern Patagonia
     doi: 10.5281/zenodo.10949518
     year: 2024
-    description: Hydrological model outputs for Northern Patagonia catchments
+    description: Hydrological model outputs for Northern Patagonia catchments under historical and future climate conditions.
+
+short_courses:
+  - name: Integrative Assessment of Climate Change: Water Scarcity
+    provider: CR2
+    year: 2021
+    hours: 60
+
+  - name: Distributed Hydrological Modelling using TETIS
+    provider: UDEC
+    year: 2021
+    hours: 24
+
+  - name: Glaciology of the Southern Andes
+    provider: IANIGLA
+    year: 2021
+    hours: 60
+
+  - name: Advanced Course on Scientific Article Writing
+    provider: Writewise
+    year: 2020
+    hours: 18
+
+  - name: Remote Sensing Applied to Hydraulic Engineering
+    provider: UDEC
+    year: 2017
+    hours: 10
 
 outreach:
   - title: "Estudio mide impacto del cambio climático en el sur de Chile"
