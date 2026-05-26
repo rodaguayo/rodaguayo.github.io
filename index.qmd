@@ -18,6 +18,7 @@ Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/
 
 ## Research Themes
 
+<div class="themes-grid">
 <div class="card">
   <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/></svg> Glaciology & Glacier Hydrology</h3>
   <p>Global and regional glacier evolution, glacier runoff projections, ice dynamics, glacier lake-terminating systems, multi-century glacier evolution.</p>
@@ -36,6 +37,7 @@ Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/
 <div class="card">
   <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg> Open Science & Data</h3>
   <p>Open hydrometeorological datasets (PatagoniaMet), reproducible research, open-source tools for glacier modelling.</p>
+</div>
 </div>
 
 ---
