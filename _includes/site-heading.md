@@ -1,3 +1,0 @@
-# Rodrigo Aguayo
-
-**Mountain Hydrology**
