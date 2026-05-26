@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Rodrigo Aguayo"
-  description: "Climate Scientist & Hydrologist — Glaciology, Hydrology, Deep Learning for Earth Systems"
+  description: "Mountain Hydrology — Glaciology, Hydrology, Deep Learning for Earth Systems"
   site-url: https://rodaguayo.github.io
   repo-url: https://github.com/rodaguayo/rodaguayo.github.io
   repo-actions: [edit, issue]
