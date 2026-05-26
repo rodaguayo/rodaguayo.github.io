@@ -1,0 +1,37 @@
+---
+title: "Talks"
+---
+
+<div class="page">
+
+# Talks & Presentations
+
+*⭐ indicates invited talk; 🧑‍💼 indicates conference convener role.*
+
+---
+
+## Invited Talks
+
+- **Glaciology Seminars** — Center for Scientific Studies (2021, online)
+- **Strategic Water Resources Planning Seminar** — Aysén, Chile (2022)
+- **Student for Student Summerschool** — Austria (2022)
+
+## Conference Presentations
+
+- **EGU General Assembly 2026** — Vienna, Austria 🧑‍💼
+- **V Congress of the Chilean Cryosphere Society** — Chile (2023)
+- **6th OGGM Workshop** — Norway (2022)
+- **III Congress of the Chilean Cryosphere Society** — Online (2021)
+- **Scientific Meeting of the Argentine Association of Geophysicists and Geodesists** — Online (2021)
+- **XXIV Chilean Congress of Hydraulic Engineering** — Chile (2019)
+- **XXVIII Latin American Hydraulics Congress** — Argentina (2018)
+
+---
+
+## Other Presentations
+
+- **PatagoniaMet: A quality check observational dataset for Western Patagonia** — Chilean Cryosphere Society (2021)
+- **Climate datasets are the main source of uncertainty of glacier evolution** — Student for Student Summerschool (2022)
+- **Assessing the glacier projection uncertainties in the Patagonian Andes** — V Chilean Cryosphere Society Congress (2023)
+
+</div>

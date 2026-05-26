@@ -1,0 +1,363 @@
+positions:
+  - role: Postdoctoral Researcher
+    institution: Vrije Universiteit Brussel
+    location: Brussels, Belgium
+    start: 2024
+    end: 2025
+    description: "ICE³ project: Modelling the global multi-century evolution of glacier ice in 3D. Supervised by Harry Zekollari."
+
+  - role: Postdoctoral Fellow (FWO)
+    institution: Vrije Universiteit Brussel
+    location: Brussels, Belgium
+    start: 2025
+    end: present
+    description: "ICE-BUFFER project: Global glacier buffering of streamflow droughts in a changing climate using deep learning. FWO Postdoctoral Junior Fellowship. Supervised by Harry Zekollari."
+
+education:
+  - degree: PhD in Environmental Sciences
+    institution: Universidad de Concepción
+    location: Concepción, Chile
+    start: 2019
+    end: 2023
+    description: "Thesis: Assessment of the impacts of climate change on the spatio-temporal patterns of freshwater sources to the coastal system of Western Patagonia. Supervised by Mauricio Aguayo and Jorge León."
+
+  - degree: Research Stay — Regional Glacier Modelling
+    institution: University of Innsbruck
+    location: Innsbruck, Austria
+    start: 2022
+    end: 2022
+    description: "Seven-month research stay working with Fabien Maussion at the Department of Ice & Climate."
+
+  - degree: MSc in Civil Engineering (Water Resources)
+    institution: Universidad de Concepción
+    location: Concepción, Chile
+    start: 2017
+    end: 2019
+    description: "Thesis: Impacts of anthropogenic climate change on the runoff of a trans-Andean basin in Patagonia. Supervised by Jorge León."
+
+  - degree: Civil Engineering (Hydraulic-Environmental mention)
+    institution: Universidad de Concepción
+    location: Concepción, Chile
+    start: 2012
+    end: 2018
+    description: "Thesis: Hydrological modeling of a Patagonian basin: Application of remote sensing. Supervised by José Vargas. Approved with maximum distinction."
+
+grants:
+  - title: FWO Postdoctoral Junior Fellowship
+    start: 2025
+    end: 2028
+    description: ICE-BUFFER project
+
+  - title: ANID National Doctoral Fellowship
+    start: 2019
+    end: 2023
+
+  - title: ANID Operational Expenses Grant
+    start: 2021
+    end: 2022
+
+  - title: ANID International Research Stay Fellowship
+    year: 2022
+
+  - title: ANID Doctoral Writing Extension Fellowship
+    year: 2023
+
+awards:
+  - title: Outstanding Reviewer Award
+    year: 2025
+    organization: The Cryosphere (EGU)
+
+  - title: Professor Edgar Pino Barrueto Prize
+    year: 2017
+    description: Best thesis of the Civil Engineering promotion
+
+  - title: Top 100 in Earth Science
+    year: 2021
+    description: Scientific Reports collection
+
+supervision:
+  - student: Magali Ponds
+    role: PhD
+    institution: Vrije Universiteit Brussel
+    period: 2024-2027
+    project: The effect of irrigation on glacier evolution in High-Mountain Asia
+    cosupervisor: Harry Zekollari
+
+  - student: Maziar Freki
+    role: MSc
+    institution: Vrije Universiteit Brussel
+    period: 2024-2025
+    project: Closing the regional water budget in Western Patagonia using SWOT data
+    cosupervisor: Harry Zekollari
+
+  - student: Garance du Bus de Warnaffe
+    role: MSc
+    institution: Vrije Universiteit Brussel
+    period: 2024-2025
+    project: The time of emergence of glacier runoff in Patagonia
+    cosupervisor: Harry Zekollari
+
+  - student: Francesco Calista
+    role: MSc
+    institution: Vrije Universiteit Brussel
+    period: 2025-2026
+    project: Implications of glacier melt in High Mountain Asia for future water security
+    cosupervisor: Harry Zekollari and Magali Ponds
+
+  - student: Fernanda Espinoza
+    role: MSc
+    institution: Universidad de Chile
+    period: 2025-2026
+    project: Flood forecasting using deep learning in south-central Chile
+    cosupervisor: Pablo Mendoza
+
+  - student: Isadora Leon
+    role: MSc
+    institution: Universidad Austral de Chile
+    period: 2023-2024
+    project: Effects of land cover on the hydrological propagation of droughts in Southern Chile
+    cosupervisor: Jorge Leon and Alvaro Gonzalez
+
+  - student: Paul Sandoval
+    role: Bachelor
+    institution: Universidad del Bío-Bío
+    period: 2021
+    project: Potential impacts of global warming in the upper Manso River Basin
+
+teaching:
+  - course: Surface Water Hydrology
+    institution: KU Leuven / Vrije Universiteit Brussel
+    period: 2025-2026
+    duration: 2 semesters
+
+  - course: GIS Applied to Environmental Science
+    institution: Universidad de Concepción
+    year: 2023
+
+  - course: Fluid Mechanics
+    institution: Universidad de Concepción
+    year: 2022
+
+  - course: Advanced Hydrology
+    institution: Universidad de Concepción
+    year: 2020
+
+  - course: Distributed Hydrology
+    institution: Universidad de Concepción
+    year: 2020
+
+  - course: Hydrology
+    institution: Universidad de Concepción
+    period: 2016-2018
+    duration: 5 semesters
+
+  - course: Introduction to Environmental Science
+    institution: Universidad de Concepción
+    year: 2015
+
+  - course: Support Center for Learning Basic Sciences
+    institution: Universidad de Concepción
+    period: 2014-2015
+    duration: 4 semesters
+
+service:
+  - role: Reviewer
+    venue: The Cryosphere
+    year: 2025
+
+  - role: Reviewer
+    venue: Journal of Glaciology
+    year: 2025
+
+  - role: Reviewer
+    venue: Hydrology and Earth System Sciences
+    year: 2025
+
+  - role: Project Scientist
+    project: Instrumentation and habilitation of a reference basin for snowpack studies in Aysén
+    institution: CIEP
+    year: 2021
+
+  - role: Hydrological Modeler and Climate Analyst
+    project: Determination of average monthly flows in continental Chiloé
+    institution: IFOP
+    year: 2017
+
+  - role: Project Engineer
+    project: Water Scenarios 2030
+    institution: Fundación Chile
+    year: 2017
+
+  - role: Scientific Advisor
+    project: Strategic Water Management Plans for Puelo, Yelcho, Aysén, Baker and Pascua Basins
+    institution: GEOSAFE
+    year: 2021
+
+  - role: Scientific Advisor
+    project: Predictive system for precipitation and streamflow in central-southern Chile
+    institution: Universidad de Chile
+    year: 2025
+
+skills:
+  - category: Programming
+    items: [Python, R, Julia, Bash, shell scripting]
+
+  - category: Glacier Modelling
+    items: [OGGM, PyGEM, PISM, glacier dynamics]
+
+  - category: Hydrological Modelling
+    items: [HBV, TETIS, WRF-Hydro, hydrological signatures]
+
+  - category: Deep Learning
+    items: [PyTorch, TensorFlow, LSTM, neural hydrology]
+
+  - category: Geospatial
+    items: [GIS, remote sensing, Google Earth Engine, QGIS]
+
+  - category: Tools
+    items: [Quarto, Git, LaTeX, Docker, HPC, Linux]
+
+  - category: Languages
+    items: [Spanish (native), English (fluent)]
+
+fieldwork:
+  - location: Puelo River basin, Chile
+    period: 2018-2021
+    description: Trimestral hydrological campaigns for fjord land use change study
+    pi: Jorge Leon
+
+  - location: Aysén region, Chile
+    period: 2017
+    description: Stream surveys in old-growth temperate forests
+    pi: Anna Astorga and Brian Reid
+
+  - location: Bordu and Kara-Batkak glaciers, Kyrgyzstan
+    period: 2024
+    description: Glacier monitoring using drones
+    pi: Lander Van Tricht
+
+talks:
+  - title: Glacio-hydrological modelling in Patagonia
+    event: EGU General Assembly
+    year: 2026
+    type: invited
+
+  - title: Assessing glacier projection uncertainties in the Patagonian Andes
+    event: V Congress of the Chilean Cryosphere Society
+    year: 2023
+    type: conference
+
+  - title: Modelling freshwater inputs to the coastal system of Western Patagonia
+    event: 6th OGGM Workshop
+    location: Norway
+    year: 2022
+    type: conference
+
+  - title: Climate datasets are the main source of uncertainty of glacier evolution
+    event: Student for Student Summerschool
+    location: Austria
+    year: 2022
+    type: invited
+
+  - title: "PatagoniaMet: A quality check observational dataset for Western Patagonia"
+    event: III Congress of the Chilean Cryosphere Society
+    year: 2021
+    type: conference
+
+  - title: "PatagoniaMet: Generation and evaluation of precipitation and air temperature gridded datasets"
+    event: Scientific Meeting of the Argentine Association of Geophysicists and Geodesists
+    year: 2021
+    type: conference
+
+  - title: "A multi-institutional effort for an open hydrometeorological dataset in Western Patagonia"
+    event: Glaciology Seminars (Center for Scientific Studies)
+    year: 2021
+    type: invited
+
+  - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
+    event: XXIV Chilean Congress of Hydraulic Engineering
+    year: 2019
+    type: conference
+
+  - title: Hydrological modeling of the trans-Andean basin of the Puelo River
+    event: XXVIII Latin American Hydraulics Congress
+    location: Argentina
+    year: 2018
+    type: conference
+
+  - title: "PatagoniaMet v1.0: Una base de datos hidro-meteorológica para la Patagonia Occidental"
+    event: Seminar for Strategic Planning of Water Resources in Aysén
+    year: 2022
+    type: invited
+
+datasets:
+  - name: PatagoniaMet
+    doi: 10.5281/zenodo.7992760
+    year: 2023
+    description: Multi-source hydrometeorological dataset for Western Patagonia
+
+  - name: RGI v7.1 Lake Termini Classification
+    doi: 10.5281/zenodo.15524733
+    year: 2025
+    description: Global mapping of lake-terminating glaciers
+
+  - name: Historical and Future Runoff in Western Patagonia
+    doi: 10.5281/zenodo.15076803
+    year: 2025
+    description: Simulated runoff projections using hybrid glacio-hydrological modelling
+
+  - name: Glacier Runoff Projections in Patagonia
+    doi: 10.5281/zenodo.8384882
+    year: 2024
+    description: Ensemble of glacier runoff projections for the Patagonian Andes
+
+  - name: Model-Based Runoff in Northern Patagonia
+    doi: 10.5281/zenodo.10949518
+    year: 2024
+    description: Hydrological model outputs for Northern Patagonia catchments
+
+outreach:
+  - title: "Estudio mide impacto del cambio climático en el sur de Chile"
+    publisher: EMOL
+    url: https://www.emol.com/noticias/Tendencias/2019/06/13/951169/Estudio-mide-impacto-del-cambio-climatico-en-el-sur-de-Chile-Rio-Puelo-podria-disminuir-hasta-20-su-caudal.html
+    year: 2019
+
+  - title: "Investigación analizó las consecuencias del cambio climático en los ríos de la Patagonia norte"
+    publisher: Ladera Sur
+    url: https://laderasur.com/articulo/investigacion-analizo-las-consecuencias-del-cambio-climatico-en-los-rios-de-la-patagonia-norte/
+    year: 2021
+
+  - title: "Documentary RIO: Rivers Influencing the Ocean"
+    publisher: YouTube
+    url: https://www.youtube.com/watch?v=kEp-hNCQ2yM
+    year: 2021
+
+  - title: "Ciencia local crea pionera base de datos de la Patagonia"
+    publisher: Diario Concepción
+    url: https://www.diarioconcepcion.cl/ciencia-y-sociedad/2024/03/23/ciencia-local-crea-pionera-base-de-datos-de-la-patagonia.html
+    year: 2024
+
+  - title: "Académico UCSC participó en PatagoniaMet"
+    publisher: UCSC
+    url: https://ucsc.cl/medios-ucsc/noticias/academico-ucsc-participo-en-patagoniamet-primera-base-de-datos-hidrometeorologica/
+    year: 2024
+
+  - title: "Un adiós helado y esperado: Desaparición del último glaciar de Venezuela"
+    publisher: Niboe
+    url: https://niboe.info/desaparicion-ultimo-glaciar-venezuela/
+    year: 2024
+
+  - title: "La metamorfosis de la Patagonia chilena"
+    publisher: El País
+    url: https://elpais.com/chile/2024-11-08/la-metamorfosis-de-la-patagonia-chilena-los-rios-y-glaciares-en-peligro-a-causa-del-cambio-climatico.html
+    year: 2024
+
+  - title: "The world's glaciers are melting faster than we thought"
+    publisher: National Geographic
+    url: https://www.nationalgeographic.com/environment/article/glacier-ice-melting-climate-change-sea-level-rise
+    year: 2024
+
+  - title: "Proyectan futuros hídricos opuestos al norte y sur de la vital Patagonia"
+    publisher: Diario Concepción
+    url: https://www.diarioconcepcion.cl/ciencia-y-sociedad/2025/11/29/con-base-en-estudios-udec-proyectan-futuros-hidricos-opuestos-al-norte-y-sur-de-la-vital-patagonia.html
+    year: 2025

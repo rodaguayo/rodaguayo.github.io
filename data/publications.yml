@@ -1,0 +1,566 @@
+- id: van-tricht-2026-water-resources
+  title: Reduced future summer water availability in the Tien Shan due to glacier wastage
+  authors:
+    - name: Van Tricht, L.
+      highlight: false
+    - name: Zekollari, H.
+      highlight: false
+    - name: Huss, M.
+      highlight: false
+    - name: van Tiel, M.
+      highlight: false
+    - name: Vanderkelen, I.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Compagno, L.
+      highlight: false
+    - name: Thiery, W.
+      highlight: false
+    - name: Huybrechts, P.
+      highlight: false
+    - name: Farinotti, D.
+      highlight: false
+  year: 2026
+  journal: Water Resources Research
+  doi: 10.1029/2025WR040877
+  tags: [hydrology, glaciers, Tien Shan]
+  featured: false
+
+- id: steiner-2026-essd
+  title: Global mapping of lake-terminating glaciers
+  authors:
+    - name: Steiner, J.
+      highlight: false
+    - name: Armstrong, W.
+      highlight: false
+    - name: Kochtitzky, W.
+      highlight: false
+    - name: McNabb, R.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Bolch, T.
+      highlight: false
+    - name: Maussion, F.
+      highlight: false
+    - name: Agarwal, V.
+      highlight: false
+    - name: Barr, I.
+      highlight: false
+    - name: Baurley, N. R.
+      highlight: false
+    - name: Cloutier, M.
+      highlight: false
+    - name: DeWater, K.
+      highlight: false
+    - name: Donachie, F.
+      highlight: false
+    - name: Drocourt, Y.
+      highlight: false
+    - name: Garg, S.
+      highlight: false
+    - name: Joshi, G.
+      highlight: false
+    - name: Guzman, B.
+      highlight: false
+    - name: Kutuzov, S.
+      highlight: false
+    - name: Loriaux, T.
+      highlight: false
+    - name: Mathias, C.
+      highlight: false
+    - name: Menounos, B.
+      highlight: false
+    - name: Miles, E.
+      highlight: false
+    - name: Osika, A.
+      highlight: false
+    - name: Potter, K.
+      highlight: false
+    - name: Racoviteanu, A.
+      highlight: false
+    - name: Rick, B.
+      highlight: false
+    - name: Sterner, M.
+      highlight: false
+    - name: Tallentire, G. D.
+      highlight: false
+    - name: Tielidze, L.
+      highlight: false
+    - name: White, R.
+      highlight: false
+    - name: Wu, K.
+      highlight: false
+    - name: Zheng, W.
+      highlight: false
+  year: 2026
+  journal: Earth System Science Data
+  doi: 10.5194/essd-18-1665-2026
+  pdf_url: https://essd.copernicus.org/articles/18/1665/2026/
+  tags: [glaciers, remote sensing, lake-terminating]
+  featured: false
+
+- id: van-tricht-2026-nclimate
+  title: Peak glacier extinction in the mid-twenty-first century
+  authors:
+    - name: Van Tricht, L.
+      highlight: false
+    - name: Zekollari, H.
+      highlight: false
+    - name: Huss, M.
+      highlight: false
+    - name: Rounce, D.
+      highlight: false
+    - name: Schuster, L.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Schmitt, P.
+      highlight: false
+    - name: Maussion, F.
+      highlight: false
+    - name: Tober, B.
+      highlight: false
+    - name: Farinotti, D.
+      highlight: false
+  year: 2026
+  journal: Nature Climate Change
+  doi: 10.1038/s41558-025-02513-9
+  tags: [glaciers, climate change, extinction]
+  featured: true
+
+- id: aguayo-2025-earth-future
+  title: Hybrid glacio-hydrological modelling reveals contrasting runoff changes in Western Patagonia over the 21st century
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: Zekollari, H.
+      highlight: false
+    - name: Hanus, S.
+      highlight: false
+    - name: Baez-Villanueva, O.
+      highlight: false
+    - name: Mendoza, P.
+      highlight: false
+    - name: Maussion, F.
+      highlight: false
+  year: 2025
+  journal: Earth's Future
+  doi: 10.1029/2025EF006442
+  tags: [glaciology, hydrology, Patagonia, modelling]
+  featured: true
+
+- id: farias-barahona-2025-jog
+  title: "QFuego-Patagonia: a comprehensive dataset and review of Southern South America's glaciers"
+  authors:
+    - name: Farías-Barahona, D.
+      highlight: false
+    - name: Schaefer, M.
+      highlight: false
+    - name: Braun, M.
+      highlight: false
+    - name: Temme, F.
+      highlight: false
+    - name: Fürst, J.
+      highlight: false
+    - name: Rivera, A.
+      highlight: false
+    - name: Bravo, C.
+      highlight: false
+    - name: Sugiyama, S.
+      highlight: false
+    - name: Hata, S.
+      highlight: false
+    - name: Tabone, I.
+      highlight: false
+    - name: Richert, A.
+      highlight: false
+    - name: Minowa, M.
+      highlight: false
+    - name: Mendoza, L.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Iribarren, P.
+      highlight: false
+    - name: Casassa, G.
+      highlight: false
+    - name: Sauter, T.
+      highlight: false
+    - name: Fernandéz, A.
+      highlight: false
+    - name: Bown, F.
+      highlight: false
+    - name: Skvarca, P.
+      highlight: false
+    - name: Aniya, M.
+      highlight: false
+    - name: Glasser, N.
+      highlight: false
+    - name: Harrison, S.
+      highlight: false
+  year: 2025
+  journal: Journal of Glaciology
+  doi: 10.1017/jog.2025.10110
+  tags: [glaciers, dataset, Patagonia]
+  featured: false
+
+- id: caro-2025-srep
+  title: Glacio-hydrological changes along the Andes over the first half of the 21st Century
+  authors:
+    - name: Caro, A.
+      highlight: false
+    - name: Condom, T.
+      highlight: false
+    - name: Rabatel, A.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Champollion, N.
+      highlight: false
+  year: 2025
+  journal: Scientific Reports
+  doi: 10.1038/s41598-025-88069-2
+  tags: [Andes, glacio-hydrology, climate change]
+  featured: false
+
+- id: aguayo-2024-tc
+  title: Unravelling the sources of uncertainty in glacier runoff projections in the Patagonian Andes (40–56° S)
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: Maussion, F.
+      highlight: false
+    - name: Ultee, L.
+      highlight: false
+    - name: Mackay, J.
+      highlight: false
+    - name: Caro, A.
+      highlight: false
+    - name: Schuster, L.
+      highlight: false
+    - name: Fernandez, A.
+      highlight: false
+    - name: Schaefer, M.
+      highlight: false
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Aguayo, M.
+      highlight: false
+  year: 2024
+  journal: The Cryosphere
+  doi: 10.5194/tc-18-5383-2024
+  tags: [glaciology, uncertainty, Patagonia]
+  featured: true
+
+- id: zekollari-2024-tc
+  title: Twenty-first century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations
+  authors:
+    - name: Zekollari, H.
+      highlight: false
+    - name: Huss, M.
+      highlight: false
+    - name: Schuster, L.
+      highlight: false
+    - name: Maussion, F.
+      highlight: false
+    - name: Rounce, D. R.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Champollion, N.
+      highlight: false
+    - name: Compagno, L.
+      highlight: false
+    - name: Hugonnet, R.
+      highlight: false
+    - name: Marzeion, B.
+      highlight: false
+    - name: Mojtabavi, S.
+      highlight: false
+    - name: Farinotti, D.
+      highlight: false
+  year: 2024
+  journal: The Cryosphere
+  doi: 10.5194/tc-18-5045-2024
+  tags: [global glaciers, CMIP6, climate change]
+  featured: false
+
+- id: leon-munoz-2024-srep
+  title: Hydrographic shifts in coastal waters reflect climate-driven changes in hydrological regimes across Northwestern Patagonia
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Corredor, A.
+      highlight: false
+    - name: Tapia, F.
+      highlight: false
+    - name: Iriarte, J. L.
+      highlight: false
+    - name: Ried, B.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+  year: 2024
+  journal: Scientific Reports
+  doi: 10.1038/s41598-024-71008-y
+  tags: [Patagonia, coastal, hydrology]
+  featured: false
+
+- id: aguayo-2024-sdata
+  title: "PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia (40-56ºS)"
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Aguayo, M.
+      highlight: false
+    - name: Baez-Villanueva, O.
+      highlight: false
+    - name: Fernandez, A.
+      highlight: false
+    - name: Zambrano-Bigiarini, M.
+      highlight: false
+    - name: Jacques-Coper, M.
+      highlight: false
+  year: 2024
+  journal: Scientific Data
+  doi: 10.1038/s41597-023-02828-2
+  code_url: https://github.com/rodaguayo
+  tags: [dataset, open data, Patagonia]
+  featured: true
+
+- id: leon-munoz-2023-crm
+  title: Landscape dependency of salmon farming hatcheries under climate change
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Echeverría, C.
+      highlight: false
+    - name: Nimptsch, J.
+      highlight: false
+    - name: Wolfl, S.
+      highlight: false
+    - name: Avendaño-Herrera, R.
+      highlight: false
+    - name: Simon, J.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+  year: 2023
+  journal: Climate Risk Management
+  doi: 10.1016/j.crm.2023.100530
+  tags: [climate impacts, aquaculture]
+  featured: false
+
+- id: leon-munoz-2021-frontiers
+  title: Climate and land cover trends affecting freshwater inputs to a fjord in Northwestern Patagonia
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Marce, R.
+      highlight: false
+    - name: Catalan, N.
+      highlight: false
+    - name: Wolfl, S.
+      highlight: false
+    - name: Nimptsch, J.
+      highlight: false
+    - name: Arismendi, I.
+      highlight: false
+    - name: Contreras, C.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+    - name: Miranda, A.
+      highlight: false
+  year: 2021
+  journal: Frontiers in Marine Sciences
+  doi: 10.3389/fmars.2021.628454
+  tags: [freshwater, Patagonia, fjord]
+  featured: false
+
+- id: aguayo-2021-srep
+  title: Hydrological droughts in the southern Andes (40-45ºS) from an ensemble experiment using CMIP5 and CMIP6 models
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Garreaud, R.
+      highlight: false
+    - name: Montecinos, A.
+      highlight: false
+  year: 2021
+  journal: Scientific Reports
+  doi: 10.1038/s41598-021-84807-4
+  tags: [droughts, Andes, CMIP6]
+  featured: false
+
+- id: aguayo-2019-climatic-change
+  title: "The glass half-empty: climate change drives lower freshwater input in the coastal system of the Chilean Northern Patagonia"
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Vargas, J.
+      highlight: false
+    - name: Montecinos, A.
+      highlight: false
+    - name: Garreaud, R.
+      highlight: false
+    - name: Urbina, M.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+    - name: Iriarte, J. L.
+      highlight: false
+  year: 2019
+  journal: Climatic Change
+  doi: 10.1007/s10584-019-02495-6
+  tags: [climate change, Patagonia, freshwater]
+  featured: false
+
+# In review
+- id: mendoza-2026-review
+  title: "Recent advances and challenges in process-based hydrological modeling over the Andes: A review"
+  authors:
+    - name: Mendoza, P. A.
+      highlight: false
+    - name: Toum, E.
+      highlight: false
+    - name: Wongchuig, S.
+      highlight: false
+    - name: Condom, T.
+      highlight: false
+    - name: Barco, J.
+      highlight: false
+    - name: Drenkhan, F.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+  year: 2026
+  journal: "WIREs Water (in review)"
+  tags: [review, Andes, hydrology]
+  featured: false
+
+- id: van-tricht-2026-ncomms
+  title: Resolving short-term meteorological variability amplifies projected glacier loss
+  authors:
+    - name: Van Tricht, L.
+      highlight: false
+    - name: Huss, M.
+      highlight: false
+    - name: Zekollari, H.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: van Tiel, M.
+      highlight: false
+    - name: von der Esch, A.
+      highlight: false
+    - name: Beer, J.
+      highlight: false
+    - name: Farinotti, D.
+      highlight: false
+  year: 2026
+  journal: "Nature Communications (in review)"
+  tags: [glaciers, meteorology, variability]
+  featured: false
+
+- id: ponds-2026-nclimate
+  title: Irrigation buffers glacier loss
+  authors:
+    - name: Ponds, M.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Yao, Y.
+      highlight: false
+    - name: Thiery, W.
+      highlight: false
+    - name: Zekollari, H.
+      highlight: false
+  year: 2026
+  journal: "Nature Climate Change (in review)"
+  tags: [irrigation, glaciers]
+  featured: false
+
+- id: leon-munoz-2026-habs
+  title: Melt-driven freshwater inputs as potential drivers of harmful algal blooms in northwestern Patagonia
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Reid, B.
+      highlight: false
+    - name: Iriarte, J. L.
+      highlight: false
+    - name: Mardones, J.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Astorga-Roine, A.
+      highlight: false
+    - name: García-Tuñon, W.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+    - name: Garreaud, R.
+      highlight: false
+  year: 2026
+  journal: "Scientific Reports (in review)"
+  tags: [Patagonia, algal blooms, freshwater]
+  featured: false
+
+- id: fox-2025-jgr
+  title: Riverine Biogeochemical Exports from Major Watersheds to the Northwest Patagonian Estuarine Network
+  authors:
+    - name: Fox, C.
+      highlight: false
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Reid, B.
+      highlight: false
+    - name: Astorga, A.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Moreno-Meynard, P.
+      highlight: false
+    - name: Blanchet, L.
+      highlight: false
+    - name: Butman, D.
+      highlight: false
+  year: 2025
+  journal: "JGR – Biogeosciences (in review)"
+  tags: [biogeochemistry, Patagonia, rivers]
+  featured: false
+
+- id: moreno-2025-hsj
+  title: Early detection of anthropogenic impacts on headwater streams in Patagonia through hydrological signatures metrics
+  authors:
+    - name: Moreno, P.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Astorga, A.
+      highlight: false
+    - name: Somos, M.
+      highlight: false
+    - name: Uribe, L.
+      highlight: false
+    - name: Reid, B.
+      highlight: false
+  year: 2025
+  journal: "Hydrological Sciences Journal (in review)"
+  tags: [headwater streams, Patagonia, hydrological signatures]
+  featured: false

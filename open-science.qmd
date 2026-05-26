@@ -1,0 +1,42 @@
+---
+title: "Open Science"
+---
+
+<div class="page">
+
+# Open Science
+
+I am committed to open, reproducible research. All code, data, and software developed as part of my research is publicly available unless otherwise noted.
+
+---
+
+## GitHub Repositories
+
+- [**rodaguayo**](https://github.com/rodaguayo/) — Main GitHub profile with research code repositories
+- **OGGM workflow contributions** — Open Global Glacier Model development and Patagonia-specific configurations
+
+## Open Datasets
+
+Five open datasets published on Zenodo (see [Datasets page](datasets.qmd) for full list), including the PatagoniaMet hydrometeorological dataset.
+
+## Reproducible Workflows
+
+- All glacier modelling workflows are documented and version-controlled
+- Hybrid glacio-hydrological modelling framework used in Western Patagonia studies
+- Deep learning pipeline for glacier buffering analysis (ICE-BUFFER project)
+
+## Software
+
+- **OGGM** — Contributor to the Open Global Glacier Model Python package
+- Patagonia-specific glacier modelling configurations and calibration workflows
+- Hydrological data processing and quality control pipelines
+
+---
+
+## Principles
+
+- All publications include data availability statements with Zenodo DOIs
+- Code repositories linked from publications where applicable
+- Open access publications prioritized
+
+</div>

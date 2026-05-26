@@ -1,0 +1,38 @@
+---
+title: "ICE³ — Multi-Century Global Glacier Evolution"
+status: active
+start: 2024
+---
+
+
+# ICE³: Modelling the Global Multi-Century Evolution of Glacier Ice in 3D
+
+**Status:** Active (2024–2025)  
+**Institution:** Vrije Universiteit Brussel  
+**Supervisor:** Harry Zekollari
+
+## Summary
+
+The ICE³ project aims to model the global multi-century evolution of glacier ice in three dimensions. Understanding the long-term response of glaciers to climate change is critical for projecting sea-level rise, water availability, and geohazards over timescales beyond the typical 21st-century projections.
+
+## Methods
+
+- 3D ice dynamics modelling using the Parallel Ice Sheet Model (PISM) and Open Global Glacier Model (OGGM)
+- CMIP6 climate forcing ensembles
+- Multi-century simulations extending to 2300
+- Uncertainty quantification through parameter sensitivity analysis
+
+## Datasets
+
+- Randolph Glacier Inventory
+- CMIP6 GCM outputs
+- Reference climatologies (ERA5, WorldClim)
+
+## Related Publications
+
+- Zekollari et al. (2024), *The Cryosphere* — global glacier evolution under CMIP6
+- Van Tricht et al. (2026), *Nature Climate Change* — peak glacier extinction
+
+## Code
+
+- [GitHub](https://github.com/rodaguayo)

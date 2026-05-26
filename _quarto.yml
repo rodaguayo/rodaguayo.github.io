@@ -1,0 +1,108 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Rodrigo Aguayo"
+  description: "Climate Scientist & Hydrologist — Glaciology, Hydrology, Deep Learning for Earth Systems"
+  site-url: https://rodaguayo.github.io
+  repo-url: https://github.com/rodaguayo/rodaguayo.github.io
+  repo-actions: [edit, issue]
+
+  navbar:
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: projects/index.qmd
+        text: Projects
+      - href: teaching.qmd
+        text: Teaching
+      - href: talks.qmd
+        text: Talks
+      - href: datasets.qmd
+        text: Datasets
+      - href: open-science.qmd
+        text: Open Science
+      - href: blog/index.qmd
+        text: Blog
+      - href: contact.qmd
+        text: Contact
+    right: []
+
+  page-footer:
+    center: |
+      © 2026 Rodrigo Aguayo &middot;
+      [GitHub](https://github.com/rodaguayo) &middot;
+      [Bluesky](https://bsky.app/profile/rodaguayo.bsky.social)
+
+  search: true
+
+format:
+  html:
+    theme: default
+    css: assets/styles.css
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    anchor-sections: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    html-math-method: katex
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    include-after-body:
+      - text: |
+          <script>
+          (function() {
+            const html = document.documentElement;
+            const stored = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = stored || 'dark';
+            html.setAttribute('data-bs-theme', theme);
+            const body = document.body;
+            if (theme === 'dark') {
+              body.classList.remove('quarto-light');
+              body.classList.add('quarto-dark');
+            } else {
+              body.classList.remove('quarto-dark');
+              body.classList.add('quarto-light');
+            }
+            const tools = document.querySelector('.quarto-navbar-tools');
+            if (tools) {
+              const btn = document.createElement('button');
+              btn.id = 'theme-toggle';
+              btn.setAttribute('aria-label', 'Toggle theme');
+              btn.style.cssText = 'display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);cursor:pointer;padding:0;font-size:1.1rem;line-height:1;';
+              btn.innerHTML = theme === 'dark' ? '&#x2600;&#xFE0F;' : '&#x1F319;';
+              btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const current = html.getAttribute('data-bs-theme');
+                const next = current === 'dark' ? 'light' : 'dark';
+                html.setAttribute('data-bs-theme', next);
+                if (next === 'dark') {
+                  body.classList.remove('quarto-light');
+                  body.classList.add('quarto-dark');
+                } else {
+                  body.classList.remove('quarto-dark');
+                  body.classList.add('quarto-light');
+                }
+                btn.innerHTML = next === 'dark' ? '&#x2600;&#xFE0F;' : '&#x1F319;';
+                localStorage.setItem('theme', next);
+              });
+              tools.appendChild(btn);
+            }
+          })();
+          </script>
+
+

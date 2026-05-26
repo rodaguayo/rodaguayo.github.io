@@ -1,0 +1,43 @@
+---
+title: "Contact"
+---
+
+<div class="page">
+
+# Contact
+
+## Get in Touch
+
+<div class="card">
+  <h3>Email</h3>
+  <p><a href="mailto:rodrigo.aguayo@vub.be">rodrigo.aguayo@vub.be</a></p>
+</div>
+
+<div class="card">
+  <h3>Institutional Address</h3>
+  <p>
+    Vrije Universiteit Brussel<br>
+    Department of Water and Climate (HYDR)<br>
+    Pleinlaan 2, 1050 Brussels<br>
+    Belgium
+  </p>
+</div>
+
+<div class="card">
+  <h3>Group</h3>
+  <p><a href="https://hydr.vub.be/research-groups/bglacier">bglacier — Glaciology Research Group</a></p>
+</div>
+
+## Online
+
+<div class="social-links">
+  <a class="social-link" href="mailto:rodrigo.aguayo@vub.be">📧 Email</a>
+  <a class="social-link" href="https://bsky.app/profile/rodaguayo.bsky.social">🔵 Bluesky</a>
+  <a class="social-link" href="https://github.com/rodaguayo">🐙 GitHub</a>
+  <a class="social-link" href="https://scholar.google.com/citations?user=P_LBnTbIAy8C&hl=en">🎓 Google Scholar</a>
+  <a class="social-link" href="https://orcid.org/0000-0003-2335-8470">🆔 ORCID</a>
+  <a class="social-link" href="https://www.researchgate.net/profile/Rodrigo-Aguayo">📊 ResearchGate</a>
+  <a class="social-link" href="https://hydr.vub.be/people/rodrigo.aguayo">🏛️ VUB Profile</a>
+</div>
+
+</div>

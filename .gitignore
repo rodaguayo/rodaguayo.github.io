@@ -1,13 +1,29 @@
+# Quarto
+_site/
+_freeze/
+.qmd~
+.quarto/
+
+# R / RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .Rprofile
 .Rproj
-public/
-content/
-layouts/
-static/
-themes/
-config/
-resources/
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX / PDF
+*.pdf
+.tinytex/
+
+# OS
+.DS_Store
+Thumbs.db
+/.quarto/
+**/*.quarto_ipynb

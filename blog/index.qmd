@@ -1,0 +1,11 @@
+---
+title: "Blog / Notes"
+---
+
+<div class="page">
+
+# Blog / Notes
+
+*No posts yet. Coming soon.*
+
+</div>
