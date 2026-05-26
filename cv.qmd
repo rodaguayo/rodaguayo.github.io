@@ -91,11 +91,9 @@ format:
 - **Introduction to Environmental Science** — Universidad de Concepción (2015)
 - **Support Center for Learning Basic Sciences** — Universidad de Concepción (2014–2015, 4 semesters)
 
-## Selected Publications
+## Publications
 
-18+ peer-reviewed publications in journals including *Nature Climate Change*, *The Cryosphere*, *Earth's Future*, *Scientific Data*, *Scientific Reports*, *Earth System Science Data*, *Journal of Glaciology*, *Climatic Change*, and others.
-
-Full list on the [Publications page](publications.qmd).
+{{< include _includes/cv-publications.md >}}
 
 ## Talks & Presentations
 
