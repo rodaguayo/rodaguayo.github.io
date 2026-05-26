@@ -4,49 +4,6 @@ title: "Teaching"
 
 <div class="page">
 
-# Teaching
-
-## Courses Taught
-
-### KU Leuven / Vrije Universiteit Brussel
-
-- **Surface Water Hydrology** (2025–2026) — 2 semesters
-
-### Universidad de Concepción
-
-- **GIS Applied to Environmental Science** (2023)
-- **Fluid Mechanics** (2022)
-- **Advanced Hydrology** (2020)
-- **Distributed Hydrology** (2020)
-- **Hydrology** (2016–2018) — 5 semesters
-- **Introduction to Environmental Science** (2015)
-
-### Teaching Support
-
-- Support Center for Learning Basic Sciences (2014–2015) — 4 semesters
-
----
-
-## Student Supervision
-
-| Student | Role | Project | Institution | Period |
-|---------|------|---------|-------------|--------|
-| Magali Ponds | PhD (co-supervisor) | Irrigation effects on glacier evolution in High-Mountain Asia | VUB | 2024–2027 |
-| Maziar Freki | MSc (co-supervisor) | Closing regional water budget in Western Patagonia using SWOT data | VUB | 2024–2025 |
-| Garance du Bus de Warnaffe | MSc (co-supervisor) | Time of emergence of glacier runoff in Patagonia | VUB | 2024–2025 |
-| Francesco Calista | MSc (co-supervisor) | Glacier melt implications for water security in High-Mountain Asia | VUB | 2025–2026 |
-| Fernanda Espinoza | MSc (co-supervisor) | Flood forecasting using deep learning in south-central Chile | UCH | 2025–2026 |
-| Isadora Leon | MSc (co-supervisor) | Land cover effects on hydrological drought propagation | UACH | 2023–2024 |
-| Paul Sandoval | BSc (supervisor) | Global warming impacts in the upper Manso River basin | UBB | 2021 |
-
----
-
-## Short Courses & Workshops
-
-- Integrative Assessment of Climate Change: Water Scarcity (CR2, 2021) — 60 hr
-- Distributed Hydrological Modelling using TETIS (UDEC, 2021) — 24 hr
-- Glaciology of the Southern Andes (IANIGLA, 2021) — 60 hr
-- Advanced Course on Scientific Article Writing (Writewise, 2020) — 18 hr
-- Remote Sensing Applied to Hydraulic Engineering (UDEC, 2017) — 10 hr
+{{< include _includes/teaching-content.md >}}
 
 </div>

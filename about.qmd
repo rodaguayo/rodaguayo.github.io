@@ -4,8 +4,6 @@ title: "About"
 
 <div class="page">
 
-# About
-
 I am a postdoctoral researcher at the [Vrije Universiteit Brussel](https://www.vub.be) (VUB) in Belgium, working in the [HYDR](https://hydr.vub.be) research group and the [bglacier](https://hydr.vub.be/research-groups/bglacier) glaciology group under the supervision of Prof. Harry Zekollari.
 
 My research focuses on understanding how climate change affects the cryosphere and water resources, particularly in glacierized basins. I combine physics-based models with machine learning approaches to address questions around glacier evolution, hydrological change, and water security.
