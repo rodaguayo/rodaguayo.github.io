@@ -23,13 +23,5 @@ My current work includes:
 - **ICE³ Project**: Modelling the global multi-century evolution of glacier ice in 3D (VUB)
 - **ICE-BUFFER**: Global glacier buffering of streamflow droughts in a changing climate using deep learning (FWO-funded postdoctoral fellowship)
 - Hybrid glacio-hydrological modelling in Patagonia and other mountain regions
-- Open-source development for the Open Global Glacier Model (OGGM)
-
-## Affiliations
-
-- **Vrije Universiteit Brussel** — Department of Water and Climate, HYDR group
-- **bglacier** — Glaciology research group at VUB
-- **Universidad de Concepción** — Collaborating researcher
-- **OGGM** — Open Global Glacier Model community member
 
 </div>

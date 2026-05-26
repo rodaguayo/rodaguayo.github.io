@@ -20,8 +20,6 @@ website:
         text: CV
       - href: publications.qmd
         text: Publications
-      - href: projects/index.qmd
-        text: Projects
       - href: teaching.qmd
         text: Teaching
       - href: talks.qmd

@@ -12,7 +12,6 @@ Built with [Quarto](https://quarto.org/) and deployed to GitHub Pages via GitHub
 | [About](about.qmd) | Research focus, background, and affiliations |
 | [CV](cv.qmd) | Full academic CV |
 | [Publications](publications.qmd) | Peer-reviewed articles and preprints |
-| [Projects](projects/index.qmd) | Research projects (ICE³, ICE-BUFFER, etc.) |
 | [Teaching](teaching.qmd) | Teaching and supervision experience |
 | [Talks](talks.qmd) | Presentations and invited talks |
 | [Datasets](datasets.qmd) | Published datasets (PatagoniaMet, etc.) |
@@ -35,7 +34,6 @@ Built with [Quarto](https://quarto.org/) and deployed to GitHub Pages via GitHub
 ├── about.qmd                # About page
 ├── cv.qmd                   # CV (generated from data/cv.yml)
 ├── publications.qmd         # Publications (from data/publications.yml)
-├── projects/                # Research projects
 ├── blog/                    # Blog posts
 ├── data/                    # YAML data files (CV, publications)
 ├── assets/
