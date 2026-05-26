@@ -22,6 +22,9 @@ __pycache__/
 *.pdf
 .tinytex/
 
+# Generated includes (regenerated from data/ by scripts/)
+_includes/
+
 # OS
 .DS_Store
 Thumbs.db
