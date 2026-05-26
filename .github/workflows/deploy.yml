@@ -25,13 +25,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Quarto
-        uses: quarto-dev/quarto-actions/install-quarto@v2
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: latest
-
-      - name: Install TinyTeX
-        uses: quarto-dev/quarto-actions/install-tinytex@v2
+          tinytex: true
 
       - name: Render Quarto Site
         run: quarto render
