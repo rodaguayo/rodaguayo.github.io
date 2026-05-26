@@ -46,82 +46,115 @@ format:
 
 ## Positions
 
-- **2025–present**: Postdoctoral Fellow (FWO), Vrije Universiteit Brussel — ICE-BUFFER project
-- **2024–2025**: Postdoctoral Researcher, Vrije Universiteit Brussel — ICE³ project
+- **2025–present**: Postdoctoral Fellow (FWO), Vrije Universiteit Brussel — ICE-BUFFER project. Global glacier buffering of streamflow droughts in a changing climate using deep learning. Supervised by Harry Zekollari.
+- **2024–2025**: Postdoctoral Researcher, Vrije Universiteit Brussel — ICE³ project. Modelling the global multi-century evolution of glacier ice in 3D. Supervised by Harry Zekollari.
 
 ## Education
 
-- **2019–2023**: PhD in Environmental Sciences, Universidad de Concepción, Chile
-- **2017–2019**: MSc in Civil Engineering (Water Resources), Universidad de Concepción, Chile
-- **2012–2018**: Civil Engineering (Hydraulic-Environmental), Universidad de Concepción, Chile
-- **2022**: Research stay on regional glacier modelling, University of Innsbruck, Austria
+- **2019–2023**: PhD in Environmental Sciences, Universidad de Concepción, Chile. Thesis: Assessment of the impacts of climate change on the spatio-temporal patterns of freshwater sources to the coastal system of Western Patagonia. Supervised by Mauricio Aguayo and Jorge León.
+- **2022**: Research Stay — Regional Glacier Modelling, University of Innsbruck, Austria. Seven-month stay with Fabien Maussion at the Department of Ice & Climate.
+- **2017–2019**: MSc in Civil Engineering (Water Resources), Universidad de Concepción, Chile. Thesis: Impacts of anthropogenic climate change on the runoff of a trans-Andean basin in Patagonia. Supervised by Jorge León.
+- **2012–2018**: Civil Engineering (Hydraulic-Environmental mention), Universidad de Concepción, Chile. Thesis: Hydrological modeling of a Patagonian basin: Application of remote sensing. Supervised by José Vargas. Approved with maximum distinction.
 
 ## Grants & Funding
 
 - **2025–2028**: FWO Postdoctoral Junior Fellowship — ICE-BUFFER project
-- **2019–2023**: ANID National Doctoral Fellowship (Chile)
-- **2022**: ANID International Research Stay Fellowship
+- **2019–2023**: ANID National Doctoral Fellowship
 - **2021–2022**: ANID Operational Expenses Grant
+- **2022**: ANID International Research Stay Fellowship
 - **2023**: ANID Doctoral Writing Extension Fellowship
 
 ## Awards
 
 - **2025**: Outstanding Reviewer Award, *The Cryosphere* (EGU)
-- **2017**: Professor Edgar Pino Barrueto Prize — Best Civil Engineering thesis
+- **2021**: Top 100 in Earth Science, *Scientific Reports* collection
+- **2017**: Professor Edgar Pino Barrueto Prize — Best thesis of the Civil Engineering promotion
 
 ## Supervision
 
-- **Magali Ponds** (PhD, VUB, 2024–2027) — Irrigation effects on glacier evolution in High-Mountain Asia
-- **Maziar Freki** (MSc, VUB, 2024–2025) — Closing regional water budget in Western Patagonia using SWOT data
-- **Garance du Bus de Warnaffe** (MSc, VUB, 2024–2025) — Time of emergence of glacier runoff in Patagonia
-- **Francesco Calista** (MSc, VUB, 2025–2026) — Glacier melt implications for water security in High-Mountain Asia
-- **Fernanda Espinoza** (MSc, UCH, 2025–2026) — Flood forecasting using deep learning (co-supervision)
-- **Isadora Leon** (MSc, UACH, 2023–2024) — Land cover effects on hydrological drought propagation (co-supervision)
-- **Paul Sandoval** (BSc, UBB, 2021) — Global warming impacts in the upper Manso River basin
+- **Magali Ponds** (PhD, VUB, 2024–2027) — The effect of irrigation on glacier evolution in High-Mountain Asia (co-supervised with Harry Zekollari)
+- **Francesco Calista** (MSc, VUB, 2025–2026) — Implications of glacier melt in High Mountain Asia for future water security (co-supervised with Harry Zekollari and Magali Ponds)
+- **Fernanda Espinoza** (MSc, UCH, 2025–2026) — Flood forecasting using deep learning in south-central Chile (co-supervised with Pablo Mendoza)
+- **Maziar Freki** (MSc, VUB, 2024–2025) — Closing the regional water budget in Western Patagonia using SWOT data (co-supervised with Harry Zekollari)
+- **Garance du Bus de Warnaffe** (MSc, VUB, 2024–2025) — The time of emergence of glacier runoff in Patagonia (co-supervised with Harry Zekollari)
+- **Isadora Leon** (MSc, UACH, 2023–2024) — Effects of land cover on the hydrological propagation of droughts in Southern Chile (co-supervised with Jorge Leon and Alvaro Gonzalez)
+- **Paul Sandoval** (Bachelor, UBB, 2021) — Potential impacts of global warming in the upper Manso River Basin
 
 ## Teaching
 
-- **Surface Water Hydrology** (KU Leuven / VUB, 2025–2026)
-- **GIS Applied to Environmental Science** (UDEC, 2023)
-- **Fluid Mechanics** (UDEC, 2022)
-- **Advanced Hydrology** (UDEC, 2020)
-- **Distributed Hydrology** (UDEC, 2020)
-- **Hydrology** (UDEC, 2016–2018)
-- **Introduction to Environmental Science** (UDEC, 2015)
+- **Surface Water Hydrology** — KU Leuven / Vrije Universiteit Brussel (2025–2026, 2 semesters)
+- **GIS Applied to Environmental Science** — Universidad de Concepción (2023)
+- **Fluid Mechanics** — Universidad de Concepción (2022)
+- **Advanced Hydrology** — Universidad de Concepción (2020)
+- **Distributed Hydrology** — Universidad de Concepción (2020)
+- **Hydrology** — Universidad de Concepción (2016–2018, 5 semesters)
+- **Introduction to Environmental Science** — Universidad de Concepción (2015)
+- **Support Center for Learning Basic Sciences** — Universidad de Concepción (2014–2015, 4 semesters)
 
 ## Selected Publications
 
-Full list on the [Publications page](publications.qmd).
-
 18+ peer-reviewed publications in journals including *Nature Climate Change*, *The Cryosphere*, *Earth's Future*, *Scientific Data*, *Scientific Reports*, *Earth System Science Data*, *Journal of Glaciology*, *Climatic Change*, and others.
 
-## Invited Talks
+Full list on the [Publications page](publications.qmd).
 
-- Glacier modelling seminars (various institutions)
-- EGU General Assembly sessions
-- Latin American Hydraulics Congress
-- Chilean Congress of Hydraulic Engineering
+## Talks & Presentations
+
+- **2026**: Glacio-hydrological modelling in Patagonia — EGU General Assembly (invited)
+- **2023**: Assessing glacier projection uncertainties in the Patagonian Andes — V Congress of the Chilean Cryosphere Society
+- **2022**: Modelling freshwater inputs to the coastal system of Western Patagonia — 6th OGGM Workshop, Norway
+- **2022**: Climate datasets are the main source of uncertainty of glacier evolution — Student for Student Summerschool, Austria (invited)
+- **2022**: PatagoniaMet v1.0: Una base de datos hidro-meteorológica para la Patagonia Occidental — Seminar for Strategic Planning of Water Resources in Aysén (invited)
+- **2021**: PatagoniaMet: A quality check observational dataset for Western Patagonia — III Congress of the Chilean Cryosphere Society
+- **2021**: PatagoniaMet: Generation and evaluation of precipitation and air temperature gridded datasets — Scientific Meeting of the Argentine Association of Geophysicists and Geodesists
+- **2021**: A multi-institutional effort for an open hydrometeorological dataset in Western Patagonia — Glaciology Seminars, Center for Scientific Studies (invited)
+- **2019**: The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System — XXIV Chilean Congress of Hydraulic Engineering
+- **2018**: Hydrological modeling of the trans-Andean basin of the Puelo River — XXVIII Latin American Hydraulics Congress, Argentina
+
+## Datasets
+
+- **PatagoniaMet** (2023) — Multi-source hydrometeorological dataset for Western Patagonia. DOI: [10.5281/zenodo.7992760](https://doi.org/10.5281/zenodo.7992760)
+- **RGI v7.1 Lake Termini Classification** (2025) — Global mapping of lake-terminating glaciers. DOI: [10.5281/zenodo.15524733](https://doi.org/10.5281/zenodo.15524733)
+- **Historical and Future Runoff in Western Patagonia** (2025) — Simulated runoff projections using hybrid glacio-hydrological modelling. DOI: [10.5281/zenodo.15076803](https://doi.org/10.5281/zenodo.15076803)
+- **Glacier Runoff Projections in Patagonia** (2024) — Ensemble of glacier runoff projections for the Patagonian Andes. DOI: [10.5281/zenodo.8384882](https://doi.org/10.5281/zenodo.8384882)
+- **Model-Based Runoff in Northern Patagonia** (2024) — Hydrological model outputs for Northern Patagonia catchments. DOI: [10.5281/zenodo.10949518](https://doi.org/10.5281/zenodo.10949518)
 
 ## Service
 
-- Reviewer for *The Cryosphere*, *Journal of Glaciology*, *Hydrology and Earth System Sciences*
-- Project scientist on 5+ applied research projects (academy and industry)
-- Convenor at international conferences
+- **Reviewer** — *The Cryosphere* (2025)
+- **Reviewer** — *Journal of Glaciology* (2025)
+- **Reviewer** — *Hydrology and Earth System Sciences* (2025)
+- **Scientific Advisor** — Predictive system for precipitation and streamflow in central-southern Chile, Universidad de Chile (2025)
+- **Scientific Advisor** — Strategic Water Management Plans for Puelo, Yelcho, Aysén, Baker and Pascua Basins, GEOSAFE (2021)
+- **Project Scientist** — Instrumentation and habilitation of a reference basin for snowpack studies in Aysén, CIEP (2021)
+- **Hydrological Modeler and Climate Analyst** — Determination of average monthly flows in continental Chiloé, IFOP (2017)
+- **Project Engineer** — Water Scenarios 2030, Fundación Chile (2017)
+
+## Outreach & Media
+
+- **2025**: Proyectan futuros hídricos opuestos al norte y sur de la vital Patagonia — *Diario Concepción*
+- **2024**: La metamorfosis de la Patagonia chilena — *El País*
+- **2024**: The world's glaciers are melting faster than we thought — *National Geographic*
+- **2024**: Un adiós helado y esperado: Desaparición del último glaciar de Venezuela — *Niboe*
+- **2024**: Ciencia local crea pionera base de datos de la Patagonia — *Diario Concepción*
+- **2024**: Académico UCSC participó en PatagoniaMet — *UCSC*
+- **2021**: Investigación analizó las consecuencias del cambio climático en los ríos de la Patagonia norte — *Ladera Sur*
+- **2021**: Documentary RIO: Rivers Influencing the Ocean — *YouTube*
+- **2019**: Estudio mide impacto del cambio climático en el sur de Chile — *EMOL*
 
 ## Skills
 
-- **Programming**: Python, R, Julia, shell scripting
-- **Glacier modelling**: OGGM, PyGEM, PISM
-- **Hydrological modelling**: HBV, TETIS, WRF-Hydro
-- **Deep learning**: PyTorch, TensorFlow, neural hydrology
-- **Geospatial**: GIS, remote sensing, Google Earth Engine
-- **Tools**: Quarto, Git, LaTeX, Docker, High-performance computing
+- **Programming**: Python, R, Julia, Bash, shell scripting
+- **Glacier Modelling**: OGGM, PyGEM, PISM, glacier dynamics
+- **Hydrological Modelling**: HBV, TETIS, WRF-Hydro, hydrological signatures
+- **Deep Learning**: PyTorch, TensorFlow, LSTM, neural hydrology
+- **Geospatial**: GIS, remote sensing, Google Earth Engine, QGIS
+- **Tools**: Quarto, Git, LaTeX, Docker, HPC, Linux
 - **Languages**: Spanish (native), English (fluent)
 
 ## Fieldwork
 
-- Puelo River basin (Chile) — 2018–2021, trimestral hydrological campaigns
-- Aysén region (Chile) — 2017, stream surveys in temperate forests
-- Bordu and Kara-Batkak glaciers (Kyrgyzstan) — 2024, glacier monitoring with drones
+- **Puelo River basin, Chile** (2018–2021) — Trimestral hydrological campaigns for fjord land use change study (PI: Jorge Leon)
+- **Bordu and Kara-Batkak glaciers, Kyrgyzstan** (2024) — Glacier monitoring using drones (PI: Lander Van Tricht)
+- **Aysén region, Chile** (2017) — Stream surveys in old-growth temperate forests (PI: Anna Astorga and Brian Reid)
 
 </div>
