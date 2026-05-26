@@ -36,7 +36,7 @@ Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/
     ORCID
   </a>
   <a class="social-link" href="https://www.researchgate.net/profile/Rodrigo-Aguayo">
-    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm5 7h-2v-4c0-.55-.45-1-1-1s-1 .45-1 1v4h-2v-6h2v1c.42-.59 1.11-1 2-1 1.1 0 2 .9 2 2v4z"/></svg>
+    <svg viewBox="0 0 24 24"><path d="M8 3v18h8V3H8zm6 15h-4v-2h4v2zm0-4h-4v-2h4v2zm0-4h-4V8h4v2zm1-6H9V2h6v2z"/></svg>
     ResearchGate
   </a>
 </div>
@@ -46,22 +46,22 @@ Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/
 ## Research Themes
 
 <div class="card">
-  <h3>🧊 Glaciology & Glacier Hydrology</h3>
+  <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/></svg> Glaciology & Glacier Hydrology</h3>
   <p>Global and regional glacier evolution, glacier runoff projections, ice dynamics, glacier lake-terminating systems, multi-century glacier evolution.</p>
 </div>
 
 <div class="card">
-  <h3>💧 Large-Scale Hydrology & Climate Impacts</h3>
+  <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M12 2C10.34 8.34 6 12.43 6 16.43c0 3.31 2.69 6 6 6s6-2.69 6-6c0-4-4.34-8.08-6-14.43z"/></svg> Large-Scale Hydrology & Climate Impacts</h3>
   <p>Climate change impacts on water resources, hydrological droughts, freshwater inputs to coastal systems, hybrid glacio-hydrological modelling.</p>
 </div>
 
 <div class="card">
-  <h3>🤖 Deep Learning for Earth Systems</h3>
+  <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg> Deep Learning for Earth Systems</h3>
   <p>Deep learning applications for glacier buffering of streamflow droughts, AI/ML for hydrological prediction, open-source reproducible workflows.</p>
 </div>
 
 <div class="card">
-  <h3>🌍 Open Science & Data</h3>
+  <h3><svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align:-3px;margin-right:6px;fill:var(--accent)"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg> Open Science & Data</h3>
   <p>Open hydrometeorological datasets (PatagoniaMet), reproducible research, open-source tools for glacier modelling.</p>
 </div>
 

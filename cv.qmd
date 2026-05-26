@@ -14,7 +14,7 @@ format:
       - left=22mm
       - right=22mm
     fontsize: 11pt
-    colorlinks: false
+    colorlinks: true
     toc: false
     number-sections: false
     output-file: cv

@@ -302,7 +302,7 @@ hr {
 }
 
 .card:hover {
-  opacity: 0.85;
+  border-color: var(--accent);
 }
 
 /* ============================
