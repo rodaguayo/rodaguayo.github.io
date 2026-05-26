@@ -327,7 +327,7 @@ datasets:
     description: Hydrological model outputs for Northern Patagonia catchments under historical and future climate conditions.
 
 short_courses:
-  - name: Integrative Assessment of Climate Change: Water Scarcity
+  - name: "Integrative Assessment of Climate Change: Water Scarcity"
     provider: CR2
     year: 2021
     hours: 60
