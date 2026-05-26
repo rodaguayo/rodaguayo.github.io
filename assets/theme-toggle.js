@@ -1,3 +1,4 @@
+<script>
 (function() {
   const html = document.documentElement;
   const stored = localStorage.getItem('theme');
@@ -37,3 +38,4 @@
     tools.appendChild(btn);
   }
 })();
+</script>
