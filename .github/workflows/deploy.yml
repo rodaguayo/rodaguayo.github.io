@@ -33,8 +33,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install pyyaml
 
-      - name: Generate publications from data
-        run: python3 scripts/generate_publications.py
+      - name: Generate content from data
+        run: |
+          python3 scripts/generate_publications.py
+          python3 scripts/generate_cv.py
 
       - name: Render Quarto Site
         run: quarto render
