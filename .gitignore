@@ -25,7 +25,11 @@ __pycache__/
 # Generated includes (regenerated from data/ by scripts/)
 _includes/
 
+<<<<<<< HEAD
 # OS
+=======
+# OS
+>>>>>>> f5a833ba8d508012d00c8389df3937e59494761a
 .DS_Store
 Thumbs.db
 /.quarto/
