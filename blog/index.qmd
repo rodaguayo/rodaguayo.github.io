@@ -9,6 +9,4 @@ listing:
 
 <div class="page">
 
-# Blog / Notes
-
 </div>

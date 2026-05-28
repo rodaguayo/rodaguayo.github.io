@@ -6,8 +6,6 @@ description: "Launching my personal academic website — a central hub for resea
 
 <div class="page">
 
-# Welcome to my new website
-
 I'm excited to launch this personal academic website, built with [Quarto](https://quarto.org/) and hosted on GitHub Pages.
 
 This site serves as a central hub for my research on climate change, glaciology, hydrology, and deep learning for Earth systems. Here you'll find:

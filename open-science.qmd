@@ -4,8 +4,6 @@ title: "Open Science"
 
 <div class="page">
 
-# Open Science
-
 I am committed to open, reproducible research. All code, data, and software developed as part of my research is publicly available unless otherwise noted.
 
 ---

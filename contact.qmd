@@ -4,8 +4,6 @@ title: "Contact"
 
 <div class="page">
 
-# Contact
-
 ## Get in Touch
 
 <div class="card">

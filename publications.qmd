@@ -9,8 +9,6 @@ format:
 
 <div class="page">
 
-# Publications
-
 [Google Scholar](https://scholar.google.com/citations?user=P_LBnTbIAy8C&hl=en) · [ORCID](https://orcid.org/0000-0003-2335-8470) · [ResearchGate](https://www.researchgate.net/profile/Rodrigo-Aguayo)
 
 *Highlighted name indicates first or corresponding authorship.*
