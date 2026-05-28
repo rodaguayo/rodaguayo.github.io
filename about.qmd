@@ -4,21 +4,19 @@ title: "About"
 
 <div class="page">
 
-I am a postdoctoral researcher at the [Vrije Universiteit Brussel](https://www.vub.be) (VUB) in Belgium, working in the [HYDR](https://hydr.vub.be) research group and the [bglacier](https://hydr.vub.be/research-groups/bglacier) glaciology group under the supervision of Prof. Harry Zekollari.
+I'm a postdoc at the [Vrije Universiteit Brussel](https://www.vub.be) (VUB) in Belgium, part of the [HYDR](https://hydr.vub.be) research group and the [bglacier](https://hydr.vub.be/research-groups/bglacier) glaciology group, working with Prof. Harry Zekollari.
 
-My research focuses on understanding how climate change affects the cryosphere and water resources, particularly in glacierized basins. I combine physics-based models with machine learning approaches to address questions around glacier evolution, hydrological change, and water security.
+Growing up in Chile, I've always been drawn to mountains and water. That fascination led me to study how climate change is reshaping the glaciers and rivers of Patagonia — and increasingly, mountain regions around the world. I combine physics-based models with machine learning to tackle questions about glacier evolution, water security, and what a warmer future means for the people and ecosystems that depend on mountain water.
 
 ## Background
 
-I completed my **PhD in Environmental Sciences** at the Universidad de Concepción (Chile) in 2023, where I assessed the impacts of climate change on spatio-temporal patterns of freshwater sources to the coastal system of Western Patagonia. During my PhD, I spent a seven-month research stay at the **University of Innsbruck** working with Fabien Maussion on regional glacier modelling.
+I did my **PhD in Environmental Sciences** at the Universidad de Concepción (Chile, 2023), where I studied how climate change alters the freshwater flowing into the coastal fjords of Western Patagonia. During my PhD, I spent seven months at the **University of Innsbruck** working with Fabien Maussion on regional glacier modelling — a collaboration that sparked my love for glacier model development.
 
-I hold a **Master's in Civil Engineering** (Water Resources) and a **Bachelor's in Civil Engineering** (Hydraulic-Environmental mention), both from the Universidad de Concepción.
+Before that, I earned a **Master's in Civil Engineering** (Water Resources) and a **Bachelor's in Civil Engineering** (Hydraulic-Environmental), both from the Universidad de Concepción.
 
-## Current Research
+## What I'm working on
 
-My current work includes:
-
-- **ICE-BUFFER**: Global glacier buffering of streamflow droughts in a changing climate using deep learning (FWO-funded postdoctoral fellowship)
-- Hybrid glacio-hydrological modelling in Patagonia and other mountain regions
+- **ICE-BUFFER** — My FWO-funded postdoctoral project: using deep learning to understand how glaciers buffer streamflow droughts globally as the climate changes
+- **Hybrid glacio-hydrological modelling** — Bridging glacier and hydrological models to improve water projections in Patagonia and other mountain regions
 
 </div>
