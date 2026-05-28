@@ -34,8 +34,6 @@ format:
 
 <div class="page">
 
-# Curriculum Vitae
-
 <a href="cv.pdf" class="download-btn">⬇ Download PDF</a>
 
 ```{=html}

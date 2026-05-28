@@ -66,5 +66,6 @@ format:
 
     include-after-body:
       - assets/theme-toggle.js
+      - assets/animations.js
 
 

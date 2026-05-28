@@ -8,7 +8,9 @@ title: "Rodrigo Aguayo"
 
 <div class="page">
 
+<div class="site-heading">
 {{< include _includes/site-heading.md >}}
+</div>
 
 Postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo), part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group. My research lies at the intersection of large-scale hydrology, glaciology, climate change, and deep learning for Earth systems.
 

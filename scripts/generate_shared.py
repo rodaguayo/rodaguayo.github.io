@@ -14,7 +14,7 @@ with open(DATA_FILE) as f:
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # === site-heading.md ===
-heading = f"# {site['name']}\n\n**{site['tagline']}**\n"
+heading = f"**{site['tagline']}**\n"
 with open(os.path.join(OUTPUT_DIR, "site-heading.md"), "w") as f:
     f.write(heading)
 print("Generated _includes/site-heading.md")
