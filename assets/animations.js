@@ -54,8 +54,44 @@
      Scroll Reveal (Intersection Observer)
      ============================ */
   function initScrollReveal() {
-    var observerOptions = { threshold: 0.12, rootMargin: '0px 0px -40px 0px' };
+    // 1. Add reveal classes first
+    var containers = document.querySelectorAll('#quarto-document-content .page');
+    containers.forEach(function(page) {
+      page.querySelectorAll('.themes-grid .card').forEach(function(card) {
+        card.classList.add('reveal');
+      });
+      page.querySelectorAll('.pub-entry').forEach(function(entry) {
+        entry.classList.add('reveal');
+      });
+      page.querySelectorAll('.cv-section').forEach(function(section) {
+        section.classList.add('reveal');
+      });
+      page.querySelectorAll('h2, h3').forEach(function(heading) {
+        if (!heading.closest('.card') && !heading.closest('.cv-section')) {
+          heading.classList.add('reveal');
+        }
+      });
+      page.querySelectorAll(':scope > .card').forEach(function(card) {
+        card.classList.add('reveal-left');
+      });
+      page.querySelectorAll('.social-links').forEach(function(links) {
+        links.classList.add('reveal');
+      });
+      page.querySelectorAll('hr').forEach(function(hr) {
+        hr.classList.add('reveal');
+      });
+    });
 
+    // 2. Mark already-visible elements as visible immediately (above fold)
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-stagger').forEach(function(el) {
+      var rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('visible');
+      }
+    });
+
+    // 3. Then create observer for the rest (below fold)
+    var observerOptions = { threshold: 0.1, rootMargin: '0px 0px -30px 0px' };
     var observer = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
@@ -65,49 +101,8 @@
       });
     }, observerOptions);
 
-    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-stagger').forEach(function(el) {
+    document.querySelectorAll('.reveal:not(.visible), .reveal-left:not(.visible), .reveal-right:not(.visible), .reveal-stagger:not(.visible)').forEach(function(el) {
       observer.observe(el);
-    });
-
-    // Auto-wrap: add reveal classes to key page elements that don't have them
-    var containers = document.querySelectorAll('#quarto-document-content .page');
-    containers.forEach(function(page) {
-      // Cards in themes grid
-      page.querySelectorAll('.themes-grid .card').forEach(function(card) {
-        card.classList.add('reveal');
-      });
-
-      // Pub entries
-      page.querySelectorAll('.pub-entry').forEach(function(entry) {
-        entry.classList.add('reveal');
-      });
-
-      // CV sections
-      page.querySelectorAll('.cv-section').forEach(function(section) {
-        section.classList.add('reveal');
-      });
-
-      // Headings (h2, h3 under .page)
-      page.querySelectorAll('h2, h3').forEach(function(heading) {
-        if (!heading.closest('.card') && !heading.closest('.cv-section')) {
-          heading.classList.add('reveal');
-        }
-      });
-
-      // Contact cards
-      page.querySelectorAll(':scope > .card').forEach(function(card) {
-        card.classList.add('reveal-left');
-      });
-
-      // Social links container
-      page.querySelectorAll('.social-links').forEach(function(links) {
-        links.classList.add('reveal');
-      });
-
-      // Horizontal rules
-      page.querySelectorAll('hr').forEach(function(hr) {
-        hr.classList.add('reveal');
-      });
     });
   }
 
