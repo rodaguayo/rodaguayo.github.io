@@ -229,7 +229,7 @@ hr {
 }
 
 .navbar .nav-link {
-  color: var(--text-secondary) !important;
+  color: var(--text-primary) !important;
   font-size: 0.85rem !important;
   font-weight: 500 !important;
   padding: 0.4rem 0.6rem !important;
@@ -266,13 +266,7 @@ hr {
 }
 
 .navbar .navbar-brand {
-  font-weight: 700;
-  color: var(--text-primary) !important;
-  font-size: 1rem !important;
-  background: var(--gradient-accent);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: none;
 }
 
 .navbar .navbar-toggler {
@@ -869,6 +863,43 @@ tr:last-child td {
     -webkit-text-fill-color: inherit;
     background: none;
   }
+}
+
+/* ============================
+   Publication Grid Cards
+   ============================ */
+.pub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.pub-grid > li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  transition: all 250ms ease;
+}
+
+.pub-grid > li:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg), 0 0 24px var(--accent-glow);
+}
+
+.pub-grid .pub-links {
+  margin-top: 0.6rem;
+}
+
+/* Prevent the -- marker from showing */
+.pub-grid > li::marker,
+.pub-grid > li::-webkit-details-marker {
+  display: none;
+  content: '';
 }
 
 /* ============================
