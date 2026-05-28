@@ -228,9 +228,15 @@ hr {
   box-shadow: var(--shadow);
 }
 
+[data-bs-theme="light"] .navbar .nav-link {
+  color: #0f172a !important;
+}
+[data-bs-theme="dark"] .navbar .nav-link {
+  color: #e2e8f0 !important;
+}
+
 .navbar .nav-link {
-  color: var(--text-primary) !important;
-  font-size: 0.85rem !important;
+  font-size: 0.9rem !important;
   font-weight: 500 !important;
   padding: 0.4rem 0.6rem !important;
   border-radius: var(--radius);
@@ -265,8 +271,29 @@ hr {
   transform: translateX(-50%) scaleX(1);
 }
 
-.navbar .navbar-brand {
-  display: none;
+.navbar .navbar-brand,
+.navbar .navbar-brand-container {
+  display: none !important;
+}
+
+.navbar .navbar-container.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#quarto-search {
+  margin-left: auto !important;
+  order: 1 !important;
+}
+
+.navbar .navbar-collapse {
+  flex: 1 !important;
+}
+
+.navbar .navbar-nav.me-auto {
+  margin-right: 0 !important;
+  flex: 1 !important;
+  justify-content: space-evenly !important;
 }
 
 .navbar .navbar-toggler {
@@ -281,6 +308,11 @@ hr {
 .navbar .navbar-container {
   max-width: var(--max-width) !important;
   margin: 0 auto !important;
+}
+
+.navbar .navbar-nav {
+  align-items: center;
+  gap: 0;
 }
 
 #theme-toggle {
@@ -476,6 +508,7 @@ hr {
   border-radius: var(--radius-lg);
   padding: 1.5rem;
   margin-bottom: 0;
+  font-size: 0.9rem;
   box-shadow: var(--shadow);
   transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1),
               border-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -505,6 +538,16 @@ hr {
 .card:hover {
   border-color: var(--accent);
   box-shadow: var(--shadow-lg), 0 0 30px var(--accent-glow);
+}
+
+.card-icon {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.card-icon svg {
+  width: 42px;
+  height: 42px;
 }
 
 .card h3 {
@@ -697,6 +740,11 @@ hr {
   margin: 1.5rem 0;
 }
 
+.social-links p {
+  display: contents;
+  margin: 0;
+}
+
 .social-link {
   display: inline-flex;
   align-items: center;
@@ -834,6 +882,13 @@ tr:last-child td {
   }
 }
 
+/* ============================
+   Headroom Override — never hide navbar
+   ============================ */
+#quarto-header.headroom--unpinned {
+  transform: none !important;
+}
+
 @media (max-width: 768px) {
   .page {
     padding: 1.5rem 1rem 4rem;
@@ -872,21 +927,28 @@ tr:last-child td {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 1.25rem;
-  list-style: none;
-  padding: 0;
   margin-bottom: 2rem;
 }
 
-.pub-grid > li {
+.pub-grid ul {
+  display: contents;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-grid li {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
+  font-size: 0.9rem;
   box-shadow: var(--shadow);
   transition: all 250ms ease;
+  list-style: none;
 }
 
-.pub-grid > li:hover {
+.pub-grid li:hover {
   border-color: var(--accent);
   box-shadow: var(--shadow-lg), 0 0 24px var(--accent-glow);
 }
@@ -895,11 +957,44 @@ tr:last-child td {
   margin-top: 0.6rem;
 }
 
-/* Prevent the -- marker from showing */
-.pub-grid > li::marker,
-.pub-grid > li::-webkit-details-marker {
-  display: none;
-  content: '';
+/* ============================
+   Tag Filter Bar
+   ============================ */
+.tag-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.tag-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  color: var(--text-secondary);
+  background: var(--surface);
+  cursor: pointer;
+  transition: all 200ms ease;
+  line-height: 1.4;
+}
+
+.tag-filter:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-light);
+}
+
+.tag-filter.active {
+  border-color: var(--accent);
+  color: #ffffff;
+  background: var(--accent);
 }
 
 /* ============================

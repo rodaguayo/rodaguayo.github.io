@@ -5,6 +5,9 @@ format:
     toc: true
     toc-depth: 2
     toc-location: right
+    include-after-body:
+      - text: |
+          <script src="assets/filters.js"></script>
 ---
 
 <div class="page">

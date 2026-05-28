@@ -23,6 +23,6 @@ title: "Contact"
 
 ## Online
 
-{{< include _includes/social-links.md >}}
+{{< include _includes/social-links.html >}}
 
 </div>
