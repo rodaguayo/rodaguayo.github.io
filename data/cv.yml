@@ -205,28 +205,6 @@ service:
     institution: Universidad de Chile
     year: 2025
 
-skills:
-  - category: Programming
-    items: [Python, R, Julia, Bash, shell scripting]
-
-  - category: Glacier Modelling
-    items: [OGGM, PyGEM, PISM, glacier dynamics]
-
-  - category: Hydrological Modelling
-    items: [HBV, TETIS, WRF-Hydro, hydrological signatures]
-
-  - category: Deep Learning
-    items: [PyTorch, TensorFlow, LSTM, neural hydrology]
-
-  - category: Geospatial
-    items: [GIS, remote sensing, Google Earth Engine, QGIS]
-
-  - category: Tools
-    items: [Quarto, Git, LaTeX, Docker, HPC, Linux]
-
-  - category: Languages
-    items: [Spanish (native), English (fluent)]
-
 fieldwork:
   - location: Puelo River basin, Chile
     period: 2018-2021
