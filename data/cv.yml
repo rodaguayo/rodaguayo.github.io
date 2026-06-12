@@ -307,7 +307,7 @@ talks:
     event: Glaciology Seminars organized by the Center for Scientific Studies
     country: Online
     year: 2021
-      invited: true
+    invited: true
 
   - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
     event: XXIV Chilean Congress of Hydraulic Engineering

@@ -87,8 +87,8 @@ for inst, courses in by_inst.items():
 # === Talks & Presentations ===
 out.append("## Talks & Presentations")
 out.append("")
-invited = [t for t in cv.get("talks", []) if t.get("type") == "invited"]
-conference = [t for t in cv.get("talks", []) if t.get("type") != "invited"]
+invited = [t for t in cv.get("talks", []) if t.get("invited")]
+conference = [t for t in cv.get("talks", []) if not t.get("invited")]
 if invited:
     out.append("### Invited Talks")
     out.append("")
@@ -111,14 +111,28 @@ for d in cv.get("datasets", []):
     out.append(f"- **{d['name']}** ({d['year']}) \u2014 {d['description']}. DOI: [{d['doi']}](https://doi.org/{d['doi']})")
 out.append("")
 
-# === Service ===
-out.append("## Service")
+# === Projects & Collaborations ===
+out.append("## Projects & Collaborations")
 out.append("")
-for sv in cv.get("service", []):
-    if sv.get("venue"):
-        out.append(f"- **{sv['role']}** \u2014 *{sv['venue']}* ({sv['year']})")
-    elif sv.get("project"):
-        out.append(f"- **{sv['role']}** \u2014 {sv['project']}, {sv['institution']} ({sv['year']})")
+proj_collab = cv.get("projects collaborations", [])
+for item in proj_collab:
+    if "folder" in item:
+        out.append(f"### {item['folder']}")
+        out.append("")
+        for entry in item.get("entries", []):
+            pi = f" (PI: {entry['pi']})" if entry.get("pi") else ""
+            sup = f" (Supervisor: {entry['supervisor']})" if entry.get("supervisor") else ""
+            org = f", {entry['organization']}" if entry.get("organization") else ""
+            year = f" ({entry['year']})" if entry.get("year") else ""
+            inst = f", {entry['institution']}" if entry.get("institution") else ""
+            out.append(f"- **{entry['title']}**{year} \u2014 {entry['role']}{pi}{sup}{inst}{org}")
+        out.append("")
+    elif "peer review" in item:
+        out.append("### Peer Review")
+        out.append("")
+        for j in item["peer review"].get("journals", []):
+            out.append(f"- *{j}*")
+        out.append("")
 out.append("")
 
 # === Outreach & Media ===
@@ -130,14 +144,6 @@ for o in cv.get("outreach", []):
     if url:
         title = f"[{title}]({url})"
     out.append(f"- **{o['year']}**: {title} \u2014 *{o['publisher']}*")
-out.append("")
-
-# === Skills ===
-out.append("## Skills")
-out.append("")
-for sk in cv.get("skills", []):
-    items = ", ".join(sk["items"])
-    out.append(f"- **{sk['category']}**: {items}")
 out.append("")
 
 # === Fieldwork ===
@@ -160,8 +166,8 @@ talks_out.append("")
 talks_out.append("---")
 talks_out.append("")
 
-invited = [t for t in cv.get("talks", []) if t.get("type") == "invited"]
-conference = [t for t in cv.get("talks", []) if t.get("type") == "conference"]
+invited = [t for t in cv.get("talks", []) if t.get("invited")]
+conference = [t for t in cv.get("talks", []) if not t.get("invited")]
 
 if invited:
     talks_out.append("## Invited Talks")
