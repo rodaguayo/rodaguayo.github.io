@@ -56,34 +56,48 @@ grants:
     end: 2028
     description: ICE-BUFFER project
 
+  - title: ANID Doctoral Writing Extension Fellowship
+    year: 2023
+
   - title: ANID National Doctoral Fellowship
     start: 2019
     end: 2023
 
-  - title: ANID Operational Expenses Grant
-    start: 2021
-    end: 2022
-
   - title: ANID International Research Stay Fellowship
     year: 2022
 
-  - title: ANID Doctoral Writing Extension Fellowship
-    year: 2023
+  - title: ANID Operational Expenses Grant
+    start: 2021
+    end: 2022
 
 awards:
   - title: Outstanding Reviewer Award
     year: 2025
     organization: The Cryosphere (EGU)
 
-  - title: Professor Edgar Pino Barrueto Prize
-    year: 2017
-    description: Best thesis of the Civil Engineering promotion
-
   - title: Top 100 in Earth Science
     year: 2021
     description: Scientific Reports collection
 
+  - title: Professor Edgar Pino Barrueto Prize
+    year: 2017
+    description: Best thesis of the Civil Engineering promotion
+
 supervision:
+  - student: Francesco Calista
+    role: MSc
+    institution: Vrije Universiteit Brussel
+    period: 2025-2026
+    project: Implications of glacier melt in High Mountain Asia for future water security
+    cosupervisor: Harry Zekollari and Magali Ponds
+
+  - student: Fernanda Espinoza
+    role: MSc
+    institution: Universidad de Chile
+    period: 2025-2026
+    project: Flood forecasting using deep learning in south-central Chile
+    cosupervisor: Pablo Mendoza
+
   - student: Magali Ponds
     role: PhD
     institution: Vrije Universiteit Brussel
@@ -104,20 +118,6 @@ supervision:
     period: 2024-2025
     project: The time of emergence of glacier runoff in Patagonia
     cosupervisor: Harry Zekollari
-
-  - student: Francesco Calista
-    role: MSc
-    institution: Vrije Universiteit Brussel
-    period: 2025-2026
-    project: Implications of glacier melt in High Mountain Asia for future water security
-    cosupervisor: Harry Zekollari and Magali Ponds
-
-  - student: Fernanda Espinoza
-    role: MSc
-    institution: Universidad de Chile
-    period: 2025-2026
-    project: Flood forecasting using deep learning in south-central Chile
-    cosupervisor: Pablo Mendoza
 
   - student: Isadora Leon
     role: MSc
@@ -146,13 +146,13 @@ teaching:
     institution: Universidad de Concepción
     year: 2022
 
-  - course: Advanced Hydrology
-    institution: Universidad de Concepción
-    year: 2019
-
   - course: Distributed Hydrology
     institution: Universidad de Concepción
     year: 2020
+
+  - course: Advanced Hydrology
+    institution: Universidad de Concepción
+    year: 2019
 
   - course: Hydrology
     institution: Universidad de Concepción
@@ -169,6 +169,11 @@ teaching:
     duration: 4 semesters
 
 service:
+  - role: Scientific Advisor
+    project: Predictive system for precipitation and streamflow in central-southern Chile
+    institution: Universidad de Chile
+    year: 2025
+
   - role: Reviewer
     venue: The Cryosphere
     year: 2025
@@ -186,6 +191,11 @@ service:
     institution: CIEP
     year: 2021
 
+  - role: Scientific Advisor
+    project: Strategic Water Management Plans for Puelo, Yelcho, Aysén, Baker and Pascua Basins
+    institution: GEOSAFE
+    year: 2021
+
   - role: Hydrological Modeler and Climate Analyst
     project: Determination of average monthly flows in continental Chiloé
     institution: IFOP
@@ -196,17 +206,12 @@ service:
     institution: Fundación Chile
     year: 2017
 
-  - role: Scientific Advisor
-    project: Strategic Water Management Plans for Puelo, Yelcho, Aysén, Baker and Pascua Basins
-    institution: GEOSAFE
-    year: 2021
-
-  - role: Scientific Advisor
-    project: Predictive system for precipitation and streamflow in central-southern Chile
-    institution: Universidad de Chile
-    year: 2025
-
 fieldwork:
+  - location: Bordu and Kara-Batkak glaciers, Kyrgyzstan
+    period: 2024
+    description: Glacier monitoring using drones
+    pi: Lander Van Tricht
+
   - location: Puelo River basin, Chile
     period: 2018-2021
     description: Trimestral hydrological campaigns for fjord land use change study
@@ -217,162 +222,140 @@ fieldwork:
     description: Stream surveys in old-growth temperate forests
     pi: Anna Astorga and Brian Reid
 
-  - location: Bordu and Kara-Batkak glaciers, Kyrgyzstan
-    period: 2024
-    description: Glacier monitoring using drones
-    pi: Lander Van Tricht
-
 talks:
   - title: Glacio-hydrological modelling in Patagonia
     event: EGU General Assembly
     year: 2026
     location: Vienna, Austria
-    type: invited
     convener: true
 
   - title: Reimagining how Andean glaciers buffered past streamflow droughts
     event: EGU26
     country: AT
     year: 2026
-    type: conference
 
   - title: What past droughts look like when glaciers shrink
     event: III Jornadas de Hidrologia
     country: CL
     year: 2026
-    type: conference
 
   - title: What past droughts look like when glaciers shrink
     event: Séminaire IGE
     country: FR
     year: 2026
-    type: invited
+    invited: true
 
   - title: Reimagining how Andean glaciers buffered past streamflow droughts
     event: UCH seminars
     country: CL
     year: 2026
-    type: invited
 
   - title: Reimaginando cómo los glaciares Andinos amortiguaron las pasadas sequías hidrológicas
     event: Simposio Agua, ciencia y sostenibilidad desde los Andes
     country: Online
     year: 2026
-    type: invited
+    invited: true
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
     event: BE-POLAR conference
     country: BE
     year: 2025
-    type: conference
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
-    event: International Mountain Conference
+    event: International Mountain Conference (IMC)
     country: AT
     year: 2025
-    type: conference
+    convener: true
 
   - title: "Revisiting glacier buffering of past streamflow droughts with OGGM: Pitfalls and Pathways Forward"
     event: 9th OGGM workshop
     country: BE
     year: 2025
-    type: conference
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate (ICE-BUFFER)"
     event: GlacierMIP workshop
     country: NO
     year: 2025
-    type: conference
 
   - title: "From ice to streams: Climate change impacts on glacier runoff dynamics in the Andes"
     event: Glaciological seminars at ETH
     country: CH
     year: 2025
-    type: invited
+    invited: true
 
   - title: Divergent spatial runoff trends in Western Patagonia projected by hybrid glacio-hydrological modelling
     event: EGU25
     country: AT
     year: 2025
-    type: conference
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
     event: Taller TROPIPOLAR-GLASCLIM
     country: Online
     year: 2025
-    type: invited
+    invited: true
 
   - title: Unravelling the sources of uncertainty in glacier runoff in the Patagonian Andes
     event: EGU24
     country: AT
     year: 2024
-    type: conference
 
   - title: Divergent glacio-hydrological spatial patterns in Western Patagonia projected by hybrid deep Learning
     event: 8th OGGM workshop
     country: CH
     year: 2024
-    type: conference
 
   - title: On the importance of modelling glaciers for runoff projections
     event: Summerschool at the Tien Shan International Science Centre
     country: KG
     year: 2024
-    type: invited
+    invited: true
 
   - title: Assessing the glacier projection uncertainties in the Patagonian Andes
     event: V Congress of the Chilean Cryosphere Society
     country: CL
     year: 2023
-    type: conference
 
   - title: Modeling the freshwater inputs to the coastal system of Western Patagonia
     event: 6th OGGM workshop
     country: NO
     year: 2022
-    type: conference
 
   - title: Climate datasets are the main source of uncertainty of glacier evolution
     event: Student for Student Summerschool
     country: AT
     year: 2022
-    type: invited
 
   - title: "PatagoniaMet v1.0: Una base de datos hidro-meteorológica para la Patagonia Occidental"
     event: Seminar for the strategic planning of water resources in Aysén
     country: CL
     year: 2022
-    type: invited
+    invited: true
 
   - title: "PatagoniaMet: A quality check observational dataset for Western Patagonia"
     event: III Congress of the Chilean Cryosphere Society
     country: Online
     year: 2021
-    type: conference
 
   - title: "PatagoniaMet: Generation and evaluation of precipitation and air temperature gridded datasets"
     event: Scientific Meeting of The Argentine Association Of Geophysicists and Geodesists
     country: Online
     year: 2021
-    type: conference
 
   - title: A multi-institutional effort for an open hydrometeorological dataset in Western Patagonia
     event: Glaciology Seminars organized by the Center for Scientific Studies
     country: Online
     year: 2021
-    type: invited
+    invited: true
 
   - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
     event: XXIV Chilean Congress of Hydraulic Engineering
     country: CL
     year: 2019
-    type: conference
 
   - title: "Hydrological modeling of the trans-Andean basin of the Puelo River: Application of Remote Sensors"
     event: XXVIII Latin American Hydraulics Congress
     country: ARG
     year: 2018
-    type: conference
 
 datasets:
   - name: PatagoniaMet
