@@ -8,7 +8,7 @@ ROOT = os.path.dirname(HERE)
 DATA_FILE = os.path.join(ROOT, "data", "cv.yml")
 OUTPUT_DIR = os.path.join(ROOT, "_includes")
 
-with open(DATA_FILE) as f:
+with open(DATA_FILE, encoding="utf-8") as f:
     cv = yaml.safe_load(f)
 
 out = []
@@ -27,6 +27,14 @@ out.append("## Education")
 out.append("")
 for e in cv.get("education", []):
     out.append(f"- **{e['start']}\u2013{e['end']}**: {e['degree']}, {e['institution']}, {e.get('location', '')}. {e['description']}")
+out.append("")
+
+# === Mobility ===
+out.append("## Mobility")
+out.append("")
+for m in cv.get("mobility", []):
+    dur = f" ({m['duration']})" if m.get("duration") else ""
+    out.append(f"- **{m['year']}**: {m['role']}, {m['institution']}, {m.get('location', '')}{dur}. {m['description']}")
 out.append("")
 
 # === Grants & Funding ===
