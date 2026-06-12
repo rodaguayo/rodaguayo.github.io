@@ -4,9 +4,9 @@ title: "About"
 
 <div class="page">
 
-I'm a postdoc at the [Vrije Universiteit Brussel](https://www.vub.be) (VUB) in Belgium, part of the [HYDR](https://hydr.vub.be) research group and the [bglacier](https://hydr.vub.be/research-groups/bglacier) glaciology group, working with Prof. Harry Zekollari.
+ Hi! 👋 I am currently postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo) in Belgium🇧🇪, part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group 🧊. My current research interests lie at the interface of (large-scale) hydrology 💧 and glaciology ❄️ and climate change 🌍
 
-Growing up in Chile, I've always been drawn to mountains and water. That fascination led me to study how climate change is reshaping the glaciers and rivers of Patagonia — and increasingly, mountain regions around the world. I combine physics-based models with machine learning to tackle questions about glacier evolution, water security, and what a warmer future means for the people and ecosystems that depend on mountain water.
+Growing up in Chile, I've always been drawn to mountains and water. That fascination led me to study how climate change is reshaping the glaciers and rivers of Patagonia — and increasingly, mountain regions around the world. I combine process-based models with machine learning to tackle questions about glacier evolution, water security, and what a warmer future means for the people and ecosystems that depend on mountain water.
 
 ## Background
 

@@ -14,6 +14,13 @@ positions:
     description: "ICE-BUFFER project: Global glacier buffering of streamflow droughts in a changing climate using deep learning. FWO Postdoctoral Junior Fellowship. Supervised by Harry Zekollari."
 
 education:
+  - degree: Research Stay — Glacio-hydrological Modelling
+    institution: Université Grenoble Alpes
+    location: Grenoble, France
+    start: 2026
+    end: 2026
+    description: "Two-month research stay working with Jordi Bolibar at the Institut des Géosciences de l'Environnement (IGE)."
+
   - degree: PhD in Environmental Sciences
     institution: Universidad de Concepción
     location: Concepción, Chile
@@ -373,7 +380,7 @@ outreach:
     url: https://www.diarioconcepcion.cl/ciencia-y-sociedad/2024/03/23/ciencia-local-crea-pionera-base-de-datos-de-la-patagonia.html
     year: 2024
 
-  - title: "Académico UCSC participó en PatagoniaMet"
+  - title: "Académico UCSC participó en PatagoniaMet, primera base de datos hidrometeorológica de la Patagonia"
     publisher: UCSC
     url: https://ucsc.cl/medios-ucsc/noticias/academico-ucsc-participo-en-patagoniamet-primera-base-de-datos-hidrometeorologica/
     year: 2024
@@ -393,7 +400,22 @@ outreach:
     url: https://www.nationalgeographic.com/environment/article/glacier-ice-melting-climate-change-sea-level-rise
     year: 2024
 
+  - title: "Glaciares reservas de agua que son indicador crítico del cambio climático"
+    publisher: Diario Concepción
+    url: https://www.diarioconcepcion.cl/ciencia-y-sociedad/2024/12/12/glaciares-reservas-de-agua-que-son-indicador-critico-del-cambio-climatico.html
+    year: 2024
+
   - title: "Proyectan futuros hídricos opuestos al norte y sur de la vital Patagonia"
     publisher: Diario Concepción
     url: https://www.diarioconcepcion.cl/ciencia-y-sociedad/2025/11/29/con-base-en-estudios-udec-proyectan-futuros-hidricos-opuestos-al-norte-y-sur-de-la-vital-patagonia.html
     year: 2025
+
+  - title: "El calentamiento global podría provocar la pérdida de casi todos los glaciares de los Andes"
+    publisher: El Mercurio
+    url: https://digital.elmercurio.com/2025/12/15/A
+    year: 2025
+
+  - title: "UNESCO sites offer a lifeline to biodiversity, new report shows"
+    publisher: The Guardian
+    url: https://www.theguardian.com/world/2026/apr/21/wildlife-humans-thriving-unesco-protected-sites
+    year: 2026
