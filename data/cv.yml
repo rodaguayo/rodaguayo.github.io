@@ -13,27 +13,28 @@ positions:
     end: present
     description: "ICE-BUFFER project: Global glacier buffering of streamflow droughts in a changing climate using deep learning. FWO Postdoctoral Junior Fellowship. Supervised by Harry Zekollari."
 
-education:
-  - degree: Research Stay — Glacio-hydrological Modelling
+mobility:
+  - role: Research Stay — Glacio-hydrological Modelling
     institution: Université Grenoble Alpes
     location: Grenoble, France
-    start: 2026
-    end: 2026
-    description: "Two-month research stay working with Jordi Bolibar at the Institut des Géosciences de l'Environnement (IGE)."
+    year: 2026
+    duration: 2 months
+    description: "Working with Jordi Bolibar at the Institut des Géosciences de l'Environnement (IGE)."
 
+  - role: Research Stay — Regional Glacier Modelling
+    institution: University of Innsbruck
+    location: Innsbruck, Austria
+    year: 2022
+    duration: 7 months
+    description: "Working with Fabien Maussion at the Department of Ice & Climate."
+
+education:
   - degree: PhD in Environmental Sciences
     institution: Universidad de Concepción
     location: Concepción, Chile
     start: 2019
     end: 2023
     description: "Thesis: Assessment of the impacts of climate change on the spatio-temporal patterns of freshwater sources to the coastal system of Western Patagonia. Supervised by Mauricio Aguayo and Jorge León."
-
-  - degree: Research Stay — Regional Glacier Modelling
-    institution: University of Innsbruck
-    location: Innsbruck, Austria
-    start: 2022
-    end: 2022
-    description: "Seven-month research stay working with Fabien Maussion at the Department of Ice & Climate."
 
   - degree: MSc in Civil Engineering (Water Resources)
     institution: Universidad de Concepción
