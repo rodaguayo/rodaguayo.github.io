@@ -87,21 +87,17 @@ for inst, courses in by_inst.items():
 # === Talks & Presentations ===
 out.append("## Talks & Presentations")
 out.append("")
-invited = [t for t in cv.get("talks", []) if t.get("invited")]
-conference = [t for t in cv.get("talks", []) if not t.get("invited")]
-if invited:
-    out.append("### Invited Talks")
+by_year = {}
+for t in cv.get("talks", []):
+    by_year.setdefault(t["year"], []).append(t)
+for year in sorted(by_year.keys(), reverse=True):
+    out.append(f"### {year}")
     out.append("")
-    for t in invited:
-        loc = f", {t['location']}" if t.get("location") else ""
-        out.append(f"- **{t['event']}** ({t['year']}{loc}) \u2014 {t['title']}")
-    out.append("")
-if conference:
-    out.append("### Conference Presentations")
-    out.append("")
-    for t in conference:
-        loc = f", {t['location']}" if t.get("location") else ""
-        out.append(f"- **{t['event']}** ({t['year']}{loc}) \u2014 {t['title']}")
+    for t in sorted(by_year[year], key=lambda x: not x.get("invited", False)):
+        loc_val = t.get("location") or t.get("country") or ""
+        loc = f", {loc_val}" if loc_val else ""
+        invited_tag = "⭐ " if t.get("invited") else ""
+        out.append(f"- {invited_tag}**{t['event']}** ({t['year']}{loc}) \u2014 {t['title']}")
     out.append("")
 
 # === Datasets ===
@@ -161,30 +157,23 @@ print("Generated _includes/cv-content.md")
 
 # === talks-content.md ===
 talks_out = []
-talks_out.append("*🧑‍💼 indicates conference convener role.*")
+talks_out.append("*⭐ indicates invited talk, 🧑‍💼 indicates conference convener role.*")
 talks_out.append("")
 talks_out.append("---")
 talks_out.append("")
 
-invited = [t for t in cv.get("talks", []) if t.get("invited")]
-conference = [t for t in cv.get("talks", []) if not t.get("invited")]
-
-if invited:
-    talks_out.append("## Invited Talks")
+by_year = {}
+for t in cv.get("talks", []):
+    by_year.setdefault(t["year"], []).append(t)
+for year in sorted(by_year.keys(), reverse=True):
+    talks_out.append(f"## {year}")
     talks_out.append("")
-    for t in invited:
-        convener = " 🧑‍💼" if t.get("convener") else ""
-        loc = f" — {t['location']}" if t.get("location") else ""
-        talks_out.append(f"- **{t['event']}**{loc} ({t['year']}){convener}: {t['title']}")
-    talks_out.append("")
-
-if conference:
-    talks_out.append("## Conference Presentations")
-    talks_out.append("")
-    for t in conference:
-        convener = " 🧑‍💼" if t.get("convener") else ""
-        loc = f" — {t['location']}" if t.get("location") else ""
-        talks_out.append(f"- **{t['event']}**{loc} ({t['year']}){convener}: {t['title']}")
+    for t in sorted(by_year[year], key=lambda x: not x.get("invited", False)):
+        convener_tag = "🧑‍💼 " if t.get("convener") else ""
+        invited_tag = "⭐ " if t.get("invited") else ""
+        loc_val = t.get("location") or t.get("country") or ""
+        loc = f" — {loc_val}" if loc_val else ""
+        talks_out.append(f"- {invited_tag}{convener_tag}**{t['event']}**{loc} ({t['year']}): {t['title']}")
     talks_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "talks-content.md"), "w", encoding="utf-8") as f:

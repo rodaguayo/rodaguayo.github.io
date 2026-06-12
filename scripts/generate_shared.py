@@ -73,3 +73,9 @@ social_block = '<div class="social-links">\n' + "\n".join(links) + "\n</div>\n"
 with open(os.path.join(OUTPUT_DIR, "social-links.html"), "w", encoding="utf-8") as f:
     f.write(social_block)
 print("Generated _includes/social-links.html")
+
+# === site-group.md ===
+group_block = f'<p><a href="{site["group_url"]}">{site["group"]}</a></p>\n'
+with open(os.path.join(OUTPUT_DIR, "site-group.md"), "w") as f:
+    f.write(group_block)
+print("Generated _includes/site-group.md")

@@ -18,7 +18,7 @@ title: "Contact"
 
 <div class="card">
   <h3>Group</h3>
-  <p><a href="https://hydr.vub.be/research-groups/bglacier">bglacier — Glaciology Research Group</a></p>
+  {{< include _includes/site-group.md >}}
 </div>
 
 ## Online
