@@ -168,44 +168,6 @@ teaching:
     period: 2014-2015
     duration: 4 semesters
 
-service:
-  - role: Scientific Advisor
-    project: Predictive system for precipitation and streamflow in central-southern Chile
-    institution: Universidad de Chile
-    year: 2025
-
-  - role: Reviewer
-    venue: The Cryosphere
-    year: 2025
-
-  - role: Reviewer
-    venue: Journal of Glaciology
-    year: 2025
-
-  - role: Reviewer
-    venue: Hydrology and Earth System Sciences
-    year: 2025
-
-  - role: Project Scientist
-    project: Instrumentation and habilitation of a reference basin for snowpack studies in Aysén
-    institution: CIEP
-    year: 2021
-
-  - role: Scientific Advisor
-    project: Strategic Water Management Plans for Puelo, Yelcho, Aysén, Baker and Pascua Basins
-    institution: GEOSAFE
-    year: 2021
-
-  - role: Hydrological Modeler and Climate Analyst
-    project: Determination of average monthly flows in continental Chiloé
-    institution: IFOP
-    year: 2017
-
-  - role: Project Engineer
-    project: Water Scenarios 2030
-    institution: Fundación Chile
-    year: 2017
-
 fieldwork:
   - location: Bordu and Kara-Batkak glaciers, Kyrgyzstan
     period: 2024
@@ -345,7 +307,7 @@ talks:
     event: Glaciology Seminars organized by the Center for Scientific Studies
     country: Online
     year: 2021
-    invited: true
+      invited: true
 
   - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
     event: XXIV Chilean Congress of Hydraulic Engineering
@@ -500,3 +462,72 @@ outreach:
     publisher: The Guardian
     url: https://www.theguardian.com/world/2026/apr/21/wildlife-humans-thriving-unesco-protected-sites
     year: 2026
+
+projects collaborations:
+  - folder: Research projects
+    entries:
+      - title: Instrumentation and habilitation of a reference basin for studies related to changes in the snowpack in the Aysén region
+        role: Hydrological modeler and climate analyst
+        year: 2021
+        pi: Iñigo Irrazabal
+        institution: CIEP
+      - title: Production of bioenergy for combustion from sustainable forest management
+        role: Geospatial specialist
+        year: 2021
+        pi: Gustavo Saiz
+        institution: UCSC
+      - title: Hydrological signature influence on Chilean Aquaculture under climate change and landscape scenarios
+        role: PhD student
+        year: 2022-2023
+        pi: Jorge Leon
+        institution: UCSC
+      - title: Risk analysis as a tool for the prioritization of secondary environmental quality standards in the main tributary rivers to the fjord system of Northwestern Patagonia
+        role: Project coordinator
+        year: 2022-2023
+        pi: Jorge Leon
+        institution: UCSC
+      - title: Assessing the impacts of wildfires and generate proposals for fire-resilient landscape based on different environmental change scenarios
+        role: Geospatial specialist
+        year: 2024
+        pi: Gustavo Saiz
+        institution: UCSC
+
+  - folder: Applied research
+    entries:
+      - title: Determination of average monthly flows in a hydrographic basin of continental Chiloé
+        role: Hydrological Modeler and Climate Analyst
+        supervisor: Jose Vargas
+        year: 2017
+        organization: Instituto de Fomento Pesquero (IFOP)
+      - title: Water Scenarios 2030
+        role: Project Engineer
+        supervisor: Jose Vargas
+        year: 2017
+        organization: Fundación Chile
+      - title: Hydrological Modeling in the Upper Cachapoal River Basin
+        role: Hydrological Modeler
+        supervisor: Aldo Montecinos
+        year: 2019
+        organization: Centro del Agua para la Agricultura
+      - title: Book Rivers of South America
+        role: Data gathering
+        supervisor: Jorge Nimptsch
+        year: 2020
+        organization: Universidad Austral de Chile (UACH)
+      - title: Strategic Water Management Plans for the Puelo, Yelcho, Aysén, Baker and Pascua Basins
+        role: Project Engineer and Scientific Advisor
+        supervisor: David Poblete
+        year: 2021
+        organization: GEOSAFE
+      - title: Development of a predictive system for precipitation and streamflow in the central-southern basins (Chile)
+        role: Scientific Advisor
+        supervisor: Pablo Mendoza
+        year: 2025
+        organization: UCH
+
+  - peer review:
+        journals:
+        - The Cryosphere
+        - Hydrology and Earth System Sciences
+        - Journal of Hydrology
+        - Nature Communications
