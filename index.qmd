@@ -1,48 +1,67 @@
 ---
-title: "Rodrigo Aguayo"
+pagetitle: "Rodrigo Aguayo — Mountain Hydrology"
+description: "Postdoctoral researcher working at the interface of large-scale hydrology, glaciology and climate change."
+toc: false
 ---
 
 <!--
-  The home page uses customer header/footer includes from _quarto.yml.
+  The home page uses custom header/footer includes from _quarto.yml.
+  The hero replaces the Quarto title block, so this page sets `pagetitle`
+  instead of `title`.
 -->
 
-<div class="page">
+<div class="page home">
 
-<img src="assets/profile.jpg" alt="Rodrigo Aguayo" style="width:240px;height:240px;border-radius:50%;float:right;margin:0 0 1rem 1.5rem;shape-outside:circle();">
+<section class="hero">
+<div class="hero-photo"><img src="assets/profile.jpg" alt="Rodrigo Aguayo"></div>
 
-Hey, I'm **Rodrigo**, a postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo) in Belgium, part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group. My current research interests lie at the interface of (large-scale) hydrology, glaciology and climate change.
+<div class="hero-text">
 
-Growing up in Chile, I've always been drawn to mountains and water. That fascination led me to study how climate change is reshaping the glaciers and rivers of Patagonia — and increasingly, mountain regions around the world. I combine process-based models with machine learning to tackle questions about glacier evolution, water security, and what a warmer future means for the people and ecosystems that depend on mountain water.
+<div class="hero-eyebrow">Scientist · Hydrologist</div>
+
+<h1 class="hero-name">Rodrigo Aguayo</h1>
+
+<div class="hero-affil">Postdoc at [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo) · [bglacier](https://hydr.vub.be/research-groups/bglacier)</div>
+
+<p class="hero-bio">My research lives at the interface of large-scale hydrology, glaciology and climate change — combining process-based models with machine learning to study glacier evolution and water security across Patagonia and beyond.</p>
+
+<div class="hero-social">
 
 {{< include _includes/social-links.html >}}
+
+</div>
+
+</div>
+
+</section>
 
 ---
 
 ## Research Themes
 
 <div class="themes-grid">
-<div class="card">
-  <div class="card-icon"><svg viewBox="0 0 24 24" width="42" height="42" fill="none"><path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z" fill="var(--accent)"/></svg></div>
+<div class="card theme-card" style="--card-h: 200;">
+  <div class="card-icon"><svg viewBox="0 0 24 24" width="27" height="27" fill="none"><path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z" fill="var(--card-hue)"/></svg></div>
   <h3>Glaciology & Glacier Hydrology</h3>
-  <p>Global and regional glacier evolution, glacier runoff projections, ice dynamics, glacier lake-terminating systems, multi-century glacier evolution.</p>
+  <p>Global and regional glacier evolution, runoff projections, ice dynamics and lake-terminating systems.</p>
 </div>
 
-<div class="card">
-  <div class="card-icon"><svg viewBox="0 0 24 24" width="42" height="42" fill="none"><path d="M12 2C10.34 8.34 6 12.43 6 16.43c0 3.31 2.69 6 6 6s6-2.69 6-6c0-4-4.34-8.08-6-14.43z" fill="var(--accent)"/></svg></div>
+<div class="card theme-card" style="--card-h: 225;">
+  <div class="card-icon"><svg viewBox="0 0 24 24" width="27" height="27" fill="none"><path d="M12 2C10.34 8.34 6 12.43 6 16.43c0 3.31 2.69 6 6 6s6-2.69 6-6c0-4-4.34-8.08-6-14.43z" fill="var(--card-hue)"/></svg></div>
   <h3>Large-Scale Hydrology & Climate Impacts</h3>
-  <p>Climate change impacts on water resources, hydrological droughts, freshwater inputs to coastal systems, hybrid glacio-hydrological modelling.</p>
+  <p>Climate impacts on water resources, hydrological droughts, and freshwater inputs to coastal systems.</p>
 </div>
 
-<div class="card">
-  <div class="card-icon"><svg viewBox="0 0 24 24" width="42" height="42" fill="none"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="var(--accent)"/></svg></div>
+<div class="card theme-card" style="--card-h: 175;">
+  <div class="card-icon"><svg viewBox="0 0 24 24" width="27" height="27" fill="none"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="var(--card-hue)"/></svg></div>
   <h3>Deep Learning for Earth Systems</h3>
-  <p>Deep learning applications for glacier buffering of streamflow droughts, AI/ML for hydrological prediction, open-source reproducible workflows.</p>
+  <p>Deep learning for streamflow-drought buffering, AI/ML prediction and reproducible workflows.</p>
 </div>
 
-<div class="card">
-  <div class="card-icon"><svg viewBox="0 0 24 24" width="42" height="42" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="var(--accent)"/></svg></div>
+<div class="card theme-card" style="--card-h: 155;">
+  <div class="card-icon"><svg viewBox="0 0 24 24" width="27" height="27" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="var(--card-hue)"/></svg></div>
   <h3>Open Science & Data</h3>
-  <p>Open hydrometeorological datasets (PatagoniaMet), reproducible research, open-source tools for glacier modelling.</p>
+  <p>Open hydrometeorological datasets (PatagoniaMet), reproducible research and open-source glacier tools.</p>
 </div>
 </div>
 
@@ -52,7 +71,6 @@ Growing up in Chile, I've always been drawn to mountains and water. That fascina
 
 {{< include _includes/featured.md >}}
 
-[View all publications →](publications.qmd)
-
+[View all publications →](publications.qmd){.btn .btn-more}
 
 </div>

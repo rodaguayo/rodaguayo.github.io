@@ -2,34 +2,33 @@
 
 import yaml
 import os
-import urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA_FILE = os.path.join(ROOT, "data", "site.yml")
 OUTPUT_DIR = os.path.join(ROOT, "_includes")
 
-with open(DATA_FILE) as f:
+with open(DATA_FILE, encoding="utf-8") as f:
     site = yaml.safe_load(f)
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # === site-heading.md ===
 heading = f"**{site['tagline']}**\n"
-with open(os.path.join(OUTPUT_DIR, "site-heading.md"), "w") as f:
+with open(os.path.join(OUTPUT_DIR, "site-heading.md"), "w", encoding="utf-8") as f:
     f.write(heading)
 print("Generated _includes/site-heading.md")
 
 # === site-email.md (inline, no wrapper) ===
 email_link = f'<a href="mailto:{site["email"]}">{site["email"]}</a>'
-with open(os.path.join(OUTPUT_DIR, "site-email.md"), "w") as f:
+with open(os.path.join(OUTPUT_DIR, "site-email.md"), "w", encoding="utf-8") as f:
     f.write(email_link + "\n")
 print("Generated _includes/site-email.md")
 
 # === site-address.md ===
 addr = "<br>\n".join(site["address"])
 address_block = f"<p>\n{addr}\n</p>\n"
-with open(os.path.join(OUTPUT_DIR, "site-address.md"), "w") as f:
+with open(os.path.join(OUTPUT_DIR, "site-address.md"), "w", encoding="utf-8") as f:
     f.write(address_block)
 print("Generated _includes/site-address.md")
 
@@ -44,17 +43,13 @@ SVG_PATHS = {
 }
 
 
-def svg_data_uri(path_d):
-    svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="{path_d}"/></svg>'
-    encoded = urllib.parse.quote(svg)
-    return f"data:image/svg+xml,{encoded}"
-
-
 def social_link(href, label, svg_key):
-    src = svg_data_uri(SVG_PATHS[svg_key])
+    # Inline SVG (rather than an <img> data URI) so the icon inherits the pill's
+    # colour via currentColor and tracks the light/dark theme.
+    path_d = SVG_PATHS[svg_key]
     return (
         f'  <a class="social-link" href="{href}">\n'
-        f'    <img src="{src}" alt="{label}" width="24" height="24">\n'
+        f'    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="{path_d}" fill="currentColor"/></svg>\n'
         f'    {label}\n'
         f'  </a>'
     )
@@ -76,6 +71,6 @@ print("Generated _includes/social-links.html")
 
 # === site-group.md ===
 group_block = f'<p><a href="{site["group_url"]}">{site["group"]}</a></p>\n'
-with open(os.path.join(OUTPUT_DIR, "site-group.md"), "w") as f:
+with open(os.path.join(OUTPUT_DIR, "site-group.md"), "w", encoding="utf-8") as f:
     f.write(group_block)
 print("Generated _includes/site-group.md")
