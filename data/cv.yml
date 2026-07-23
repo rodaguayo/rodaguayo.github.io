@@ -188,28 +188,28 @@ talks:
   - title: Glacio-hydrological modelling in Patagonia
     event: EGU General Assembly
     year: 2026
-    location: Vienna, Austria
+    country: Austria
     convener: true
 
   - title: Reimagining how Andean glaciers buffered past streamflow droughts
-    event: EGU26
-    country: AT
+    event: EGU General Assembly
+    country: Austria
     year: 2026
 
   - title: What past droughts look like when glaciers shrink
     event: III Jornadas de Hidrologia
-    country: CL
+    country: Chile
     year: 2026
 
   - title: What past droughts look like when glaciers shrink
     event: Séminaire IGE
-    country: FR
+    country: France
     year: 2026
     invited: true
 
   - title: Reimagining how Andean glaciers buffered past streamflow droughts
     event: UCH seminars
-    country: CL
+    country: Chile
     year: 2026
 
   - title: Reimaginando cómo los glaciares Andinos amortiguaron las pasadas sequías hidrológicas
@@ -220,34 +220,34 @@ talks:
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
     event: BE-POLAR conference
-    country: BE
+    country: Belgium
     year: 2025
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
     event: International Mountain Conference (IMC)
-    country: AT
+    country: Austria
     year: 2025
     convener: true
 
   - title: "Revisiting glacier buffering of past streamflow droughts with OGGM: Pitfalls and Pathways Forward"
     event: 9th OGGM workshop
-    country: BE
+    country: Belgium
     year: 2025
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate (ICE-BUFFER)"
     event: GlacierMIP workshop
-    country: NO
+    country: Norway
     year: 2025
 
   - title: "From ice to streams: Climate change impacts on glacier runoff dynamics in the Andes"
     event: Glaciological seminars at ETH
-    country: CH
+    country: Switzerland
     year: 2025
     invited: true
 
   - title: Divergent spatial runoff trends in Western Patagonia projected by hybrid glacio-hydrological modelling
-    event: EGU25
-    country: AT
+    event: EGU General Assembly
+    country: Austria
     year: 2025
 
   - title: "Glacier buffering of past streamflow droughts in a changing climate: Insights from the Andes"
@@ -257,39 +257,39 @@ talks:
     invited: true
 
   - title: Unravelling the sources of uncertainty in glacier runoff in the Patagonian Andes
-    event: EGU24
-    country: AT
+    event: EGU General Assembly
+    country: Austria
     year: 2024
 
   - title: Divergent glacio-hydrological spatial patterns in Western Patagonia projected by hybrid deep Learning
     event: 8th OGGM workshop
-    country: CH
+    country: Switzerland
     year: 2024
 
   - title: On the importance of modelling glaciers for runoff projections
     event: Summerschool at the Tien Shan International Science Centre
-    country: KG
+    country: Kyrgyzstan
     year: 2024
     invited: true
 
   - title: Assessing the glacier projection uncertainties in the Patagonian Andes
     event: V Congress of the Chilean Cryosphere Society
-    country: CL
+    country: Chile
     year: 2023
 
   - title: Modeling the freshwater inputs to the coastal system of Western Patagonia
     event: 6th OGGM workshop
-    country: NO
+    country: Norway
     year: 2022
 
   - title: Climate datasets are the main source of uncertainty of glacier evolution
     event: Student for Student Summerschool
-    country: AT
+    country: Austria
     year: 2022
 
   - title: "PatagoniaMet v1.0: Una base de datos hidro-meteorológica para la Patagonia Occidental"
     event: Seminar for the strategic planning of water resources in Aysén
-    country: CL
+    country: Chile
     year: 2022
     invited: true
 
@@ -311,33 +311,37 @@ talks:
 
   - title: "The glass half-empty: Climate Change Impacts on Freshwater Input to the North Patagonia Coastal System"
     event: XXIV Chilean Congress of Hydraulic Engineering
-    country: CL
+    country: Chile
     year: 2019
 
   - title: "Hydrological modeling of the trans-Andean basin of the Puelo River: Application of Remote Sensors"
     event: XXVIII Latin American Hydraulics Congress
-    country: ARG
+    country: Argentina
     year: 2018
 
 datasets:
   - name: PatagoniaMet
     doi: 10.5281/zenodo.7992760
+    code: https://github.com/rodaguayo/PatagoniaMet
     year: 2023
     description: A multi-source hydrometeorological dataset for Western Patagonia (40–56°S). Includes precipitation, temperature, streamflow, and other variables from multiple observational sources.
-    extra: ">3k on Zenodo"
+    extra: ">4k on Zenodo"
 
   - name: RGI v7.1 Lake Termini Classification
     doi: 10.5281/zenodo.15524733
+    code: https://github.com/GLIMS-RGI/lake_terminating
     year: 2025
     description: Global mapping of lake-terminating glaciers — classification of Randolph Glacier Inventory v7.1 glacier termini as lake-terminating or not.
 
   - name: Historical and Future Runoff in Western Patagonia
     doi: 10.5281/zenodo.15076803
+    code: https://github.com/rodaguayo/DeepHydro
     year: 2025
     description: Simulated historical and future runoff projections for Western Patagonia using hybrid glacio-hydrological modelling.
 
   - name: Glacier Runoff Projections in Patagonia
     doi: 10.5281/zenodo.8384882
+    code: https://github.com/rodaguayo/Glacier_Uncertainties
     year: 2024
     description: Ensemble of glacier runoff projections for the Patagonian Andes (40–56°S) under multiple climate scenarios.
 
@@ -348,57 +352,57 @@ datasets:
 
 short_courses:
   - name: "Integrative Assessment of Climate Change: Water Scarcity"
-    provider: CR2
+    provider: "Center for Climate and Resilience Research (CR2)"
     year: 2021
     hours: 60
 
   - name: Distributed Hydrological Modelling using TETIS
-    provider: UDEC
+    provider: "Universidad de Concepción (UDEC)"
     year: 2021
     hours: 24
 
   - name: Glaciology of the Southern Andes
-    provider: IANIGLA
+    provider: "Instituto Argentino de Nivología, Glaciología y Ciencias Ambientales (IANIGLA)"
     year: 2021
     hours: 60
 
   - name: Google Earth Engine for Snow Cover Applications
-    provider: UPLA
+    provider: "Universidad de Playa Ancha (UPLA)"
     year: 2022
     hours: 20
 
   - name: Machine Learning Scientist with Python
-    provider: DATACAMP
+    provider: "DataCamp"
     year: 2023
     hours: 96
 
   - name: Advanced Course on Scientific Article Writing
-    provider: Writewise
+    provider: "Writewise"
     year: 2020
     hours: 18
 
   - name: Promoting Scientific Dissemination and Linkages
-    provider: INCAR
+    provider: "Interdisciplinary Center for Aquaculture Research (INCAR)"
     year: 2020
     hours: 5
 
   - name: Remote Sensing Applied to Hydraulic Engineering
-    provider: UDEC
+    provider: "Universidad de Concepción (UDEC)"
     year: 2017
     hours: 10
 
   - name: Development of Low-Cost Monitoring Sensors for Snow
-    provider: CEAZA
+    provider: "Centro de Estudios Avanzados en Zonas Áridas (CEAZA)"
     year: 2019
     hours: 5
 
   - name: Protecting River Connectivity – Effective Design of Fishways
-    provider: UDEC
+    provider: "Universidad de Concepción (UDEC)"
     year: 2017
     hours: 60
 
   - name: "Water as a Resource: Between Cooperation and Conflict"
-    provider: UDEC
+    provider: "Universidad de Concepción (UDEC)"
     year: 2017
     hours: 45
 
@@ -529,5 +533,5 @@ projects collaborations:
         journals:
         - The Cryosphere
         - Hydrology and Earth System Sciences
-        - Journal of Hydrology
+        - Regional Environmental Change
         - Nature Communications

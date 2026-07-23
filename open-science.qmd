@@ -4,35 +4,12 @@ title: "Open Science"
 
 <div class="page">
 
-I am committed to open, reproducible research. All code, data, and software developed as part of my research is publicly available unless otherwise noted.
+Every project below pairs its **data** with the **code** that produced it.
 
----
-
-## GitHub Repositories
-
-- [**rodaguayo**](https://github.com/rodaguayo/) — Main GitHub profile with research code repositories
-
-## Open Datasets
-
+<div class="themes-grid">
 {{< include _includes/datasets-content.md >}}
+</div>
 
-## Reproducible Workflows
-
-- All glacier modelling workflows are documented and version-controlled
-- Hybrid glacio-hydrological modelling framework used in Western Patagonia studies
-- Deep learning pipeline for glacier buffering analysis (ICE-BUFFER project)
-
-## Software
-
-- Patagonia-specific glacier modelling configurations and calibration workflows
-- Hydrological data processing and quality control pipelines
-
----
-
-## Principles
-
-- All publications include data availability statements with Zenodo DOIs
-- Code repositories linked from publications where applicable
-- Open access publications prioritized
+<a href="https://github.com/rodaguayo/" class="btn">All repositories on GitHub</a>
 
 </div>

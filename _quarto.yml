@@ -26,8 +26,6 @@ website:
         text: Open Science
       - href: blog/index.qmd
         text: Blog
-      - href: contact.qmd
-        text: Contact
     right: []
 
   page-footer:

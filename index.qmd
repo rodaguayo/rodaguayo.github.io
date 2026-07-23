@@ -10,7 +10,7 @@ title: "Rodrigo Aguayo"
 
 <img src="assets/profile.jpg" alt="Rodrigo Aguayo" style="width:240px;height:240px;border-radius:50%;float:right;margin:0 0 1rem 1.5rem;shape-outside:circle();">
 
-Hey, I'm **Rodrigo**! 👋, a postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo) in Belgium🇧🇪, part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group 🧊. My current research interests lie at the interface of (large-scale) hydrology 💧 and glaciology ❄️ and climate change 🌍
+Hey, I'm **Rodrigo**, a postdoctoral researcher at the [Vrije Universiteit Brussel](https://hydr.vub.be/people/rodrigo.aguayo) in Belgium, part of the [bglacier](https://hydr.vub.be/research-groups/bglacier) group. My current research interests lie at the interface of (large-scale) hydrology, glaciology and climate change.
 
 Growing up in Chile, I've always been drawn to mountains and water. That fascination led me to study how climate change is reshaping the glaciers and rivers of Patagonia — and increasingly, mountain regions around the world. I combine process-based models with machine learning to tackle questions about glacier evolution, water security, and what a warmer future means for the people and ecosystems that depend on mountain water.
 

@@ -40,10 +40,12 @@ format:
 <div style="height: 1rem;"></div>
 ```
 
-{{< include _includes/cv-content.md >}}
+{{< include _includes/cv-content-before-pubs.md >}}
 
 ## Publications
 
 {{< include _includes/cv-publications.md >}}
+
+{{< include _includes/cv-content-after-pubs.md >}}
 
 </div>

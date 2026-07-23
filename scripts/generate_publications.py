@@ -59,7 +59,7 @@ def format_authors(authors, for_cv=False):
         return ", ".join(names) + " and " + last
 
 
-def render_entry(pub, icon_index, with_extras=True):
+def render_entry(pub, icon_index, with_extras=True, with_icon=True):
     author_str = format_authors(pub["authors"])
     doi = pub.get("doi", "")
     title = pub["title"]
@@ -69,8 +69,12 @@ def render_entry(pub, icon_index, with_extras=True):
     year = pub["year"]
     journal = pub["journal"]
 
-    icon = CARD_ICONS[icon_index % len(CARD_ICONS)]
-    line = f'- <span class="card-icon">{icon}</span>\n  {author_str} ({year}). {title}. *{journal}*.'
+    entry = f"{author_str} ({year}). {title}. *{journal}*."
+    if with_icon:
+        icon = CARD_ICONS[icon_index % len(CARD_ICONS)]
+        line = f'- <span class="card-icon">{icon}</span>\n  {entry}'
+    else:
+        line = f"- {entry}"
     lines = [line]
 
     if with_extras:
@@ -117,25 +121,18 @@ with open(os.path.join(OUTPUT_DIR, "publications.md"), "w") as f:
 print(f"Generated {OUTPUT_DIR}/publications.md ({len(all_pubs)} total)")
 
 
-# === CV publications page (clean, no HTML, grouped by year) ===
+# === CV publications page (clean, no HTML, flat list newest first) ===
 cv_output = []
 
-by_year = {}
 for pub in published:
-    by_year.setdefault(pub["year"], []).append(pub)
-
-for year in sorted(by_year.keys(), reverse=True):
-    cv_output.append(f"### {year}")
-    cv_output.append("")
-    for pub in by_year[year]:
-        cv_output.append(render_entry(pub, 0, with_extras=False))
-    cv_output.append("")
+    cv_output.append(render_entry(pub, 0, with_extras=False, with_icon=False))
 
 if in_review:
+    cv_output.append("")
     cv_output.append("### In Review")
     cv_output.append("")
     for pub in in_review:
-        cv_output.append(render_entry(pub, 0, with_extras=False))
+        cv_output.append(render_entry(pub, 0, with_extras=False, with_icon=False))
 
 with open(os.path.join(OUTPUT_DIR, "cv-publications.md"), "w") as f:
     f.write("\n".join(cv_output) + "\n")

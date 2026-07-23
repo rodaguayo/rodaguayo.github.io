@@ -15,7 +15,6 @@ Built with [Quarto](https://quarto.org/) and deployed to GitHub Pages via GitHub
 | [Talks](talks.qmd) | Presentations and invited talks |
 | [Open Science](open-science.qmd) | Reproducible research, open-source tools, and datasets |
 | [Blog](blog/index.qmd) | Posts and updates |
-| [Contact](contact.qmd) | Contact information and links |
 
 ## Tech stack
 

@@ -517,6 +517,8 @@ hr {
   overflow: hidden;
   transform-style: preserve-3d;
   perspective: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card::before {
@@ -552,6 +554,25 @@ hr {
 
 .card h3 {
   margin-top: 0;
+}
+
+.card-meta {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+}
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.card-links .btn {
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
 }
 
 /* ============================
