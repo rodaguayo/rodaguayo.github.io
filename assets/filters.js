@@ -1,19 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var pubGrids = document.querySelectorAll('.pub-grid');
-  if (!pubGrids.length) return;
+  var timelines = document.querySelectorAll('.pub-timeline');
+  if (!timelines.length) return;
 
   var allItems = [];
   var tagSet = {};
 
-  pubGrids.forEach(function (grid) {
-    var items = grid.querySelectorAll('li');
+  timelines.forEach(function (timeline) {
+    var items = timeline.querySelectorAll('.pub-tl-item');
     items.forEach(function (item) {
-      var tags = [];
-      item.querySelectorAll('.tag-pill').forEach(function (el) {
-        var t = el.textContent.trim();
-        tags.push(t);
-        tagSet[t] = true;
-      });
+      var tags = (item.dataset.tags || '').split('|').filter(Boolean);
+      tags.forEach(function (t) { tagSet[t] = true; });
       allItems.push({ el: item, tags: tags });
     });
   });
@@ -37,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     filterBar.appendChild(btn);
   });
 
-  pubGrids[0].parentNode.insertBefore(filterBar, pubGrids[0]);
+  timelines[0].parentNode.insertBefore(filterBar, timelines[0]);
 
   function filterPubs(selectedTag) {
     allItems.forEach(function (item) {
