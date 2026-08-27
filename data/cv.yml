@@ -320,6 +320,12 @@ talks:
     year: 2018
 
 datasets:
+  - name: "Hydrological Dataset — Glacier Loss Amplifies Streamflow Droughts and Water Stress in the Andes"
+    doi: 10.5281/zenodo.22026211
+    code: https://doi.org/10.5281/zenodo.22026115
+    year: 2026
+    description: Hydrological dataset and code supporting the study on glacier loss amplifying streamflow droughts and water stress across the Andes.
+
   - name: PatagoniaMet
     doi: 10.5281/zenodo.7992760
     code: https://github.com/rodaguayo/PatagoniaMet

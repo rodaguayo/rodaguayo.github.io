@@ -483,6 +483,28 @@
   featured: false
 
 # In review
+- id: aguayo-2026-natwater
+  title: Glacier loss amplifies streamflow droughts and water stress in the Andes
+  authors:
+    - name: Aguayo, R.
+      highlight: true
+    - name: Zekollari, H.
+      highlight: false
+    - name: Bolibar, J.
+      highlight: false
+    - name: van Tiel, M.
+      highlight: false
+    - name: Ayala, A.
+      highlight: false
+    - name: Van Tricht, L.
+      highlight: false
+    - name: Ultee, L.
+      highlight: false
+  year: 2026
+  journal: "Nature Water (in review)"
+  tags: [glaciers, hydrology, droughts, Andes]
+  featured: false
+
 - id: mendoza-2026-review
   title: "Recent advances and challenges in process-based hydrological modeling over the Andes: A review"
   authors:
