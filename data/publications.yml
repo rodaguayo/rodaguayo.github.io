@@ -151,6 +151,58 @@
   tags: [glaciology, hydrology, Patagonia, modelling]
   featured: true
 
+- id: leon-munoz-2026-habs
+  title: "Melt-driven freshwater inputs as potential drivers of harmful algal blooms: evidence from a diatom bloom in Northwestern Patagonia"
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Reid, B.
+      highlight: false
+    - name: Iriarte, J. L.
+      highlight: false
+    - name: Mardones, J.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Astorga-Roine, A.
+      highlight: false
+    - name: García-Tuñon, W.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+    - name: Garreaud, R.
+      highlight: false
+  year: 2026
+  journal: Scientific Reports
+  doi: 10.1038/s41598-026-58131-8
+  tags: [Patagonia, algal blooms, freshwater]
+  featured: false
+
+- id: fox-2026-jgr
+  title: Riverine Biogeochemical Exports From Major Watersheds to the Northwest Patagonian Estuarine Network
+  authors:
+    - name: Fox, S.
+      highlight: false
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Reid, B.
+      highlight: false
+    - name: Astorga-Roine, A.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Moreno-Meynard, P.
+      highlight: false
+    - name: Blanchet, L.
+      highlight: false
+    - name: Butman, D. E.
+      highlight: false
+  year: 2026
+  journal: "Journal of Geophysical Research: Biogeosciences"
+  doi: 10.1029/2025JG009482
+  tags: [biogeochemistry, Patagonia, rivers]
+  featured: false
+
 - id: farias-barahona-2025-jog
   title: "QFuego-Patagonia: a comprehensive dataset and review of Southern South America's glaciers"
   authors:
@@ -493,56 +545,6 @@
   year: 2026
   journal: "Nature Climate Change (in review)"
   tags: [irrigation, glaciers]
-  featured: false
-
-- id: leon-munoz-2026-habs
-  title: Melt-driven freshwater inputs as potential drivers of harmful algal blooms in northwestern Patagonia
-  authors:
-    - name: León-Muñoz, J.
-      highlight: false
-    - name: Reid, B.
-      highlight: false
-    - name: Iriarte, J. L.
-      highlight: false
-    - name: Mardones, J.
-      highlight: false
-    - name: Aguayo, R.
-      highlight: true
-    - name: Astorga-Roine, A.
-      highlight: false
-    - name: García-Tuñon, W.
-      highlight: false
-    - name: Soto, D.
-      highlight: false
-    - name: Garreaud, R.
-      highlight: false
-  year: 2026
-  journal: "Scientific Reports (in review)"
-  tags: [Patagonia, algal blooms, freshwater]
-  featured: false
-
-- id: fox-2025-jgr
-  title: Riverine Biogeochemical Exports from Major Watersheds to the Northwest Patagonian Estuarine Network
-  authors:
-    - name: Fox, C.
-      highlight: false
-    - name: León-Muñoz, J.
-      highlight: false
-    - name: Reid, B.
-      highlight: false
-    - name: Astorga, A.
-      highlight: false
-    - name: Aguayo, R.
-      highlight: true
-    - name: Moreno-Meynard, P.
-      highlight: false
-    - name: Blanchet, L.
-      highlight: false
-    - name: Butman, D.
-      highlight: false
-  year: 2025
-  journal: "JGR – Biogeosciences (in review)"
-  tags: [biogeochemistry, Patagonia, rivers]
   featured: false
 
 - id: moreno-2025-hsj
