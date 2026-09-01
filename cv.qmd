@@ -34,11 +34,15 @@ format:
 
 <div class="page">
 
+Rodrigo Aguayo is currently a postdoctoral researcher at the Vrije Universiteit Brussel in Belgium, part of the bglacier research group. His research interests lie at the interface of climate change, hydrology and glaciology.
+
+::: {.content-visible when-format="html"}
 <a href="cv.pdf" class="download-btn">⬇ Download PDF</a>
 
 ```{=html}
 <div style="height: 1rem;"></div>
 ```
+:::
 
 {{< include _includes/cv-content-before-pubs.md >}}
 

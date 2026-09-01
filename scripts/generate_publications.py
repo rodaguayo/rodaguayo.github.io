@@ -28,7 +28,7 @@ def format_authors(authors, for_cv=False, as_html=False, truncate=True):
             name = f"<strong>{name}</strong>" if as_html else f"**{name}**"
         names.append(name)
 
-    MAX_BEFORE_TRUNCATE = 8
+    MAX_BEFORE_TRUNCATE = 15
     if truncate and len(names) > MAX_BEFORE_TRUNCATE:
         first = ", ".join(names[:5])
         return first + ", ... and " + names[-1]
