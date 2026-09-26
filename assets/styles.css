@@ -357,17 +357,24 @@ hr {
 
 #quarto-content #quarto-document-content {
   grid-column: page-start / page-end !important;
+  grid-row: 1 !important;
   max-width: 100% !important;
   padding: 2rem 1rem 5rem !important;
 }
 
+/* The TOC sits inside the right gutter rather than adding a grid column, so
+   the content stays centred on every page, like the home page. */
 #quarto-content #quarto-margin-sidebar {
-  grid-column: screen-end / screen-end !important;
+  grid-column: page-end / screen-end !important;
+  grid-row: 1 !important;
+  justify-self: start;
   width: 260px !important;
   padding: 2rem 1rem !important;
 }
 
-@media (max-width: 1200px) {
+/* Hide it once the gutter is narrower than the TOC:
+   950px content + 2 × 260px gutters = 1470px */
+@media (max-width: 1469px) {
   #quarto-content #quarto-margin-sidebar {
     display: none !important;
   }
