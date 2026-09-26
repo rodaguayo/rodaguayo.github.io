@@ -1,5 +1,6 @@
 """Generate cv-content-before-pubs.md and cv-content-after-pubs.md from data/cv.yml."""
 
+import html
 import yaml
 import os
 
@@ -168,18 +169,39 @@ print("Generated _includes/cv-content-before-pubs.md and _includes/cv-content-af
 
 
 # === talks-content.md ===
-talks_out = []
-talks_out.append("*⭐ indicates invited talk, 🧑‍💼 indicates conference convener role.*")
-talks_out.append("")
-talks_out.append("---")
-talks_out.append("")
+# Same timeline markup as the publications page; the year label is shown only
+# on the first talk of each year. Flush left, no blank lines: pandoc must read
+# this as one raw HTML block.
+talks = sorted(cv.get("talks", []), key=lambda x: (-x["year"], not x.get("invited", False)))
+n_invited = sum(1 for t in talks if t.get("invited"))
+countries = {t.get("country") for t in talks if t.get("country") and t.get("country") != "Online"}
 
-for t in sorted(cv.get("talks", []), key=lambda x: (-x["year"], not x.get("invited", False))):
-    convener_tag = "🧑‍💼 " if t.get("convener") else ""
-    invited_tag = "⭐ " if t.get("invited") else ""
+talks_out = [
+    f'<p class="talks-summary"><strong>{len(talks)}</strong> talks · '
+    f'<strong>{n_invited}</strong> invited · <strong>{len(countries)}</strong> countries</p>',
+    "",
+    '<div class="pub-timeline talks-timeline">',
+]
+prev_year = None
+for t in talks:
+    year_label = t["year"] if t["year"] != prev_year else ""
+    item_cls = "pub-tl-item" if year_label else "pub-tl-item same-year"
+    prev_year = t["year"]
+    badges = ""
+    if t.get("invited"):
+        badges += '<span class="talk-badge invited">Invited</span>'
+    if t.get("convener"):
+        badges += '<span class="talk-badge convener">Convener</span>'
     loc_val = t.get("location") or t.get("country") or ""
-    loc = f" ({loc_val})" if loc_val else ""
-    talks_out.append(f"- **{t['year']}**: {invited_tag}{convener_tag}*{t['event']}*{loc} — {t['title']}")
+    loc = f' · {html.escape(loc_val)}' if loc_val else ""
+    talks_out.append(f'<div class="{item_cls}">')
+    talks_out.append(f'<div class="pub-tl-year">{year_label}</div>')
+    talks_out.append('<div class="pub-tl-body">')
+    talks_out.append(f'<div class="pub-tl-title">{html.escape(t["title"], quote=False)}</div>')
+    talks_out.append(f'<div class="talk-meta"><span class="talk-event">{html.escape(t["event"], quote=False)}</span>{loc}{badges}</div>')
+    talks_out.append("</div>")
+    talks_out.append("</div>")
+talks_out.append("</div>")
 talks_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "talks-content.md"), "w", encoding="utf-8") as f:
