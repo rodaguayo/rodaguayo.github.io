@@ -784,8 +784,10 @@ hr {
   align-items: center;
   gap: 0.5rem;
   padding: 0.65rem 1.3rem;
-  background: var(--gradient-accent);
-  color: #ffffff;
+  /* Solid fill: the background-image reset below (which strips the link
+     underline) would also wipe out a gradient background. */
+  background-color: var(--accent-hover);
+  color: var(--bg);
   border: none;
   border-radius: 9999px;
   font-family: var(--font-sans);
@@ -802,7 +804,8 @@ hr {
 .download-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 16px var(--accent-glow);
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--bg);
 }
 
 /* ============================

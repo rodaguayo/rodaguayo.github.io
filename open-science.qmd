@@ -6,10 +6,8 @@ title: "Open Science"
 
 Every project below pairs its **data** with the **code** that produced it.
 
-<div class="themes-grid">
 {{< include _includes/datasets-content.md >}}
-</div>
 
-<a href="https://github.com/rodaguayo/" class="btn">All repositories on GitHub</a>
+<a href="https://github.com/rodaguayo/" class="btn btn-more">All repositories on GitHub</a>
 
 </div>
