@@ -28,7 +28,7 @@ website:
         text: Talks
       - href: open-science.qmd
         text: Open Science
-      - href: blog/index.qmd
+      - href: https://substack.com/@toolsforgeoscientists
         text: Blog
     right: []
 
