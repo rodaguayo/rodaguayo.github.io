@@ -181,7 +181,8 @@ def badge(text, kind=""):
 
 
 def render_timeline(entries):
-    """entries: dicts with 'label', 'title' and 'meta' (list of HTML lines)."""
+    """entries: dicts with 'label', 'title', 'meta' (list of HTML lines) and
+    optionally 'after' (raw HTML lines appended to the entry body)."""
     lines = ['<div class="pub-timeline tl-grouped">']
     prev = None
     for e in entries:
@@ -196,6 +197,7 @@ def render_timeline(entries):
         lines.append(f'<div class="pub-tl-title">{e["title"]}</div>')
         for m in e["meta"]:
             lines.append(f'<div class="tl-meta">{m}</div>')
+        lines.extend(e.get("after", []))
         lines.append("</div>")
         lines.append("</div>")
     lines.append("</div>")
@@ -281,22 +283,26 @@ print("Generated _includes/teaching-content.md")
 
 
 # === datasets-content.md ===
-datasets_out = []
-for d in sorted(cv.get("datasets", []), key=lambda x: -x["year"]):
-    extra_str = f" &middot; {d['extra']}" if d.get("extra") else ""
-    datasets_out.append('<div class="card">')
-    datasets_out.append(f'  <h3>{d["name"]}</h3>')
-    datasets_out.append(f'  <p>{d["description"]}</p>')
-    datasets_out.append(f'  <p class="card-meta">{d["year"]}{extra_str}</p>')
-    # NOTE: keep indentation below 4 spaces — Pandoc turns 4-space-indented
-    # lines into a code block, which would render these anchors as literal text.
-    datasets_out.append('  <div class="card-links">')
-    datasets_out.append(f'  <a href="https://doi.org/{d["doi"]}" class="btn">Data</a>')
+datasets = sorted(cv.get("datasets", []), key=lambda x: -x["year"])
+
+entries = []
+for d in datasets:
+    doi_url = f"https://doi.org/{d['doi']}"
+    title = f'<a href="{doi_url}">{esc(d["name"])}</a>'
+    if d.get("extra"):
+        title += badge(d["extra"])
+    links = f'<a href="{doi_url}">Data</a>'
     if d.get("code"):
-        datasets_out.append(f'  <a href="{d["code"]}" class="btn">Code</a>')
-    datasets_out.append("  </div>")
-    datasets_out.append("</div>")
-    datasets_out.append("")
+        links += f'<a href="{d["code"]}">Code</a>'
+    entries.append({
+        "label": d["year"],
+        "title": title,
+        "meta": [esc(d["description"])],
+        "after": [f'<div class="pub-links">{links}</div>'],
+    })
+
+datasets_out = render_timeline(entries)
+datasets_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "datasets-content.md"), "w", encoding="utf-8") as f:
     f.write("\n".join(datasets_out) + "\n")
