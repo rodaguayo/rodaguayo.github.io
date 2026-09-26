@@ -23,7 +23,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      # TinyTeX (for the PDF CV) is cached so most builds skip the LaTeX
+      # download. The key rotates monthly to pick up TeX Live updates.
+      - name: Cache key month
+        id: month
+        run: echo "month=$(date +%Y-%m)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache TinyTeX
+        id: tinytex-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.TinyTeX
+          key: tinytex-${{ runner.os }}-${{ steps.month.outputs.month }}
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -31,7 +44,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tinytex: true
+          tinytex: ${{ steps.tinytex-cache.outputs.cache-hit != 'true' }}
+
+      - name: Add cached TinyTeX to PATH
+        if: steps.tinytex-cache.outputs.cache-hit == 'true'
+        run: echo "$HOME/.TinyTeX/bin/x86_64-linux" >> "$GITHUB_PATH"
 
       - name: Install Python dependencies
         run: pip install pyyaml
