@@ -1229,25 +1229,25 @@ tr:last-child td {
 }
 
 /* ============================
-   Talks — reuses the publication timeline
+   Grouped timelines (talks, teaching) — reuse the publication timeline
    ============================ */
-.talks-summary {
+.tl-summary {
   font-size: 0.875rem;
   color: var(--text-secondary);
   margin-bottom: 2rem;
 }
 
-.talks-summary strong {
+.tl-summary strong {
   color: var(--accent);
   font-family: var(--font-mono);
   font-weight: 600;
 }
 
-.talks-timeline .pub-tl-item.same-year {
+.tl-grouped .pub-tl-item.same-year {
   margin-top: 1.1rem;
 }
 
-.talks-timeline .pub-tl-item.same-year::before {
+.tl-grouped .pub-tl-item.same-year::before {
   width: 7px;
   height: 7px;
   left: -26.5px;
@@ -1256,21 +1256,30 @@ tr:last-child td {
   background: var(--bg);
 }
 
-.talks-timeline .pub-tl-year:empty {
+.tl-grouped .pub-tl-year:empty {
   margin: 0;
 }
 
-.talk-meta {
+.tl-meta {
   font-size: 0.8125rem;
   line-height: 1.55;
   color: var(--text-secondary);
 }
 
-.talk-event {
-  font-style: italic;
+.tl-meta + .tl-meta {
+  margin-top: 0.1rem;
 }
 
-.talk-badge {
+.tl-meta strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.tl-grouped + h2 {
+  margin-top: 2.5rem;
+}
+
+.tl-badge {
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.68rem;
@@ -1285,7 +1294,7 @@ tr:last-child td {
   vertical-align: 1px;
 }
 
-.talk-badge.convener {
+.tl-badge.alt {
   border-color: var(--accent-2);
   color: var(--accent-2);
   background: transparent;

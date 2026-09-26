@@ -168,40 +168,62 @@ with open(os.path.join(OUTPUT_DIR, "cv-content-after-pubs.md"), "w", encoding="u
 print("Generated _includes/cv-content-before-pubs.md and _includes/cv-content-after-pubs.md")
 
 
+# === Timeline pages (talks, teaching) ===
+# Same timeline markup as the publications page. The date label is shown only on
+# the first entry of a run with the same label; later ones get a smaller dot.
+# Flush left, no blank lines: pandoc must read this as one raw HTML block.
+def esc(text):
+    return html.escape(str(text), quote=False)
+
+
+def badge(text, kind=""):
+    return f'<span class="tl-badge {kind}">{esc(text)}</span>'
+
+
+def render_timeline(entries):
+    """entries: dicts with 'label', 'title' and 'meta' (list of HTML lines)."""
+    lines = ['<div class="pub-timeline tl-grouped">']
+    prev = None
+    for e in entries:
+        label = str(e["label"])
+        same = label == prev
+        prev = label
+        # Let long periods ("2016–2018") wrap after the dash in the narrow column
+        shown = "" if same else esc(label).replace("–", "–<wbr>")
+        lines.append(f'<div class="pub-tl-item{" same-year" if same else ""}">')
+        lines.append(f'<div class="pub-tl-year">{shown}</div>')
+        lines.append('<div class="pub-tl-body">')
+        lines.append(f'<div class="pub-tl-title">{e["title"]}</div>')
+        for m in e["meta"]:
+            lines.append(f'<div class="tl-meta">{m}</div>')
+        lines.append("</div>")
+        lines.append("</div>")
+    lines.append("</div>")
+    return lines
+
+
+def summary(parts):
+    body = " · ".join(f"<strong>{n}</strong> {what}" for n, what in parts)
+    return f'<p class="tl-summary">{body}</p>'
+
+
 # === talks-content.md ===
-# Same timeline markup as the publications page; the year label is shown only
-# on the first talk of each year. Flush left, no blank lines: pandoc must read
-# this as one raw HTML block.
 talks = sorted(cv.get("talks", []), key=lambda x: (-x["year"], not x.get("invited", False)))
 n_invited = sum(1 for t in talks if t.get("invited"))
 countries = {t.get("country") for t in talks if t.get("country") and t.get("country") != "Online"}
 
-talks_out = [
-    f'<p class="talks-summary"><strong>{len(talks)}</strong> talks · '
-    f'<strong>{n_invited}</strong> invited · <strong>{len(countries)}</strong> countries</p>',
-    "",
-    '<div class="pub-timeline talks-timeline">',
-]
-prev_year = None
+talk_entries = []
 for t in talks:
-    year_label = t["year"] if t["year"] != prev_year else ""
-    item_cls = "pub-tl-item" if year_label else "pub-tl-item same-year"
-    prev_year = t["year"]
-    badges = ""
-    if t.get("invited"):
-        badges += '<span class="talk-badge invited">Invited</span>'
-    if t.get("convener"):
-        badges += '<span class="talk-badge convener">Convener</span>'
     loc_val = t.get("location") or t.get("country") or ""
-    loc = f' · {html.escape(loc_val)}' if loc_val else ""
-    talks_out.append(f'<div class="{item_cls}">')
-    talks_out.append(f'<div class="pub-tl-year">{year_label}</div>')
-    talks_out.append('<div class="pub-tl-body">')
-    talks_out.append(f'<div class="pub-tl-title">{html.escape(t["title"], quote=False)}</div>')
-    talks_out.append(f'<div class="talk-meta"><span class="talk-event">{html.escape(t["event"], quote=False)}</span>{loc}{badges}</div>')
-    talks_out.append("</div>")
-    talks_out.append("</div>")
-talks_out.append("</div>")
+    meta = f'<em>{esc(t["event"])}</em>' + (f" · {esc(loc_val)}" if loc_val else "")
+    if t.get("invited"):
+        meta += badge("Invited")
+    if t.get("convener"):
+        meta += badge("Convener", "alt")
+    talk_entries.append({"label": t["year"], "title": esc(t["title"]), "meta": [meta]})
+
+talks_out = [summary([(len(talks), "talks"), (n_invited, "invited"), (len(countries), "countries")]), ""]
+talks_out += render_timeline(talk_entries)
 talks_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "talks-content.md"), "w", encoding="utf-8") as f:
@@ -210,56 +232,47 @@ print("Generated _includes/talks-content.md")
 
 
 # === teaching-content.md ===
-teaching_out = []
-# NOTE: card markup below keeps indentation under 4 spaces — Pandoc turns
-# 4-space-indented lines into a code block and would render the HTML literally.
+courses = sorted(cv.get("teaching", []), key=lambda x: -start_year(x.get("period") or x["year"]))
+supervision = sorted(cv.get("supervision", []), key=lambda x: -start_year(x["period"]))
+short_courses = sorted(cv.get("short_courses", []), key=lambda x: -x["year"])
+
+teaching_out = [summary([
+    (len(courses), "courses taught"),
+    (len(supervision), "students supervised"),
+    (len(short_courses), "short courses taken"),
+]), ""]
+
 teaching_out.append("## Courses Taught")
 teaching_out.append("")
-teaching_out.append('<div class="themes-grid">')
-teaching_out.append("")
-for c in sorted(cv.get("teaching", []), key=lambda x: -start_year(x.get("period") or x["year"])):
-    period = fmt_period(c.get("period") or c["year"])
-    meta = f"{period} &middot; {c['duration']}" if c.get("duration") else period
-    teaching_out.append('<div class="card">')
-    teaching_out.append(f'  <h3>{c["course"]}</h3>')
-    teaching_out.append(f'  <p>{c["institution"]}</p>')
-    teaching_out.append(f'  <p class="card-meta">{meta}</p>')
-    teaching_out.append("</div>")
-    teaching_out.append("")
-teaching_out.append("</div>")
+entries = []
+for c in courses:
+    meta = esc(c["institution"])
+    if c.get("duration"):
+        meta += f" · {esc(c['duration'])}"
+    entries.append({"label": fmt_period(c.get("period") or c["year"]), "title": esc(c["course"]), "meta": [meta]})
+teaching_out += render_timeline(entries)
 teaching_out.append("")
 
 teaching_out.append("## Student Supervision")
 teaching_out.append("")
-teaching_out.append('<div class="themes-grid">')
-teaching_out.append("")
-for s in sorted(cv.get("supervision", []), key=lambda x: -start_year(x["period"])):
-    teaching_out.append('<div class="card">')
-    teaching_out.append(f'  <h3>{s["student"]}</h3>')
-    teaching_out.append(f'  <p><span class="tag-pill">{s["role"]}</span></p>')
-    teaching_out.append(f'  <p>{s["project"]}</p>')
-    meta = f"{s['institution']} &middot; {fmt_period(s['period'])}"
+entries = []
+for s in supervision:
+    meta = [f'<strong>{esc(s["student"])}</strong> · {esc(s["institution"])}{badge(s["role"])}']
     if s.get("cosupervisor"):
-        meta += f"<br>Co-supervised with {s['cosupervisor']}"
-    teaching_out.append(f'  <p class="card-meta">{meta}</p>')
-    teaching_out.append("</div>")
-    teaching_out.append("")
-teaching_out.append("</div>")
+        meta.append(f"Co-supervised with {esc(s['cosupervisor'])}")
+    entries.append({"label": fmt_period(s["period"]), "title": esc(s["project"]), "meta": meta})
+teaching_out += render_timeline(entries)
 teaching_out.append("")
 
 teaching_out.append("## Short Courses & Workshops")
 teaching_out.append("")
-teaching_out.append('<div class="themes-grid">')
-teaching_out.append("")
-for sc in sorted(cv.get("short_courses", []), key=lambda x: -x["year"]):
-    meta = f"{sc['year']} &middot; {sc['hours']} hr" if sc.get("hours") else str(sc["year"])
-    teaching_out.append('<div class="card">')
-    teaching_out.append(f'  <h3>{sc["name"]}</h3>')
-    teaching_out.append(f'  <p>{sc["provider"]}</p>')
-    teaching_out.append(f'  <p class="card-meta">{meta}</p>')
-    teaching_out.append("</div>")
-    teaching_out.append("")
-teaching_out.append("</div>")
+entries = []
+for sc in short_courses:
+    meta = esc(sc["provider"])
+    if sc.get("hours"):
+        meta += f" · {sc['hours']} h"
+    entries.append({"label": sc["year"], "title": esc(sc["name"]), "meta": [meta]})
+teaching_out += render_timeline(entries)
 teaching_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "teaching-content.md"), "w", encoding="utf-8") as f:
