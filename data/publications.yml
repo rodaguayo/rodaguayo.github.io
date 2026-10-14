@@ -148,7 +148,7 @@
   year: 2025
   journal: Earth's Future
   doi: 10.1029/2025EF006442
-  tags: [glaciology, hydrology, Patagonia, modelling]
+  tags: [glaciology, hydrology, Patagonia, modelling, AI, machine learning, deep learning]
   featured: true
 
 - id: leon-munoz-2026-habs
@@ -303,7 +303,7 @@
   year: 2024
   journal: The Cryosphere
   doi: 10.5194/tc-18-5383-2024
-  tags: [glaciology, uncertainty, Patagonia]
+  tags: [glaciology, uncertainty, Patagonia, AI, machine learning]
   featured: true
 
 - id: zekollari-2024-tc
@@ -383,7 +383,7 @@
   journal: Scientific Data
   doi: 10.1038/s41597-023-02828-2
   code_url: https://github.com/rodaguayo
-  tags: [dataset, open data, Patagonia]
+  tags: [dataset, open data, Patagonia, AI, machine learning]
   featured: true
 
 - id: leon-munoz-2023-crm
@@ -502,7 +502,7 @@
       highlight: false
   year: 2026
   journal: "Nature Communications (in review)"
-  tags: [glaciers, hydrology, droughts, Andes]
+  tags: [glaciers, hydrology, droughts, Andes, AI, machine learning, deep learning]
   featured: false
 
 - id: mendoza-2026-review
