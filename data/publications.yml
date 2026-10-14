@@ -569,6 +569,22 @@
   tags: [irrigation, glaciers]
   featured: false
 
+- id: leon-munoz-2026-erl
+  title: Long-term drying enhances El Niño impacts on Patagonian aquaculture
+  authors:
+    - name: León-Muñoz, J.
+      highlight: false
+    - name: Soto, D.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: Garreaud, R.
+      highlight: false
+  year: 2026
+  journal: "Environmental Research Letters (in review)"
+  tags: [El Niño, drought, aquaculture, Patagonia]
+  featured: false
+
 - id: moreno-2025-hsj
   title: Early detection of anthropogenic impacts on headwater streams in Patagonia through hydrological signatures metrics
   authors:

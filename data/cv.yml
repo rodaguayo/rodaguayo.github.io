@@ -135,8 +135,8 @@ supervision:
 teaching:
   - course: Surface Water Hydrology
     institution: KU Leuven / Vrije Universiteit Brussel
-    period: 2025-2026
-    duration: 2 semesters
+    period: 2024-2026
+    duration: 3 semesters
 
   - course: GIS Applied to Environmental Science
     institution: Universidad de Concepción
@@ -185,6 +185,17 @@ fieldwork:
     pi: Anna Astorga and Brian Reid
 
 talks:
+  - title: Reimagining how Andean glaciers buffered past streamflow droughts
+    event: 10th OGGM workshop
+    country: Austria
+    year: 2026
+
+  - title: Reimagining how Andean glaciers buffered past streamflow droughts
+    event: UDEC-GEOFISICA seminars
+    country: Chile
+    year: 2026
+    invited: true
+
   - title: Glacio-hydrological modelling in Patagonia
     event: EGU General Assembly
     year: 2026
@@ -211,6 +222,7 @@ talks:
     event: UCH seminars
     country: Chile
     year: 2026
+    invited: true
 
   - title: Reimaginando cómo los glaciares Andinos amortiguaron las pasadas sequías hidrológicas
     event: Simposio Agua, ciencia y sostenibilidad desde los Andes
