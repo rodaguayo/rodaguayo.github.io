@@ -50,6 +50,17 @@ def render_entry(pub):
     return f"- {author_str} ({year}). {title}. *{journal}*.\n"
 
 
+def render_title(pub):
+    """Linked title plus an optional `badge` pill (e.g. dataset downloads)."""
+    doi = pub.get("doi", "")
+    title = html.escape(pub["title"], quote=False)
+    if doi:
+        title = f'<a href="https://doi.org/{doi}">{title}</a>'
+    if pub.get("badge"):
+        title += f'<span class="tl-badge">{html.escape(pub["badge"], quote=False)}</span>'
+    return title
+
+
 def render_timeline_entry(pub):
     """Timeline-style entry (matches the homepage) used for the full publications listing.
 
@@ -57,10 +68,7 @@ def render_timeline_entry(pub):
     so the tag-filter bar (assets/filters.js) can still filter by them.
     """
     author_str = format_authors(pub["authors"], as_html=True)
-    doi = pub.get("doi", "")
-    title = html.escape(pub["title"], quote=False)
-    if doi:
-        title = f'<a href="https://doi.org/{doi}">{title}</a>'
+    title = render_title(pub)
 
     year = pub["year"]
     journal = html.escape(pub["journal"], quote=False)
@@ -128,10 +136,7 @@ feat_out = ['<div class="pub-timeline">']
 for pub in featured:
     # Featured entries list every author — no "... and" elision.
     author_str = format_authors(pub["authors"], as_html=True, truncate=False)
-    doi = pub.get("doi", "")
-    title = html.escape(pub["title"], quote=False)
-    if doi:
-        title = f'<a href="https://doi.org/{doi}">{title}</a>'
+    title = render_title(pub)
     year = pub["year"]
     journal = html.escape(pub["journal"], quote=False)
     # Flush left and no blank lines: pandoc must read this as one raw HTML block

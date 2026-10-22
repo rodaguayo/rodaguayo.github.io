@@ -1,3 +1,28 @@
+- id: van-tricht-2026-ncomms
+  title: Resolving short-term meteorological variability amplifies projected glacier loss and sea-level rise
+  authors:
+    - name: Van Tricht, L.
+      highlight: false
+    - name: Huss, M.
+      highlight: false
+    - name: Zekollari, H.
+      highlight: false
+    - name: Aguayo, R.
+      highlight: true
+    - name: van Tiel, M.
+      highlight: false
+    - name: von der Esch, A.
+      highlight: false
+    - name: Beer, J.
+      highlight: false
+    - name: Farinotti, D.
+      highlight: false
+  year: 2026
+  journal: Nature Communications
+  doi: 10.1038/s41467-026-78260-y
+  tags: [glaciers, meteorology, variability, sea-level rise]
+  featured: false
+
 - id: van-tricht-2026-water-resources
   title: Reduced future summer water availability in the Tien Shan due to glacier wastage
   authors:
@@ -383,6 +408,7 @@
   journal: Scientific Data
   doi: 10.1038/s41597-023-02828-2
   code_url: https://github.com/rodaguayo
+  badge: PatagoniaMet >4k on Zenodo
   tags: [dataset, open data, Patagonia, AI, machine learning]
   featured: true
 
@@ -525,30 +551,6 @@
   year: 2026
   journal: "WIREs Water (in review)"
   tags: [review, Andes, hydrology]
-  featured: false
-
-- id: van-tricht-2026-ncomms
-  title: Resolving short-term meteorological variability amplifies projected glacier loss
-  authors:
-    - name: Van Tricht, L.
-      highlight: false
-    - name: Huss, M.
-      highlight: false
-    - name: Zekollari, H.
-      highlight: false
-    - name: Aguayo, R.
-      highlight: true
-    - name: van Tiel, M.
-      highlight: false
-    - name: von der Esch, A.
-      highlight: false
-    - name: Beer, J.
-      highlight: false
-    - name: Farinotti, D.
-      highlight: false
-  year: 2026
-  journal: "Nature Communications (in review)"
-  tags: [glaciers, meteorology, variability]
   featured: false
 
 - id: ponds-2026-nclimate
