@@ -73,6 +73,17 @@ with open(os.path.join(OUTPUT_DIR, "social-links.html"), "w", encoding="utf-8") 
     f.write(social_block)
 print("Generated _includes/social-links.html")
 
+# === profile-links.html (publications page: academic profiles as .btn pills) ===
+PROFILE_KEYS = {"scholar", "orcid", "rg"}
+profile_btns = "\n".join(
+    f'<a class="btn" href="{href}"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">'
+    f'<path d="{SVG_PATHS[key]}" fill="currentColor"/></svg>{label}</a>'
+    for href, label, key in SOCIALS if key in PROFILE_KEYS
+)
+with open(os.path.join(OUTPUT_DIR, "profile-links.html"), "w", encoding="utf-8") as f:
+    f.write('<div class="profile-links">\n' + profile_btns + "\n</div>\n")
+print("Generated _includes/profile-links.html")
+
 # === site-group.md ===
 group_block = f'<p><a href="{site["group_url"]}">{site["group"]}</a></p>\n'
 with open(os.path.join(OUTPUT_DIR, "site-group.md"), "w", encoding="utf-8") as f:

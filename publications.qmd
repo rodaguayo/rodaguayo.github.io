@@ -12,13 +12,7 @@ format:
 
 <div class="page">
 
-<div class="profile-links">
-<a class="btn" href="https://scholar.google.com/citations?user=P_LBnTbIAy8C&hl=en">Google Scholar</a>
-<a class="btn" href="https://orcid.org/0000-0003-2335-8470">ORCID</a>
-<a class="btn" href="https://www.researchgate.net/profile/Rodrigo-Aguayo">ResearchGate</a>
-</div>
-
----
+{{< include _includes/profile-links.html >}}
 
 {{< include _includes/publications.md >}}
 

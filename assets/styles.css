@@ -893,13 +893,18 @@ hr {
   box-shadow: 0 4px 12px var(--accent-glow);
 }
 
-/* Centered row of profile buttons (publications page) */
+/* Row of compact profile buttons under the page title (publications page),
+   left-aligned with the title and the timeline below */
 .profile-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem;
-  margin: 0.5rem 0 1.5rem;
+  gap: 0.5rem;
+  margin: 0 0 1.75rem;
+}
+
+.profile-links .btn {
+  padding: 0.35rem 0.95rem;
+  font-size: 0.8rem;
 }
 
 /* Pandoc wraps the inline links in a <p>; let them join the flex row directly */
@@ -1142,7 +1147,8 @@ tr:last-child td {
 .hero-affil a.external::after,
 .hero-social a.external::after,
 .pub-tl-title a.external::after,
-.footer-social a.external::after {
+.footer-social a.external::after,
+.profile-links a.external::after {
   content: none;
   margin-left: 0;
   padding-right: 0;
