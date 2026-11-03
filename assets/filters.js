@@ -35,6 +35,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
   timelines[0].parentNode.insertBefore(filterBar, timelines[0]);
 
+  // Show the year label only on the first visible entry of each year, so a
+  // year never loses its label when its first entry is filtered out.
+  function regroupYears() {
+    timelines.forEach(function (timeline) {
+      var prev = null;
+      timeline.querySelectorAll('.pub-tl-item[data-year]').forEach(function (el) {
+        if (el.style.display === 'none') return;
+        var year = el.dataset.year;
+        var same = year === prev;
+        prev = year;
+        el.classList.toggle('same-year', same);
+        var label = el.querySelector('.pub-tl-year');
+        if (label) label.textContent = same ? '' : year;
+      });
+    });
+  }
+
   function filterPubs(selectedTag) {
     allItems.forEach(function (item) {
       if (!selectedTag || item.tags.indexOf(selectedTag) !== -1) {
@@ -43,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         item.el.style.display = 'none';
       }
     });
+    regroupYears();
 
     filterBar.querySelectorAll('.tag-filter').forEach(function (btn) {
       if (btn.dataset.tag === selectedTag) {

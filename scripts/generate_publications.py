@@ -61,11 +61,14 @@ def render_title(pub):
     return title
 
 
-def render_timeline_entry(pub):
-    """Timeline-style entry (matches the homepage) used for the full publications listing.
+def render_timeline_entry(pub, same_year=False):
+    """Timeline-style entry used for the full publications listing.
 
+    Years are grouped like the talks page: only the first entry of a year shows
+    the label; later ones get `same-year` (smaller dot, empty label). The year
+    rides along as `data-year` so assets/filters.js can regroup after filtering.
     Tags aren't shown on the card — they ride along as a `data-tags` attribute
-    so the tag-filter bar (assets/filters.js) can still filter by them.
+    so the tag-filter bar can still filter by them.
     """
     author_str = format_authors(pub["authors"], as_html=True)
     title = render_title(pub)
@@ -74,11 +77,12 @@ def render_timeline_entry(pub):
     journal = html.escape(pub["journal"], quote=False)
     tags = pub.get("tags", [])
     tags_attr = f' data-tags="{html.escape("|".join(tags), quote=True)}"' if tags else ""
+    cls = "pub-tl-item same-year" if same_year else "pub-tl-item"
 
     # Flush left and no blank lines: pandoc must read this as one raw HTML block
     # (indented lines, or a blank line mid-entry, would break out of it).
-    lines = [f'<div class="pub-tl-item"{tags_attr}>']
-    lines.append(f'<div class="pub-tl-year">{year}</div>')
+    lines = [f'<div class="{cls}" data-year="{year}"{tags_attr}>']
+    lines.append(f'<div class="pub-tl-year">{"" if same_year else year}</div>')
     lines.append('<div class="pub-tl-body">')
     lines.append(f'<div class="pub-tl-title">{title}</div>')
     lines.append(f'<div class="pub-tl-authors">{author_str} ({year}).</div>')
@@ -88,11 +92,18 @@ def render_timeline_entry(pub):
     return "\n".join(lines)
 
 
-# === Publications page (timeline style, matching the homepage) ===
-output = ['<div class="pub-timeline">']
-for pub in published:
-    output.append(render_timeline_entry(pub))
-output.append("</div>")
+def render_grouped_timeline(pubs):
+    lines = ['<div class="pub-timeline tl-grouped">']
+    prev = None
+    for pub in pubs:
+        lines.append(render_timeline_entry(pub, same_year=pub["year"] == prev))
+        prev = pub["year"]
+    lines.append("</div>")
+    return lines
+
+
+# === Publications page (timeline grouped by year, like the talks page) ===
+output = render_grouped_timeline(published)
 
 if in_review:
     output.append("")
@@ -100,10 +111,7 @@ if in_review:
     output.append("")
     output.append("## In Review")
     output.append("")
-    output.append('<div class="pub-timeline">')
-    for pub in in_review:
-        output.append(render_timeline_entry(pub))
-    output.append("</div>")
+    output += render_grouped_timeline(in_review)
 
 with open(os.path.join(OUTPUT_DIR, "publications.md"), "w", encoding="utf-8") as f:
     f.write("\n".join(output) + "\n")

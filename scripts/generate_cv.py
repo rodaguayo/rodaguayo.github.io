@@ -101,7 +101,7 @@ for inst, courses in by_inst.items():
 out.append("## Datasets")
 out.append("")
 for d in sorted(cv.get("datasets", []), key=lambda x: -x["year"]):
-    out.append(f"- **{d['name']}** ({d['year']}) — {d['description']}. DOI: [{d['doi']}](https://doi.org/{d['doi']})")
+    out.append(f"- **{d['name']}** ({d['year']}) — {d['description'].rstrip('.')}. DOI: [{d['doi']}](https://doi.org/{d['doi']})")
 out.append("")
 
 # === Outreach & Media ===
