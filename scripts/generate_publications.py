@@ -28,13 +28,26 @@ def format_authors(authors, for_cv=False, as_html=False, truncate=True):
             name = f"<strong>{name}</strong>" if as_html else f"**{name}**"
         names.append(name)
 
+    if len(names) == 1:
+        return names[0]
+
     MAX_BEFORE_TRUNCATE = 15
-    if truncate and len(names) > MAX_BEFORE_TRUNCATE:
-        first = ", ".join(names[:5])
-        return first + ", ... and " + names[-1]
-    else:
-        last = names.pop()
-        return ", ".join(names) + " and " + last
+    if not (truncate and len(names) > MAX_BEFORE_TRUNCATE):
+        return ", ".join(names[:-1]) + " and " + names[-1]
+
+    # Truncate long lists, but never elide a highlighted author: keep the first
+    # five, every highlighted author, and the last, with "..." over each gap.
+    last_i = len(names) - 1
+    keep = set(range(5)) | {i for i, a in enumerate(authors) if a.get("highlight")}
+    keep.discard(last_i)
+    parts, prev = [], -1
+    for i in sorted(keep):
+        if i != prev + 1:
+            parts.append("...")
+        parts.append(names[i])
+        prev = i
+    sep = ", ... and " if last_i != prev + 1 else " and "
+    return ", ".join(parts) + sep + names[last_i]
 
 
 def render_entry(pub):

@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  var tags = Object.keys(tagSet).sort();
+  var tags = Object.keys(tagSet).sort(function (a, b) {
+    return a.localeCompare(b, undefined, { sensitivity: 'base' });
+  });
 
   var filterBar = document.createElement('div');
   filterBar.className = 'tag-filter-bar';
