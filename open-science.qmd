@@ -5,8 +5,6 @@ toc: false
 
 <div class="page">
 
-Every project below pairs its **data** with the **code** that produced it.
-
 {{< include _includes/datasets-content.md >}}
 
 <a href="https://github.com/rodaguayo/" class="btn btn-more">All repositories on GitHub</a>

@@ -54,8 +54,9 @@
      Scroll Reveal (Intersection Observer)
      ============================ */
   function initScrollReveal() {
-    // 1. Add reveal classes first
-    var containers = document.querySelectorAll('#quarto-document-content .page');
+    // 1. Add reveal classes first. Only on the homepage: content pages
+    //    (CV, research, talks, ...) are for reading and stay static.
+    var containers = document.querySelectorAll('#quarto-document-content .page.home');
     containers.forEach(function(page) {
       page.querySelectorAll('.themes-grid .card').forEach(function(card) {
         card.classList.add('reveal');
