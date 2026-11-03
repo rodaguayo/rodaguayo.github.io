@@ -128,6 +128,7 @@
 
 - id: van-tricht-2026-nclimate
   title: Peak glacier extinction in the mid-twenty-first century
+  badge: Covered by 250+ media outlets
   authors:
     - name: Van Tricht, L.
       highlight: false
@@ -333,6 +334,7 @@
 
 - id: zekollari-2024-tc
   title: Twenty-first century global glacier evolution under CMIP6 scenarios and the role of glacier-specific observations
+  badge: EGU publication highlight
   authors:
     - name: Zekollari, H.
       highlight: false
@@ -468,6 +470,7 @@
 
 - id: aguayo-2021-srep
   title: Hydrological droughts in the southern Andes (40-45ºS) from an ensemble experiment using CMIP5 and CMIP6 models
+  badge: Top 100 in Earth Science
   authors:
     - name: Aguayo, R.
       highlight: true

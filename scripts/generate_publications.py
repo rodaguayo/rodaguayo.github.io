@@ -47,7 +47,8 @@ def render_entry(pub):
 
     year = pub["year"]
     journal = pub["journal"]
-    return f"- {author_str} ({year}). {title}. *{journal}*.\n"
+    note = f" ⭐ {pub['badge']}." if pub.get("badge") else ""
+    return f"- {author_str} ({year}). {title}. *{journal}*.{note}\n"
 
 
 def render_title(pub):
