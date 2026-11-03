@@ -1,0 +1,9 @@
+---
+title: "Research"
+---
+
+<div class="page">
+
+{{< include _includes/research-content.md >}}
+
+</div>

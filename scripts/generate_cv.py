@@ -1,4 +1,4 @@
-"""Generate cv-content-before-pubs.md and cv-content-after-pubs.md from data/cv.yml."""
+"""Generate the CV, talks, teaching, research and datasets includes from data/cv.yml."""
 
 import html
 import yaml
@@ -224,8 +224,28 @@ for t in talks:
         meta += badge("Convener", "alt")
     talk_entries.append({"label": t["year"], "title": esc(t["title"]), "meta": [meta]})
 
-talks_out = [summary([(len(talks), "talks"), (n_invited, "invited"), (len(countries), "countries")]), ""]
+outreach = sorted(cv.get("outreach", []), key=lambda x: -x["year"])
+
+talks_out = [summary([
+    (len(talks), "talks"),
+    (n_invited, "invited"),
+    (len(countries), "countries"),
+    (len(outreach), "media features"),
+]), ""]
+talks_out.append("## Talks & Presentations")
+talks_out.append("")
 talks_out += render_timeline(talk_entries)
+talks_out.append("")
+
+talks_out.append("## Outreach & Media")
+talks_out.append("")
+entries = []
+for o in outreach:
+    title = esc(o["title"])
+    if o.get("url"):
+        title = f'<a href="{esc(o["url"])}">{title}</a>'
+    entries.append({"label": o["year"], "title": title, "meta": [f'<em>{esc(o["publisher"])}</em>']})
+talks_out += render_timeline(entries)
 talks_out.append("")
 
 with open(os.path.join(OUTPUT_DIR, "talks-content.md"), "w", encoding="utf-8") as f:
@@ -236,12 +256,10 @@ print("Generated _includes/talks-content.md")
 # === teaching-content.md ===
 courses = sorted(cv.get("teaching", []), key=lambda x: -start_year(x.get("period") or x["year"]))
 supervision = sorted(cv.get("supervision", []), key=lambda x: -start_year(x["period"]))
-short_courses = sorted(cv.get("short_courses", []), key=lambda x: -x["year"])
 
 teaching_out = [summary([
     (len(courses), "courses taught"),
     (len(supervision), "students supervised"),
-    (len(short_courses), "short courses taken"),
 ]), ""]
 
 teaching_out.append("## Courses Taught")
@@ -263,17 +281,6 @@ for s in supervision:
     if s.get("cosupervisor"):
         meta.append(f"Co-supervised with {esc(s['cosupervisor'])}")
     entries.append({"label": fmt_period(s["period"]), "title": esc(s["project"]), "meta": meta})
-teaching_out += render_timeline(entries)
-teaching_out.append("")
-
-teaching_out.append("## Short Courses & Workshops")
-teaching_out.append("")
-entries = []
-for sc in short_courses:
-    meta = esc(sc["provider"])
-    if sc.get("hours"):
-        meta += f" · {sc['hours']} h"
-    entries.append({"label": sc["year"], "title": esc(sc["name"]), "meta": [meta]})
 teaching_out += render_timeline(entries)
 teaching_out.append("")
 
@@ -307,3 +314,85 @@ datasets_out.append("")
 with open(os.path.join(OUTPUT_DIR, "datasets-content.md"), "w", encoding="utf-8") as f:
     f.write("\n".join(datasets_out) + "\n")
 print("Generated _includes/datasets-content.md")
+
+
+# === research-content.md ===
+def period_of(item):
+    if "start" in item:
+        return f"{item['start']}–{item.get('end', 'present')}"
+    return fmt_period(item.get("year") or item.get("period", ""))
+
+
+grants = sorted(cv.get("grants", []), key=lambda x: -start_year(x.get("start") or x.get("year")))
+awards = sorted(cv.get("awards", []), key=lambda x: -x["year"])
+mobility = sorted(cv.get("mobility", []), key=lambda x: -x["year"])
+fieldwork = sorted(cv.get("fieldwork", []), key=lambda x: -start_year(x["period"]))
+folders = [i for i in cv.get("projects collaborations", []) if "folder" in i]
+reviews = next((i["peer review"].get("journals", []) for i in cv.get("projects collaborations", [])
+                if "peer review" in i), [])
+n_projects = sum(len(f.get("entries", [])) for f in folders)
+
+research_out = [summary([
+    (len(grants), "grants & fellowships"),
+    (len(awards), "awards"),
+    (n_projects, "projects"),
+    (len(mobility), "research stays"),
+]), ""]
+
+research_out.append("## Grants & Fellowships")
+research_out.append("")
+entries = [{"label": period_of(g), "title": esc(g["title"]),
+            "meta": [esc(g["description"])] if g.get("description") else []} for g in grants]
+research_out += render_timeline(entries)
+research_out.append("")
+
+research_out.append("## Awards")
+research_out.append("")
+entries = []
+for a in awards:
+    meta = [x for x in (a.get("organization"), a.get("description")) if x]
+    entries.append({"label": a["year"], "title": esc(a["title"]), "meta": [" · ".join(esc(m) for m in meta)] if meta else []})
+research_out += render_timeline(entries)
+research_out.append("")
+
+research_out.append("## Research Stays")
+research_out.append("")
+entries = []
+for m in mobility:
+    meta = esc(f"{m['institution']}, {m['location']}") if m.get("location") else esc(m["institution"])
+    if m.get("duration"):
+        meta += badge(m["duration"])
+    entries.append({"label": m["year"], "title": esc(m["role"]), "meta": [meta, esc(m["description"])]})
+research_out += render_timeline(entries)
+research_out.append("")
+
+research_out.append("## Projects & Collaborations")
+research_out.append("")
+for folder in folders:
+    research_out.append(f"### {folder['folder'].capitalize()}")
+    research_out.append("")
+    entries = []
+    for e in sorted(folder.get("entries", []), key=lambda e: -(start_year(e["year"]) if e.get("year") else 0)):
+        where = e.get("institution") or e.get("organization") or ""
+        lead = e.get("pi") and f"PI: {e['pi']}" or e.get("supervisor") and f"Supervisor: {e['supervisor']}" or ""
+        meta = esc(e["role"]) + "".join(f" · {esc(x)}" for x in (where, lead) if x)
+        entries.append({"label": fmt_period(e.get("year", "")), "title": esc(e["title"]), "meta": [meta]})
+    research_out += render_timeline(entries)
+    research_out.append("")
+
+research_out.append("## Fieldwork")
+research_out.append("")
+entries = [{"label": fmt_period(f["period"]), "title": esc(f["location"]),
+            "meta": [f"{esc(f['description'])} · PI: {esc(f['pi'])}"]} for f in fieldwork]
+research_out += render_timeline(entries)
+research_out.append("")
+
+if reviews:
+    research_out.append("## Peer Review")
+    research_out.append("")
+    research_out.append("Reviewer for " + ", ".join(f"*{j}*" for j in reviews) + ".")
+    research_out.append("")
+
+with open(os.path.join(OUTPUT_DIR, "research-content.md"), "w", encoding="utf-8") as f:
+    f.write("\n".join(research_out) + "\n")
+print("Generated _includes/research-content.md")

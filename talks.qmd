@@ -1,6 +1,5 @@
 ---
-title: "Talks"
-toc: false
+title: "Talks & Outreach"
 ---
 
 <div class="page">
