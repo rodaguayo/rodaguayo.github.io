@@ -332,7 +332,13 @@ talks:
     year: 2018
 
 datasets:
-  - name: "Hydrological Dataset — Glacier Loss Amplifies Streamflow Droughts and Water Stress in the Andes"
+  - name: Andean-GC
+    doi: 10.5281/zenodo.23670990
+    code: https://doi.org/10.5281/zenodo.23670868
+    year: 2026
+    description: Andean Glacierized Catchment dataset — streamflow records for glacierized basins across Chile, Peru, Bolivia and Argentina, with topographic, climatic and land-cover attributes, ERA5 climate data and hydrological signatures.
+
+  - name: Andean Glacio-Hydrological Dataset
     doi: 10.5281/zenodo.22026211
     code: https://doi.org/10.5281/zenodo.22026115
     year: 2026
@@ -513,6 +519,11 @@ projects collaborations:
         year: 2024
         pi: Gustavo Saiz
         institution: UCSC
+      - title: "GLADAPT: Glacio-hydrological modelling and Adaptation with Differential Programming"
+        role: Project partner
+        year: 2025-2028
+        pi: Jordi Bolibar
+        institution: IGE, UGA
 
   - folder: Applied research
     entries:
