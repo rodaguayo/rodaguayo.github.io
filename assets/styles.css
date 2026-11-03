@@ -893,6 +893,20 @@ hr {
   box-shadow: 0 4px 12px var(--accent-glow);
 }
 
+/* Centered row of profile buttons (publications page) */
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Pandoc wraps the inline links in a <p>; let them join the flex row directly */
+.profile-links > p {
+  display: contents;
+}
+
 .btn-primary {
   background: var(--gradient-accent);
   color: #ffffff;
